@@ -1,0 +1,409 @@
+/*
+Theme Name: Porto Child
+Theme URI: http://newsmartwave.net/wordpress/porto
+Author: SW-THEMES
+Author URI: http://newsmartwave.net/
+Description: Porto Responsive Wordpress + eCommerce Theme.
+Version: 1.1
+Template: porto
+License: Commercial
+License URI: http://themeforest.net/licenses/regular_extended
+Tags: woocommerce, corporate, ecommerce, responsive, blue, black, green, white, light, dark, red, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready
+Text Domain: porto-child
+
+*/
+
+@import url("../porto/style.css");
+
+/*************** ADD YOUR CUSTOM CSS HERE  ***************/
+.no-breadcrumbs .main-content {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+h3 {text-transform: uppercase}
+h4 {
+	letter-spacing: 0;
+	text-transform: uppercase;
+}
+.page-top[data-plugin-parallax] {
+	background-position: 50% 50% !important;
+}
+.vc_row[data-vc-full-width] {
+	overflow: visible;
+}
+.home .footer-top {
+	display: none;
+ }
+.m-t-md {
+	margin-top: 0 !important;
+}
+button.ubtn-normal {
+	padding: 10px 20px !important;
+}
+input.btn-primary[type="submit"], input.btn-primary[type="submit"]:hover {
+	background-color: #986531;
+	border-color: #986531;
+}
+/*footer-top-block*/
+@media screen and (max-width: 991px){
+	.porto-block .vc_col-sm-2, .porto-block .vc_col-sm-4{
+		width: 100%;
+	}
+}
+
+#footer-top a {
+	color: #935006;
+}
+#footer-top strong {
+	font-weight: normal;
+}
+#footer-top .uavc-list-content {
+	margin-bottom: 10px	;
+}
+.footer-top-img {
+	margin-left: -100px;
+}
+@media screen and (max-width: 1190px){
+	.footer-top-img {
+		margin-left: 0;
+	}
+}
+
+
+/*HOME*/
+@media screen and (max-width: 1190px){
+	.micro-map .micro-map-info-detail {
+		padding: 10px;
+	}
+}
+
+.micro-map .micro-map-info-detail:last-child {
+	padding-bottom: 0;
+}
+.micro-map-info-detail i{
+	font-size: 20px;
+}
+.micro-map .micro-map-info-detail label {
+	font-size: 12px;
+}
+.micro-map .micro-map-info-detail strong {
+	font-size: 12px;
+}
+.micro-map .wpb_single_image {
+	margin-bottom: 0;
+}
+
+#testimonial-home .upb_row_bg{
+
+}
+.testimonial-style-custom .testimonial blockquote {
+	background: rgba(250,212,125,0.6) !important;
+}
+.testimonial-style-custom .testimonial blockquote:before {
+	content: "";
+	width: 43px;
+	height: 35px;
+	display: block;
+	position: absolute;
+	background: url("http://localhost:2100/escueladenegocios/wp-content/uploads/2017/05/quotes.png") no-repeat center;
+}
+
+.testimonial-style-custom .testimonial blockquote p {
+	color: #4C4C4C;
+	font-family: Lato,sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	line-height: 22px;
+}
+.testimonial-style-custom .testimonial .testimonial-arrow-down {
+	display: block;
+	border-top-color: rgba(250,212,125,0.6);
+}
+/*HOME VIDEO*/
+.play-video-custom.p-b-xxl {
+	padding-bottom: 100px !important;
+}
+.play-video-custom.p-t-xxl {
+	padding-top: 100px !important;
+}
+.play-video-custom.m-b-xxl {
+	margin-bottom: 100px !important;
+}
+.play-video-custom.m-t-xxl {
+	margin-top: 100px !important;
+}
+/*MEMBER*/
+article .member-item {
+	min-height: 415px;
+	background: #ededed;
+}
+.porto-members .thumb-info {
+	background: #ededed;
+}
+.porto-members .thumb-info .thumb-info-wrapper {
+	background: #f4ede7;
+}
+.porto-members .thumb-info-caption {
+	text-transform: uppercase;
+	color: #935006;
+}
+.porto-members .thumb-info-container .color-body {
+	text-transform: uppercase;
+	color: #935006;
+}
+.porto-members .m-b-sm {
+	margin-bottom: 0 !important;
+}
+
+.porto-members .thumb-info-container h4 {
+	margin-top: 15px !important;
+	margin-bottom: 15px !important;
+}
+.member-image {
+	margin-bottom: 0;
+}
+/*CONTACT*/
+#contact-info .wpb_content_element {
+	margin-bottom: 0;
+}
+#contact-info i {
+	color: #1b1464;
+	font-size: 25px;
+}
+#contact-info label {
+	font-size: 13px;
+}
+#contact-info strong {
+	font-size: 12px;
+	font-weight: normal;
+}
+.wpcf7-textarea, .wpcf7-text, .wpcf7-submit {
+	border-radius: 8px !important;
+	padding: 10px !important;
+}
+.wpcf7-text, .wpcf7-submit {
+	height: 40px !important;
+	line-height: 18px !important;
+}
+.wpcf7-submit {
+	text-transform: uppercase;
+}
+.wpcf7-textarea {
+	height: 100px !important;
+}
+/*HEADER*/
+#header .header-top {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+#header .header-contact .col-address, #header .header-contact .col-phone, #header .header-contact .col-share {
+	margin-bottom: 20px;
+	margin-top: 25px;
+}
+#header .header-contact label {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 15px;
+	margin: 0;
+}
+#header .header-contact strong {
+	font-size: 18px;
+	line-height: 1em;
+}
+@media screen and (max-width: 1170px){
+	#header .header-contact label {
+		font-size: 12px;
+	}
+	#header .header-contact strong {
+		font-size: 16px;
+	}
+	#header .header-top .header-contact span {
+		font-size: 10px;
+	}
+}
+.page-top {
+	padding-top: 0;
+}
+/*BREADCRUMB*/
+.page-top .page-title {
+	font-weight: 400;
+	font-size: 1.78em;
+}
+/*FOOTER*/
+#footer {
+	font-family: Lato, sans-serif;
+}
+#footer .logo {
+	margin-left: 25px;
+}
+#footer .footer-main .widget {
+	margin-bottom: 10px;
+}
+#footer .footer-main > .container {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+#footer .footer-info {
+	margin-top: 50px;
+}
+@media screen and (max-width: 767px){
+	#footer .footer-info {
+		margin-top: 20px;
+	}
+}
+#footer .footer-info label {
+	font-size: 12px;
+	opacity:1;
+}
+#footer .footer-info > i {
+	margin-bottom: 10px;
+
+}
+#footer .footer-info strong {
+	font-size: 14px;
+}
+#footer .footer-info .social-icons i {
+
+}
+#footer .footer-bottom {
+	font-size: 13px;
+	line-height: 50px;
+	padding: 0;
+	color: #fff !important;
+}
+@media screen and (max-width: 1200px){
+	#footer .footer-bottom  {
+		line-height: 30px;
+	}
+}
+
+#footer .footer-bottom .container {
+	font-size: 1em;
+	opacity: 1;
+}
+#footer .footer-bottom .container .footer-right, #footer .footer-bottom .container .footer-left {
+	padding: 0 !important;
+}
+#footer .footer-bottom .container .footer-right {
+	width: 200%;
+}
+@media screen and (max-width: 767px){
+	#footer .footer-bottom .container .footer-right {
+		width: 100%;
+	}
+}
+/*WOOCOMMERCE*/
+ul.products li.product .product-image .inner:after {
+	content: "";
+	background: rgba(23, 23, 23, 0.8);
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	border-radius: 0;
+	bottom: 0;
+	color: #fff;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	display: block;
+	opacity: 0;
+	z-index: 1;
+}
+ul.products li.product:hover .inner::after {
+	opacity: 1;
+}
+ul.products li.product .links-on-image .add-links .add_to_cart_read_more {
+	position: absolute;
+	z-index: 2;
+	display: none;
+	opacity: 0;
+	top: 60%;
+	left: 30%;
+}
+.add-links .add_to_cart_button::before, .add-links .add_to_cart_read_more::before {
+	content: "";
+	margin-right:0;
+}
+
+ul.products li.product .links-on-image .add-links .add_to_cart_read_more {
+	border: 0;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+ul.products li.product .links-on-image .add-links .add_to_cart_read_more:hover {
+	background-color: transparent;
+}
+ul.products li.product.hover .add-links.no-effect .add_to_cart_read_more::before,
+ul.products li.product:hover .add-links.no-effect .add_to_cart_read_more::before,
+ul.products li.product.hover .add-links.no-effect .add_to_cart_button::before,
+ul.products li.product:hover .add-links.no-effect .add_to_cart_button::before {
+	position: static;
+	font-size: 1em;
+	margin-right: 0;
+}
+/*single product*/
+body.single-product .entry-summary .page-top {
+	display: none;
+}
+.single-product .product_title {
+	font-size: 23px;
+	line-height: 33px;
+	color: #965006 !important;
+	text-transform: uppercase;
+	font-weight: 500;
+	margin-bottom: 5px;
+}
+.single-product hr {
+	height: 4px;
+	background: #fad47d;
+	width: 50px;
+	margin-top:0;
+	margin-bottom: 30px;
+}
+.single-product .product-summary-wrap .description p {
+	color: #4d4d4d;
+	font-size: 12px;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+.single-product .product-summary-wrap .product-desc p {
+	font-size: 21px;
+	line-height: 31px;
+}
+.single-product .table > tbody > tr > th, .single-product .table > tbody > tr > td {
+	padding: 0;
+	line-height: 24.4px;
+	vertical-align: top;
+	border-top: 0;
+	border-bottom: 1px solid #ddd;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+.single-product .product-summary-wrap .price {
+	display: none;
+}
+.single-product .table > tbody > tr > td {
+	text-align: right;
+}
+.single-product table.shop_attributes {
+	margin-top: 50px;
+}
+.product-summary-wrap .single_add_to_cart_button, .add_to_cart.button{
+	font-family: Lato,sans-serif;
+	font-size: 13px;
+	line-height: 27px;
+	background-color: #1b1464;
+	border-color: #1b1464;
+}
+.product-summary-wrap .single_add_to_cart_button::before {
+	content:"" !important;
+	margin-right: 0;
+}
+.single-product .product_meta {
+	display: none;
+}
+#mini-cart.minicart-style1 .buttons a {
+	font-family: Lato, sans-serif;
+}
