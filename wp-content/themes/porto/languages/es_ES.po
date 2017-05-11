@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Porto\n"
-"POT-Creation-Date: 2017-05-09 23:01-0400\n"
-"PO-Revision-Date: 2017-05-09 23:38-0400\n"
+"POT-Creation-Date: 2017-05-11 15:39-0400\n"
+"PO-Revision-Date: 2017-05-11 15:41-0400\n"
 "Last-Translator: \n"
 "Language-Team: porto <porto@example.com>\n"
 "Language: es_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.12\n"
+"X-Generator: Poedit 2.0.1\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
@@ -18,79 +18,13 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: js/plugins.js:49126
-msgid "perspective"
-msgstr "perpectiva"
-
-#: js/plugins.js:49126
-msgid "transition"
-msgstr "transcición"
-
-#: js/plugins.min.js:17
-msgid "BeforeOpen"
-msgstr "BeforeOpen"
-
-#: js/plugins.min.js:17
-msgid "BuildControls"
-msgstr ""
-
-#: js/plugins.min.js:17
-msgid "Resize"
-msgstr ""
-
-#: js/plugins.min.js:17
-msgid "BeforeChange"
-msgstr ""
-
-#: js/plugins.min.js:17
-msgid "FirstMarkupParse"
-msgstr ""
-
-#: js/plugins.min.js:17
-msgid "AfterChange"
-msgstr ""
-
-#: js/plugins.min.js:17
-msgid "ElementParse"
-msgstr ""
-
-#: js/plugins.min.js:17
-msgid "UpdateStatus"
-msgstr ""
-
-#: js/plugins.min.js:17
-msgid "ParseAjax"
-msgstr ""
-
-#: js/plugins.min.js:17
-msgid "AjaxContentAdded"
-msgstr ""
-
-#: js/plugins.min.js:17
-msgid "ImageHasSize"
-msgstr ""
-
-#: js/plugins.min.js:17
-msgid "ImageLoadComplete"
-msgstr ""
-
-#: js/plugins.min.js:17
-msgid "ZoomAnimationEnded"
-msgstr ""
-
-#: js/plugins.min.js:17
-msgid "LazyLoad"
-msgstr ""
-
-#: js/plugins.min.js:17
-msgid "LazyLoadError"
-msgstr ""
-
 #: 404.php:13 inc/functions/layout/breadcrumbs.php:241
+#, fuzzy
 msgid "404"
 msgstr "Error 404"
 
 #: 404.php:14
+#, fuzzy
 msgid "We're sorry, but the page you were looking for doesn't exist."
 msgstr "Lo sentimos, pero la página que busca no está disponible."
 
@@ -98,6 +32,7 @@ msgstr "Lo sentimos, pero la página que busca no está disponible."
 #: archive-portfolio.php:349 index.php:170 taxonomy-faq_cat.php:112
 #: taxonomy-member_cat.php:76 taxonomy-portfolio_cat.php:183
 #: taxonomy-portfolio_skills.php:108
+#, fuzzy
 msgid "Apologies, but no results were found for the requested archive."
 msgstr "Lo sentimos, pero no se encontraron resultados."
 
@@ -108,26 +43,29 @@ msgstr "Lo sentimos, pero no se encontraron resultados."
 #: inc/functions/layout.php:9069 inc/functions/layout.php:9097
 #: inc/functions/layout.php:9321 inc/functions/layout.php:9349
 #: taxonomy-faq_cat.php:83 taxonomy-portfolio_cat.php:109
+#, fuzzy
 msgid "Show All"
 msgstr "Ver Todo"
 
 #: archive-member.php:56 taxonomy-member_cat.php:53
-#, php-format
+#, fuzzy, php-format
 msgid "More %s:"
 msgstr "Más %s:"
 
 #: archive.php:101 search.php:91
+#, fuzzy
 msgid "Nothing Found"
 msgstr "No se ha encontrado nada"
 
 #: archive.php:105 search.php:95
-#, php-format
+#, fuzzy, php-format
 msgid ""
 "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr ""
 "¿Listo para publicar tu primer post? <a href=\"%1$s\">Comienza aquí</ a>."
 
 #: archive.php:109 search.php:99
+#, fuzzy
 msgid ""
 "Sorry, but nothing matched your search terms. Please try again with "
 "different keywords."
@@ -136,6 +74,7 @@ msgstr ""
 "que ingresaste. Por favor trata de nuevo con diferentes palabras."
 
 #: archive.php:114 search.php:104
+#, fuzzy
 msgid ""
 "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
 "searching can help."
@@ -144,10 +83,12 @@ msgstr ""
 "haciendo una búsqueda."
 
 #: comments.php:7
+#, fuzzy
 msgid "Please do not load this page directly. Thanks!"
 msgstr "Por favor, no cargue esta página directamente. Gracias!"
 
 #: comments.php:10
+#, fuzzy
 msgid "This post is password protected. Enter the password to view comments."
 msgstr ""
 "Esta entrada está protegida por contraseña. Entre la contraseña para ver los "
@@ -158,10 +99,11 @@ msgstr ""
 msgctxt "comments title"
 msgid "Comment (1)"
 msgid_plural "Comments (%1$s)"
-msgstr[0] "1 Comentario"
-msgstr[1] "Comentarios (%1$s)"
+msgstr[0] ""
+msgstr[1] ""
 
 #: comments.php:53
+#, fuzzy
 msgid "Comments are closed."
 msgstr "Los comentarios están cerrados."
 
@@ -179,6 +121,7 @@ msgstr "Los comentarios están cerrados."
 #: content-portfolio-medium.php:451 content-post-full-alt.php:124
 #: content-post-full.php:115 content-post-large-alt.php:140
 #: content-post-large.php:136 content-post-medium.php:81
+#, fuzzy
 msgid "Pages:"
 msgstr "Páginas:"
 
@@ -197,88 +140,103 @@ msgstr "Páginas:"
 #: content-post-full.php:119 content-post-large-alt.php:144
 #: content-post-large.php:140 content-post-medium.php:85
 #: inc/admin/theme_options/settings.php:3082
+#, fuzzy
 msgid "Page"
 msgstr "Página"
 
 #: content-archive-member.php:103 content-member-item.php:84
 #: content-member.php:36 inc/admin/theme_options/settings.php:2350
 #: inc/content_types/member.php:84 inc/functions/layout.php:6869 share.php:27
+#, fuzzy
 msgid "Facebook"
 msgstr "Facebook"
 
 #: content-archive-member.php:107 content-member-item.php:87
 #: content-member.php:39 inc/admin/theme_options/settings.php:2356
 #: inc/content_types/member.php:90 inc/functions/layout.php:6885 share.php:31
+#, fuzzy
 msgid "Twitter"
 msgstr "Twitter"
 
 #: content-archive-member.php:111 content-member-item.php:90
 #: content-member.php:42 inc/admin/theme_options/settings.php:2392
 #: inc/content_types/member.php:96 inc/functions/layout.php:6981 share.php:35
+#, fuzzy
 msgid "LinkedIn"
 msgstr "LinkedIn"
 
 #: content-archive-member.php:115 content-member-item.php:93
 #: content-member.php:45 inc/content_types/member.php:102 share.php:39
+#, fuzzy
 msgid "Google +"
 msgstr "Google +"
 
 #: content-archive-member.php:119 content-member-item.php:96
 #: content-member.php:48 inc/admin/theme_options/settings.php:2368
 #: inc/content_types/member.php:108 inc/functions/layout.php:6917 share.php:43
+#, fuzzy
 msgid "Pinterest"
 msgstr "Pinterest"
 
 #: content-archive-member.php:123 content-member-item.php:99
 #: content-member.php:51 inc/content_types/member.php:114 share.php:47
 #: woocommerce/single-product-reviews.php:1
+#, fuzzy
 msgid "Email"
 msgstr "Email"
 
 #: content-archive-member.php:127 content-member-item.php:102
 #: content-member.php:54 inc/admin/theme_options/settings.php:2404
 #: inc/content_types/member.php:120 inc/functions/layout.php:7013 share.php:51
+#, fuzzy
 msgid "VK"
 msgstr "VK"
 
 #: content-archive-member.php:131 content-member-item.php:105
 #: content-member.php:57 inc/admin/theme_options/settings.php:2410
 #: inc/content_types/member.php:126 inc/functions/layout.php:7029 share.php:55
+#, fuzzy
 msgid "Xing"
 msgstr "Xing"
 
 #: content-archive-member.php:135 content-member-item.php:108
 #: content-member.php:60 inc/admin/theme_options/settings.php:2416
 #: inc/content_types/member.php:132 inc/functions/layout.php:7045 share.php:59
+#, fuzzy
 msgid "Tumblr"
 msgstr "Tumblr"
 
 #: content-archive-member.php:139 content-member-item.php:111
 #: content-member.php:63 inc/admin/theme_options/settings.php:2422
 #: inc/content_types/member.php:138 inc/functions/layout.php:7061 share.php:63
+#, fuzzy
 msgid "Reddit"
 msgstr "Reddit"
 
 #: content-archive-member.php:143 content-member-item.php:114
 #: content-member.php:66 inc/admin/theme_options/settings.php:2428
 #: inc/content_types/member.php:144 inc/functions/layout.php:7077
+#, fuzzy
 msgid "Vimeo"
 msgstr "Vimeo"
 
 #: content-archive-member.php:147 content-member-item.php:117
 #: content-member.php:69 inc/admin/theme_options/settings.php:2380
 #: inc/content_types/member.php:150 inc/functions/layout.php:6949
+#, fuzzy
 msgid "Instagram"
 msgstr "Instragram"
 
 #: content-archive-member.php:151 content-member-item.php:120
 #: content-member.php:72 inc/admin/theme_options/settings.php:2452
 #: inc/content_types/member.php:156 inc/functions/layout.php:7141 share.php:67
+#, fuzzy
 msgid "WhatsApp"
 msgstr "WhatsApp"
 
 #: content-archive-member.php:203 content-member-item.php:166
 #: inc/admin/theme_options/settings.php:4596
+#, fuzzy
 msgid "View More..."
 msgstr "Ver Más..."
 
@@ -289,6 +247,7 @@ msgstr ""
 #: content-archive-portfolio-full.php:212
 #: content-archive-portfolio-large.php:220
 #: content-archive-portfolio-medium.php:221
+#, fuzzy
 msgid "Learn More"
 msgstr "Aprender Más"
 
@@ -301,6 +260,7 @@ msgstr "Aprender Más"
 #: content-portfolio-masonry.php:413 content-portfolio-medias.php:397
 #: content-portfolio-medium.php:527 inc/admin/theme_options/settings.php:3730
 #: inc/admin/theme_options/settings.php:3748
+#, fuzzy
 msgid "Skills"
 msgstr "Habilidades"
 
@@ -314,6 +274,7 @@ msgstr "Habilidades"
 #: content-portfolio-medium.php:549 inc/admin/theme_options/settings.php:3731
 #: inc/admin/theme_options/settings.php:3749
 #: inc/content_types/portfolio.php:161
+#, fuzzy
 msgid "Location"
 msgstr "Ubicación"
 
@@ -325,12 +286,14 @@ msgstr "Ubicación"
 #: content-portfolio-gallery.php:451 content-portfolio-large.php:583
 #: content-portfolio-masonry.php:449 content-portfolio-medias.php:433
 #: content-portfolio-medium.php:563 inc/admin/theme_options/settings.php:3732
+#, fuzzy
 msgid "Client"
 msgstr "Cliente"
 
 #: content-archive-portfolio-grid.php:240
 #: content-archive-portfolio-masonry.php:222 content-portfolio-item.php:88
 #: inc/admin/theme_options/settings.php:3964
+#, fuzzy
 msgid "View Project..."
 msgstr "Ver Proyecto..."
 
@@ -339,7 +302,7 @@ msgstr "Ver Proyecto..."
 #: content-blog-medium.php:11 content-blog-timeline.php:87
 #: content-post-item.php:70
 msgid "By "
-msgstr "Por"
+msgstr "Por "
 
 #: content-blog-full.php:1 content-blog-grid.php:121
 #: content-blog-large-alt.php:1 content-blog-large.php:11
@@ -349,6 +312,7 @@ msgstr "Por"
 #: content-post-item.php:83 content-post-item.php:163 content-post-item.php:218
 #: content-post-large-alt.php:120 content-post-large.php:121
 #: content-post-medium.php:110
+#, fuzzy
 msgid "0 Comments"
 msgstr "0 Comentarios"
 
@@ -361,6 +325,7 @@ msgstr "0 Comentarios"
 #: content-post-large-alt.php:120 content-post-large.php:121
 #: content-post-medium.php:110 inc/functions/general.php:375
 #: inc/functions/general.php:437
+#, fuzzy
 msgid "1 Comment"
 msgstr "1 Comentario"
 
@@ -372,61 +337,75 @@ msgstr "1 Comentario"
 #: content-post-item.php:83 content-post-item.php:163 content-post-item.php:218
 #: content-post-large-alt.php:120 content-post-large.php:121
 #: content-post-medium.php:110 inc/admin/theme_options/settings.php:3159
+#, fuzzy
 msgid "Comments"
 msgstr "Comentarios"
 
 #: content-blog-full.php:1 content-blog-grid.php:409
 #: content-blog-large-alt.php:1 content-blog-large.php:94
 #: content-blog-medium.php:105 content-blog-timeline.php:373
+#, fuzzy
 msgid "Read more..."
 msgstr "Leer Más..."
 
 #: content-blog-medium-alt.php:11
+#, fuzzy
 msgid "Posted By "
 msgstr "Publicado Por"
 
 #: content-blog-medium-alt.php:11 content-post-full-alt.php:85
+#, fuzzy
 msgid "Category: "
 msgstr "Categoría:"
 
 #: content-blog-medium-alt.php:11 content-post-full-alt.php:91
+#, fuzzy
 msgid "Tags: "
 msgstr "Etiquetas:"
 
 #: content-blog-medium-alt.php:11 content-post-full-alt.php:96
+#, fuzzy
 msgid "Comments: "
 msgstr "Comentarios:"
 
 #: content-blog-medium-alt.php:11 inc/content_types/portfolio.php:291
 #: inc/content_types/post.php:178
+#, fuzzy
 msgid "0"
 msgstr "0"
 
 #: content-blog-medium-alt.php:11
+#, fuzzy
 msgid "1"
 msgstr "1"
 
 #: content-blog-medium-alt.php:11 content-post-full-alt.php:110
+#, fuzzy
 msgid "Post Date: "
 msgstr "Fecha de la Entrada:"
 
 #: content-blog-medium-alt.php:120
+#, fuzzy
 msgid "Read more"
 msgstr "Leer Más"
 
 #: content-member-portfolios.php:26
+#, fuzzy
 msgid "My <strong>Work</strong>"
 msgstr "Mi <strong>Trabajo</strong>"
 
 #: content-member-posts.php:26
+#, fuzzy
 msgid "My <strong>Posts</strong>"
 msgstr "Mis <strong>Entradas</strong>"
 
 #: content-member-products.php:11
+#, fuzzy
 msgid "My <strong>Products</strong>"
 msgstr "Mis <strong>Productos</strong>"
 
 #: content-member.php:176
+#, fuzzy
 msgid "More Info"
 msgstr "Más Información"
 
@@ -435,6 +414,7 @@ msgstr "Más Información"
 #: content-portfolio-full.php:61 content-portfolio-gallery.php:59
 #: content-portfolio-large.php:59 content-portfolio-masonry.php:59
 #: content-portfolio-medias.php:59 content-portfolio-medium.php:59
+#, fuzzy
 msgid "Back to list"
 msgstr "Volver al listado"
 
@@ -444,6 +424,7 @@ msgstr "Volver al listado"
 #: content-portfolio-large.php:73 content-portfolio-masonry.php:73
 #: content-portfolio-medias.php:71 content-portfolio-medium.php:73
 #: functions.php:435 woocommerce/myaccount/orders.php:98
+#, fuzzy
 msgid "Previous"
 msgstr "Anterior"
 
@@ -453,6 +434,7 @@ msgstr "Anterior"
 #: content-portfolio-large.php:75 content-portfolio-masonry.php:75
 #: content-portfolio-medias.php:73 content-portfolio-medium.php:75
 #: functions.php:436 woocommerce/myaccount/orders.php:102
+#, fuzzy
 msgid "Next"
 msgstr "Siguiente"
 
@@ -461,6 +443,7 @@ msgstr "Siguiente"
 #: content-portfolio-gallery.php:311 content-portfolio-large.php:457
 #: content-portfolio-masonry.php:323 content-portfolio-medias.php:307
 #: content-portfolio-medium.php:375
+#, fuzzy
 msgid "Project Description"
 msgstr "Descripción del Proyecto"
 
@@ -470,6 +453,7 @@ msgstr "Descripción del Proyecto"
 #: content-portfolio-large.php:499 content-portfolio-masonry.php:365
 #: content-portfolio-medias.php:349 content-portfolio-medium.php:479
 #: inc/content_types/portfolio.php:135
+#, fuzzy
 msgid "More Information"
 msgstr "Más Información"
 
@@ -478,6 +462,7 @@ msgstr "Más Información"
 #: content-portfolio-full.php:548 content-portfolio-gallery.php:377
 #: content-portfolio-large.php:523 content-portfolio-masonry.php:389
 #: content-portfolio-medias.php:373 content-portfolio-medium.php:503
+#, fuzzy
 msgid "Live Preview"
 msgstr "Vista Previa"
 
@@ -488,11 +473,13 @@ msgstr "Vista Previa"
 #: content-portfolio-medias.php:487 content-portfolio-medium.php:617
 #: inc/content_types/page.php:10 inc/content_types/portfolio.php:271
 #: inc/content_types/post.php:154 inc/content_types/product.php:43
+#, fuzzy
 msgid "Share"
 msgstr "Compartir"
 
 #: content-portfolio-carousel.php:649 content-portfolio-medias.php:521
 #: single-portfolio.php:97
+#, fuzzy
 msgid "Related <strong>Work</strong>"
 msgstr "<strong>Trabajos </strong> Relacionados"
 
@@ -513,10 +500,12 @@ msgstr "<strong>Trabajos </strong> Relacionados"
 #: content-post-medium.php:138 content-post-medium.php:140
 #: inc/admin/theme_options/settings.php:3156
 #: inc/admin/theme_options/settings.php:3733
+#, fuzzy
 msgid "Author"
 msgstr "Autor"
 
 #: content-portfolio-full-video.php:515
+#, fuzzy
 msgid "Project Gallery"
 msgstr "Galería de Proyecto"
 
@@ -524,10 +513,11 @@ msgstr "Galería de Proyecto"
 #, php-format
 msgid "%d photo"
 msgid_plural "%d photos"
-msgstr[0] "%d foto"
-msgstr[1] "%d fotos"
+msgstr[0] ""
+msgstr[1] ""
 
 #: content-post-full-alt.php:77
+#, fuzzy
 msgid "Posted by: "
 msgstr "Publicado por:"
 
@@ -543,6 +533,7 @@ msgstr[1] "%1$s"
 #: content-post-large-alt.php:72 content-post-large-alt.php:164
 #: content-post-large.php:64 content-post-large.php:160
 #: content-post-medium.php:129 page.php:72
+#, fuzzy
 msgid "Share this post"
 msgstr "Compartir esta entrada"
 
@@ -557,15 +548,18 @@ msgstr "Por"
 
 #: content-post-item-no-image.php:30 content-post-item.php:57
 #: inc/functions/post.php:158
+#, fuzzy
 msgid "Read More"
 msgstr "Leer Más"
 
 #: functions.php:111 inc/admin/theme_options/settings.php:1212
 #: inc/functions/content_type/meta_fields.php:109
+#, fuzzy
 msgid "Main Menu"
 msgstr "Menú Principal"
 
 #: functions.php:112 inc/functions/content_type/meta_fields.php:117
+#, fuzzy
 msgid "Sidebar Menu"
 msgstr "Barra Lateral"
 
@@ -574,36 +568,44 @@ msgid "Top Navigation"
 msgstr ""
 
 #: functions.php:114
+#, fuzzy
 msgid "View Switcher"
 msgstr "Ver Cambiador"
 
 #: functions.php:115
+#, fuzzy
 msgid "Currency Switcher"
 msgstr "Cambiador Monedas "
 
 #: functions.php:431
+#, fuzzy
 msgid "%curr% of %total%"
 msgstr "%curr% de %total%"
 
 #: functions.php:432
+#, fuzzy
 msgid "<a href=\"%url%\">The image</a> could not be loaded."
 msgstr "<a href=\"%url%\">La imagen</a> no se pudo cargar."
 
 #: functions.php:433
+#, fuzzy
 msgid "<a href=\"%url%\">The content</a> could not be loaded."
 msgstr "<a href=\"%url%\">El contenido</a> no se pudo cargar."
 
 #: functions.php:434
+#, fuzzy
 msgid "Close"
 msgstr "Cerrar"
 
 #: functions.php:437
+#, fuzzy
 msgid "The requested content cannot be loaded.<br/>Please try again later."
 msgstr ""
 "El contenido solicitado no pudo ser cargado.<br/>Por favor, intente más "
 "tarde."
 
 #: functions.php:475
+#, fuzzy
 msgid ""
 "If you want to import demo, please backup current theme options in "
 "\"Import / Export\" section before import. Do you want to import demo?"
@@ -612,6 +614,7 @@ msgstr ""
 "sección \"Importar/Exportar\" antes de importar. ¿Quieres importar el demo?"
 
 #: header/header_9.php:130
+#, fuzzy
 msgid "Logout"
 msgstr "Salir"
 
@@ -621,21 +624,25 @@ msgstr "Salir"
 #: inc/functions/layout.php:5957 inc/functions/layout.php:6333
 #: woocommerce/myaccount/form-register.php:17
 #: woocommerce/myaccount/form-register.php:60
+#, fuzzy
 msgid "Register"
 msgstr "Registrarse"
 
 #: header/header_9.php:148 woocommerce/checkout/form-login.php:29
 #: woocommerce/global/form-login.php:39 woocommerce/myaccount/form-login.php:38
 #: woocommerce/myaccount/form-login.php:59
+#, fuzzy
 msgid "Login"
 msgstr "Entrar"
 
 #: inc/admin/ReduxCore/inc/extensions/custom_fonts/custom_fonts/field_custom_fonts.php:110
 #: inc/admin/ReduxCore/inc/extensions/custom_fonts/custom_fonts/field_custom_fonts.php:117
+#, fuzzy
 msgid "Add Font"
 msgstr "Agregar Tipografía"
 
 #: inc/admin/ReduxCore/inc/extensions/custom_fonts/custom_fonts/field_custom_fonts.php:116
+#, fuzzy
 msgid "No Custom Fonts Found"
 msgstr "No se encontró Tipografía Personalizada"
 
@@ -644,6 +651,7 @@ msgstr "No se encontró Tipografía Personalizada"
 #: inc/admin/admin_pages/porto-plugins.php:71
 #: inc/admin/admin_pages/system-status.php:15
 #: inc/admin/admin_pages/welcome.php:15
+#, fuzzy
 msgid "System Status"
 msgstr "Estado del Sistema"
 
@@ -652,6 +660,7 @@ msgstr "Estado del Sistema"
 #: inc/admin/admin_pages/porto-plugins.php:72
 #: inc/admin/admin_pages/system-status.php:16
 #: inc/admin/admin_pages/welcome.php:16
+#, fuzzy
 msgid "Plugins"
 msgstr "Complementos"
 
@@ -660,6 +669,7 @@ msgstr "Complementos"
 #: inc/admin/admin_pages/porto-plugins.php:73
 #: inc/admin/admin_pages/system-status.php:17
 #: inc/admin/admin_pages/welcome.php:17
+#, fuzzy
 msgid "Install Demos"
 msgstr "Instalar Demos"
 
@@ -672,6 +682,7 @@ msgstr "Instalar Demos"
 #: inc/admin/theme_options/settings.php:5990
 #: inc/admin/theme_options/settings.php:5991
 #: inc/admin/theme_options/settings.php:5992
+#, fuzzy
 msgid "Theme Options"
 msgstr "Opciones del Tema"
 
@@ -679,6 +690,7 @@ msgstr "Opciones del Tema"
 #: inc/admin/admin_pages/porto-plugins.php:70
 #: inc/admin/admin_pages/system-status.php:14
 #: inc/admin/admin_pages/welcome.php:14
+#, fuzzy
 msgid "Welcome"
 msgstr "Bienvenido"
 
@@ -686,6 +698,7 @@ msgstr "Bienvenido"
 #: inc/admin/admin_pages/porto-plugins.php:65
 #: inc/admin/admin_pages/system-status.php:9
 #: inc/admin/admin_pages/welcome.php:9
+#, fuzzy
 msgid "Welcome to Porto!"
 msgstr "¡Bienvenido a Porto!"
 
@@ -693,6 +706,7 @@ msgstr "¡Bienvenido a Porto!"
 #: inc/admin/admin_pages/porto-plugins.php:66
 #: inc/admin/admin_pages/system-status.php:10
 #: inc/admin/admin_pages/welcome.php:10
+#, fuzzy
 msgid ""
 "Porto is now installed and ready to use! Read below for additional "
 "information. We hope you enjoy it!"
@@ -705,6 +719,7 @@ msgstr ""
 #: inc/admin/admin_pages/system-status.php:11
 #: inc/admin/admin_pages/welcome.php:11
 #: inc/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2688
+#, fuzzy
 msgid "Version"
 msgstr "Versión"
 
@@ -718,26 +733,32 @@ msgid ""
 msgstr ""
 
 #: inc/admin/admin_pages/install-demos.php:31
+#, fuzzy
 msgid "Install Options"
 msgstr "Instalar Opciones"
 
 #: inc/admin/admin_pages/install-demos.php:32
+#, fuzzy
 msgid "Import theme options"
 msgstr "Importar Opciones del Tema"
 
 #: inc/admin/admin_pages/install-demos.php:34
+#, fuzzy
 msgid "Reset menus"
 msgstr "Reiniciar Menu"
 
 #: inc/admin/admin_pages/install-demos.php:35
+#, fuzzy
 msgid "Reset widgets"
 msgstr "Reiniciar Widgets"
 
 #: inc/admin/admin_pages/install-demos.php:36
+#, fuzzy
 msgid "Import dummy content"
 msgstr "Importar contenido"
 
 #: inc/admin/admin_pages/install-demos.php:37
+#, fuzzy
 msgid "Import widgets"
 msgstr "Importar widgets"
 
@@ -750,6 +771,7 @@ msgid "Import shortcode pages"
 msgstr ""
 
 #: inc/admin/admin_pages/install-demos.php:40
+#, fuzzy
 msgid "Do you want to install demo? It can also take a minute to complete."
 msgstr "¿Quieres instalar el demo? Puede tomar unos minutos para terminar."
 
@@ -932,6 +954,7 @@ msgstr "¿Quieres instalar el demo? Puede tomar unos minutos para terminar."
 #: inc/admin/theme_options/settings.php:5952
 #: inc/admin/theme_options/settings.php:5960 inc/content_types/block.php:15
 #: inc/functions/content_type/meta_values.php:591
+#, fuzzy
 msgid "Yes"
 msgstr "Sí"
 
@@ -1118,11 +1141,13 @@ msgid "No"
 msgstr "No"
 
 #: inc/admin/admin_pages/install-demos.php:60
+#, fuzzy
 msgid "Preview"
 msgstr "Vista Previa"
 
 #: inc/admin/admin_pages/install-demos.php:64
 #: inc/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2852
+#, fuzzy
 msgid "Install"
 msgstr "Instalar"
 
@@ -1130,6 +1155,7 @@ msgstr "Instalar"
 #: inc/admin/admin_pages/porto-plugins.php:151
 #: inc/admin/admin_pages/system-status.php:247
 #: inc/admin/admin_pages/welcome.php:38
+#, fuzzy
 msgid "Thank you, we hope you to enjoy using Porto!"
 msgstr "¡Gracias, esperamos que disfrutes usando Porto!"
 
@@ -1190,8 +1216,9 @@ msgid "WordPress Environment"
 msgstr ""
 
 #: inc/admin/admin_pages/system-status.php:45
+#, fuzzy
 msgid "Home URL:"
-msgstr ""
+msgstr "URL de Inicio:"
 
 #: inc/admin/admin_pages/system-status.php:49
 msgid "Site URL:"
@@ -1329,10 +1356,10 @@ msgid "Visit plugin homepage"
 msgstr ""
 
 #: inc/admin/admin_pages/system-status.php:236
-#, php-format
+#, fuzzy, php-format
 msgctxt "by author"
 msgid "by %s"
-msgstr ""
+msgstr "%1$s en %2$s"
 
 #: inc/admin/admin_pages/welcome.php:23
 #, php-format
@@ -1419,7 +1446,7 @@ msgstr ""
 #: inc/functions/content_type/meta_values.php:607
 #: woocommerce/loop/pagination.php:23
 msgid "Show"
-msgstr ""
+msgstr "Mostrar"
 
 #: inc/admin/theme_options/settings.php:78
 #: inc/admin/theme_options/settings.php:3620
@@ -1539,8 +1566,9 @@ msgstr ""
 
 #: inc/admin/theme_options/settings.php:207
 #: inc/admin/theme_options/settings.php:3295
+#, fuzzy
 msgid "Text"
-msgstr ""
+msgstr "Subir Logo (reemplazar texto)"
 
 #: inc/admin/theme_options/settings.php:214
 msgid "Logo Text"
@@ -2464,8 +2492,9 @@ msgid "when mini cart type is 2"
 msgstr ""
 
 #: inc/admin/theme_options/settings.php:2099
+#, fuzzy
 msgid "Shop"
-msgstr ""
+msgstr "Tienda"
 
 #: inc/admin/theme_options/settings.php:2104
 msgid "Wishlist Color"
@@ -2582,8 +2611,9 @@ msgstr ""
 #: inc/admin/theme_options/settings.php:2285
 #: inc/admin/theme_options/settings.php:2306
 #: inc/admin/theme_options/settings.php:2708
+#, fuzzy
 msgid "In Main Menu"
-msgstr ""
+msgstr "Menú Principal"
 
 #: inc/admin/theme_options/settings.php:2292
 msgid "Show WPML Currency Switcher"
@@ -2798,37 +2828,42 @@ msgid "Search Content Type"
 msgstr ""
 
 #: inc/admin/theme_options/settings.php:2558
+#, fuzzy
 msgid "All"
-msgstr ""
+msgstr "Todos"
 
 #: inc/admin/theme_options/settings.php:2558
 #: inc/admin/theme_options/settings.php:3122
+#, fuzzy
 msgid "Post"
-msgstr ""
+msgstr "Entrada"
 
 #: inc/admin/theme_options/settings.php:2558
 #: inc/admin/theme_options/settings.php:5497
 #: woocommerce/checkout/form-pay.php:22
 #: woocommerce/checkout/review-order.php:17
 #: woocommerce/order/order-details-test.php:1
+#, fuzzy
 msgid "Product"
-msgstr ""
+msgstr "Producto"
 
 #: inc/admin/theme_options/settings.php:2558
 #: inc/admin/theme_options/settings.php:3667
 #: inc/admin/theme_options/settings.php:3693
+#, fuzzy
 msgid "Portfolio"
-msgstr ""
+msgstr "Portafolio"
 
 #: inc/admin/theme_options/settings.php:2558
 #: inc/admin/theme_options/settings.php:4268
 #: inc/admin/theme_options/settings.php:4294
 msgid "Event"
-msgstr ""
+msgstr "Evento"
 
 #: inc/admin/theme_options/settings.php:2564
+#, fuzzy
 msgid "Show Categories"
-msgstr ""
+msgstr "Mostrar Categorías"
 
 #: inc/admin/theme_options/settings.php:2580
 msgid "Enable Sticky Header"
@@ -3205,13 +3240,15 @@ msgstr ""
 #: inc/admin/theme_options/settings.php:3729
 #: inc/admin/theme_options/settings.php:3747
 #: inc/admin/theme_options/settings.php:5159
+#, fuzzy
 msgid "Categories"
-msgstr ""
+msgstr "Con Categorías"
 
 #: inc/admin/theme_options/settings.php:3158
 #: inc/admin/theme_options/settings.php:5160
+#, fuzzy
 msgid "Tags"
-msgstr ""
+msgstr "Etiquetas:"
 
 #: inc/admin/theme_options/settings.php:3167
 msgid "Meta Position"
@@ -3335,8 +3372,9 @@ msgid "Excerpt Type"
 msgstr ""
 
 #: inc/admin/theme_options/settings.php:3295
+#, fuzzy
 msgid "HTML"
-msgstr ""
+msgstr "HTML"
 
 #: inc/admin/theme_options/settings.php:3301
 msgid "Date Format"
@@ -3567,7 +3605,7 @@ msgstr ""
 
 #: inc/admin/theme_options/settings.php:3571
 msgid "With Categories"
-msgstr ""
+msgstr "Con Categorías"
 
 #: inc/admin/theme_options/settings.php:3585
 #: inc/admin/theme_options/settings.php:3931
@@ -3689,8 +3727,9 @@ msgstr ""
 #: inc/admin/theme_options/settings.php:4797
 #: inc/functions/content_type/meta_values.php:541
 #: woocommerce/single-product-reviews.php:1
+#, fuzzy
 msgid "Name"
-msgstr ""
+msgstr "Tu Nombre"
 
 #: inc/admin/theme_options/settings.php:3687
 msgid "Portfolios"
@@ -4284,8 +4323,9 @@ msgid ""
 msgstr ""
 
 #: inc/admin/theme_options/settings.php:4908
+#, fuzzy
 msgid "404 Error"
-msgstr ""
+msgstr "Error 404"
 
 #: inc/admin/theme_options/settings.php:4913
 msgid "Links Block"
@@ -4388,8 +4428,9 @@ msgid "Enable Hover Effect"
 msgstr ""
 
 #: inc/admin/theme_options/settings.php:5066
+#, fuzzy
 msgid "Show Wishlist"
-msgstr ""
+msgstr "Mostrar Lista de Deseos"
 
 #: inc/admin/theme_options/settings.php:5074
 msgid "Show Quick View"
@@ -4400,8 +4441,9 @@ msgid "\"Quick View\" Text"
 msgstr ""
 
 #: inc/admin/theme_options/settings.php:5091
+#, fuzzy
 msgid "Single Product"
-msgstr ""
+msgstr "Producto"
 
 #: inc/admin/theme_options/settings.php:5111
 msgid "Show Prev/Next Product"
@@ -4452,8 +4494,9 @@ msgid "Product Meta"
 msgstr ""
 
 #: inc/admin/theme_options/settings.php:5158
+#, fuzzy
 msgid "SKU"
-msgstr ""
+msgstr "SKU:"
 
 #: inc/admin/theme_options/settings.php:5168
 msgid "Global Product Custom Tab Title"
@@ -4478,12 +4521,14 @@ msgid ""
 msgstr ""
 
 #: inc/admin/theme_options/settings.php:5188
+#, fuzzy
 msgid "Show Related Products"
-msgstr ""
+msgstr "Mostrar Productos Relacionados"
 
 #: inc/admin/theme_options/settings.php:5197
+#, fuzzy
 msgid "Related Products Count"
-msgstr ""
+msgstr "Cantidad de Productos Relacionados"
 
 #: inc/admin/theme_options/settings.php:5204
 msgid "Related Product Columns"
@@ -4931,8 +4976,9 @@ msgstr ""
 
 #: inc/content_types/content_types.php:649 inc/functions/post.php:212
 #: woocommerce/myaccount/my-address.php:56
+#, fuzzy
 msgid "Edit"
-msgstr ""
+msgstr "Editar"
 
 #: inc/content_types/event.php:10
 msgid "Event Link"
@@ -5034,12 +5080,14 @@ msgid "Info View Type in Grid, Masonry, Timeline Layout"
 msgstr ""
 
 #: inc/content_types/member.php:13 inc/functions/woocommerce.php:665
+#, fuzzy
 msgid "First Name"
-msgstr ""
+msgstr "Nombre"
 
 #: inc/content_types/member.php:19 inc/functions/woocommerce.php:669
+#, fuzzy
 msgid "Last Name"
-msgstr ""
+msgstr "Apellido"
 
 #: inc/content_types/member.php:25
 msgid "Role"
@@ -5242,8 +5290,9 @@ msgid "Layout"
 msgstr ""
 
 #: inc/functions/content_type/meta_fields.php:144
+#, fuzzy
 msgid "Sidebar"
-msgstr ""
+msgstr "Barra Lateral"
 
 #: inc/functions/content_type/meta_fields.php:145
 msgid ""
@@ -5505,16 +5554,18 @@ msgid "Desc"
 msgstr ""
 
 #: inc/functions/content_type/meta_values.php:571
+#, fuzzy
 msgid "In Content"
-msgstr ""
+msgstr "<a href=\"%url%\">El contenido</a> no se pudo cargar."
 
 #: inc/functions/content_type/meta_values.php:573
 msgid "In Breadcrumbs"
 msgstr ""
 
 #: inc/functions/content_type/meta_values.php:575
+#, fuzzy
 msgid "In Sidebar"
-msgstr ""
+msgstr "Barra Lateral"
 
 #: inc/functions/content_type/meta_values.php:637
 msgid "Featured Images"
@@ -5525,12 +5576,14 @@ msgid "Video & Audio or Content"
 msgstr ""
 
 #: inc/functions/general.php:374 inc/functions/general.php:435
+#, fuzzy
 msgid "No Comments"
-msgstr ""
+msgstr "Comentarios:"
 
 #: inc/functions/general.php:376 inc/functions/general.php:433
+#, fuzzy
 msgid "% Comments"
-msgstr ""
+msgstr "% Comentarios"
 
 #: inc/functions/general.php:377
 msgid "Comments Off"
@@ -5550,19 +5603,19 @@ msgstr ""
 #: inc/functions/layout.php:4853 inc/functions/layout.php:5889
 #: inc/functions/layout.php:6265
 msgid "Log out"
-msgstr ""
+msgstr "Salir"
 
 #: inc/functions/layout.php:2805 inc/functions/layout.php:3049
 #: inc/functions/layout.php:3929 inc/functions/layout.php:3937
 #: inc/functions/layout.php:4913 inc/functions/layout.php:5949
 #: inc/functions/layout.php:6325
 msgid "Log in"
-msgstr ""
+msgstr "Entrar"
 
 #: inc/functions/layout.php:6697
 #: woocommerce/yith-woocommerce-ajax-search.php:19
 msgid "Search&hellip;"
-msgstr ""
+msgstr "Buscar&hellip;"
 
 #: inc/functions/layout.php:6721
 #: woocommerce/yith-woocommerce-ajax-search.php:23
@@ -5589,7 +5642,7 @@ msgstr ""
 
 #: inc/functions/layout/breadcrumbs.php:39
 msgid "Home"
-msgstr ""
+msgstr "Inicio"
 
 #: inc/functions/layout/breadcrumbs.php:84
 #: inc/functions/layout/page-title.php:59
@@ -5647,7 +5700,7 @@ msgstr ""
 #: inc/functions/layout/page-title.php:185
 #, php-format
 msgid "Search Results - %s"
-msgstr ""
+msgstr "Resultados de búsqueda para - %s"
 
 #: inc/functions/layout/page-title.php:182
 msgid "404 - Page Not Found"
@@ -5655,20 +5708,20 @@ msgstr ""
 
 #: inc/functions/post.php:160
 msgid "read more"
-msgstr ""
+msgstr "leer más"
 
 #: inc/functions/post.php:213
 msgid "Reply"
-msgstr ""
+msgstr "Responder"
 
 #: inc/functions/post.php:218
 msgid "Your comment is awaiting moderation."
-msgstr ""
+msgstr "Tu comentario está esperando moderación."
 
 #: inc/functions/post.php:223
 #, php-format
 msgid "%1$s at %2$s"
-msgstr ""
+msgstr "%1$s en %2$s"
 
 #: inc/functions/post.php:271
 msgid "HOT"
@@ -5676,7 +5729,7 @@ msgstr ""
 
 #: inc/functions/post.php:300
 msgid "View More"
-msgstr ""
+msgstr "Ver Más"
 
 #: inc/functions/post.php:300
 msgid "Next &rarr;"
@@ -6295,8 +6348,9 @@ msgid "Effect 7"
 msgstr ""
 
 #: inc/functions/shortcodes.php:1731
+#, fuzzy
 msgid "Navigation"
-msgstr ""
+msgstr "Navegación de publicaciones"
 
 #: inc/functions/shortcodes.php:1738
 msgid "Short"
@@ -6647,8 +6701,9 @@ msgid "<strong>Error</strong>: Last name is required!."
 msgstr ""
 
 #: inc/functions/woocommerce.php:731
+#, fuzzy
 msgid "Passwords do not match."
-msgstr ""
+msgstr "La contraseña no coincide."
 
 #: inc/functions/woocommerce.php:805
 msgid "Phone Number"
@@ -6838,8 +6893,9 @@ msgstr ""
 #: inc/plugins/importer/porto-wordpress-importer.php:460
 #: woocommerce/myaccount/form-register-2.php:71
 #: woocommerce/single-product-reviews.php:1
+#, fuzzy
 msgid "Submit"
-msgstr ""
+msgstr "enviar"
 
 #: inc/plugins/importer/porto-wordpress-importer.php:473
 msgid "Import author:"
@@ -7425,55 +7481,128 @@ msgstr ""
 msgid "Installing Plugin %1$s (%2$d/%3$d)"
 msgstr ""
 
+#: js/plugins.js:49126
+#, fuzzy
+msgid "perspective"
+msgstr "perpectiva"
+
+#: js/plugins.js:49126
+#, fuzzy
+msgid "transition"
+msgstr "transcición"
+
+#: js/plugins.min.js:17
+#, fuzzy
+msgid "BeforeOpen"
+msgstr "BeforeOpen"
+
+#: js/plugins.min.js:17
+msgid "BuildControls"
+msgstr ""
+
+#: js/plugins.min.js:17
+msgid "Resize"
+msgstr ""
+
+#: js/plugins.min.js:17
+msgid "BeforeChange"
+msgstr ""
+
+#: js/plugins.min.js:17
+msgid "FirstMarkupParse"
+msgstr ""
+
+#: js/plugins.min.js:17
+msgid "AfterChange"
+msgstr ""
+
+#: js/plugins.min.js:17
+msgid "ElementParse"
+msgstr ""
+
+#: js/plugins.min.js:17
+msgid "UpdateStatus"
+msgstr ""
+
+#: js/plugins.min.js:17
+msgid "ParseAjax"
+msgstr ""
+
+#: js/plugins.min.js:17
+msgid "AjaxContentAdded"
+msgstr ""
+
+#: js/plugins.min.js:17
+msgid "ImageHasSize"
+msgstr ""
+
+#: js/plugins.min.js:17
+msgid "ImageLoadComplete"
+msgstr ""
+
+#: js/plugins.min.js:17
+msgid "ZoomAnimationEnded"
+msgstr ""
+
+#: js/plugins.min.js:17
+msgid "LazyLoad"
+msgstr ""
+
+#: js/plugins.min.js:17
+msgid "LazyLoadError"
+msgstr ""
+
 #: single-member.php:85
 msgid "Related <strong>Members</strong>"
-msgstr ""
+msgstr "<strong>Miembros </strong> Relacionados"
 
 #: single.php:32 single.php:37
 #, php-format
 msgid "Back to %s"
-msgstr ""
+msgstr "Volver a %s"
 
 #: single.php:44
 msgid "Related <strong>Posts</strong>"
-msgstr ""
+msgstr "<strong>Entradas </strong> Relacionadas"
 
 #: vc_templates/vc_accordion_tab.php:58 vc_templates/vc_tab.php:41
 msgid "Empty section. Edit page to add content here."
-msgstr ""
+msgstr "Sección vacía. Edita la página para agregar contenido aquí."
 
 #: woocommerce/cart/cart-shipping.php:27
 msgid "ESTIMATE SHIPPING AND TAX"
-msgstr ""
+msgstr "ESTIMAR ENVÍO Y TARIFAS"
 
 #: woocommerce/cart/cart-shipping.php:52 woocommerce/cart/cart-shipping.php:92
 msgid "Shipping costs will be calculated once you have provided your address."
-msgstr ""
+msgstr "El costo de envío se calculará una vez sea proporcionada tu dirección."
 
 #: woocommerce/cart/cart-shipping.php:54 woocommerce/cart/cart-shipping.php:94
 msgid ""
 "There are no shipping methods available. Please double check your address, "
 "or contact us if you need any help."
 msgstr ""
+"No hay métodos de envío disponibles. Por favor, revisa tu dirección o "
+"contáctanos si necesitas cualquier ayuda."
 
 #: woocommerce/cart/cart-totals-v1.php:1
 msgid "Cart Totals"
-msgstr ""
+msgstr "Total en el Carrito"
 
 #: woocommerce/cart/cart-totals-v1.php:1 woocommerce/cart/cart-totals-v2.php:1
 #: woocommerce/cart/cart-v1.php:22 woocommerce/cart/cart-v2.php:30
 #: woocommerce/cart/mini-cart.php:1 woocommerce/checkout/review-order.php:50
 msgid "Subtotal"
-msgstr ""
+msgstr "Subtotal"
 
 #: woocommerce/cart/cart-totals-v1.php:1
 msgid "Shipping"
-msgstr ""
+msgstr "Envío"
 
 #: woocommerce/cart/cart-totals-v1.php:1 woocommerce/cart/cart-totals-v2.php:1
 #, php-format
 msgid "estimated for %s"
-msgstr ""
+msgstr "estimadas para %s"
 
 #: woocommerce/cart/cart-totals-v1.php:1 woocommerce/cart/mini-cart.php:1
 #: woocommerce/checkout/review-order.php:18
@@ -7481,12 +7610,12 @@ msgstr ""
 #: woocommerce/myaccount/my-orders.php:21
 #: woocommerce/order/order-details-test.php:1
 msgid "Total"
-msgstr ""
+msgstr "Total"
 
 #: woocommerce/cart/cart-totals-v1.php:1 woocommerce/cart/cart-totals-v2.php:1
 #, php-format
 msgid " (taxes estimated for %s)"
-msgstr ""
+msgstr " (tarifas estimadas para %s)"
 
 #: woocommerce/cart/cart-totals-v1.php:1 woocommerce/cart/cart-totals-v2.php:1
 #, php-format
@@ -7494,171 +7623,173 @@ msgid ""
 "Note: Shipping and taxes are estimated%s and will be updated during checkout "
 "based on your billing and shipping information."
 msgstr ""
+"Nota: El envío y las tarifas son estimados%s y puedes ser actualizados "
+"durante el Registro en base a la información de pago y envío."
 
 #: woocommerce/cart/cart-totals-v2.php:1
 msgid "CART TOTALS"
-msgstr ""
+msgstr "TOTAL EN EL CARRITO"
 
 #: woocommerce/cart/cart-totals-v2.php:1
 msgid "Grand Total"
-msgstr ""
+msgstr "Total"
 
 #: woocommerce/cart/cart-totals-v2.php:1
 msgid "Proceed to checkout"
-msgstr ""
+msgstr "Ir a la Caja"
 
 #: woocommerce/cart/cart-v1.php:19 woocommerce/cart/cart-v2.php:27
 #: woocommerce/wishlist-view.php:58
 msgid "Product Name"
-msgstr ""
+msgstr "Nombre del Producto"
 
 #: woocommerce/cart/cart-v1.php:20 woocommerce/cart/cart-v2.php:28
 #: woocommerce/wishlist-view.php:64
 msgid "Unit Price"
-msgstr ""
+msgstr "Precio por unidad"
 
 #: woocommerce/cart/cart-v1.php:21 woocommerce/cart/cart-v2.php:29
 #: woocommerce/checkout/form-pay.php:23
 msgid "Qty"
-msgstr ""
+msgstr "Cantidad"
 
 #: woocommerce/cart/cart-v1.php:39 woocommerce/cart/cart-v2.php:47
 #: woocommerce/cart/mini-cart.php:1
 msgid "Remove this item"
-msgstr ""
+msgstr "Eliminar este elemento"
 
 #: woocommerce/cart/cart-v1.php:67 woocommerce/cart/cart-v2.php:75
 msgid "Available on backorder"
-msgstr ""
+msgstr "Disponibles por pedidos"
 
 #: woocommerce/cart/cart-v1.php:106
 msgid "Coupon:"
-msgstr ""
+msgstr "Cupón:"
 
 #: woocommerce/cart/cart-v1.php:106 woocommerce/checkout/form-coupon.php:50
 msgid "Coupon code"
-msgstr ""
+msgstr "Código del cupón"
 
 #: woocommerce/cart/cart-v1.php:106 woocommerce/cart/cart-v2.php:123
 #: woocommerce/checkout/form-coupon.php:54
 msgid "Apply Coupon"
-msgstr ""
+msgstr "Aplicar Cupón"
 
 #: woocommerce/cart/cart-v1.php:111 woocommerce/cart/cart-v2.php:142
 msgid "Update Cart"
-msgstr ""
+msgstr "Actualizar Carrito"
 
 #: woocommerce/cart/cart-v2.php:12
 msgid "Shopping Cart"
-msgstr ""
+msgstr "Carrito de Compras"
 
 #: woocommerce/cart/cart-v2.php:13
 msgid "Proceed to Checkout"
-msgstr ""
+msgstr "Proceder a la Caja"
 
 #: woocommerce/cart/cart-v2.php:116 woocommerce/checkout/form-coupon.php:32
 msgid "DISCOUNT CODE"
-msgstr ""
+msgstr "CÓDIGO DE DESCUENTO"
 
 #: woocommerce/cart/cart-v2.php:121
 msgid "Enter your coupon code if you have one:"
-msgstr ""
+msgstr "Entrar el código del cupón si tienes uno:"
 
 #: woocommerce/cart/cart-v2.php:141
 msgid "Continue Shopping"
-msgstr ""
+msgstr "Continuar Comprando"
 
 #: woocommerce/cart/cross-sells.php:1
 msgid "You may be interested in&hellip;"
-msgstr ""
+msgstr "Puedes estar interesado en&hellip;"
 
 #: woocommerce/cart/mini-cart.php:1
 #, php-format
 msgid "%d ITEM"
 msgid_plural "%d ITEMS"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d ELEMENTO"
+msgstr[1] "%d ELEMENTOS"
 
 #: woocommerce/cart/mini-cart.php:1
 msgid "VIEW CART"
-msgstr ""
+msgstr "VER CARRITO"
 
 #: woocommerce/cart/mini-cart.php:1
 msgid "You have no items in your shopping cart."
-msgstr ""
+msgstr "No tienes elementos en el carrito de compras."
 
 #: woocommerce/cart/mini-cart.php:1
 msgid "No products in the cart."
-msgstr ""
+msgstr "No hay productos en el carrito."
 
 #: woocommerce/cart/mini-cart.php:1 woocommerce/loop/sale-flash.php:1
 msgid "View Cart"
-msgstr ""
+msgstr "VER CARRITO"
 
 #: woocommerce/cart/mini-cart.php:1
 msgid "Checkout"
-msgstr ""
+msgstr "Caja"
 
 #: woocommerce/cart/shipping-calculator.php:27
 msgid "Calculate Shipping"
-msgstr ""
+msgstr "Calcular Envío"
 
 #: woocommerce/cart/shipping-calculator.php:35
 msgid "Select a country&hellip;"
-msgstr ""
+msgstr "Selecciona un país&hellip;"
 
 #: woocommerce/cart/shipping-calculator.php:52
 #: woocommerce/cart/shipping-calculator.php:58
 #: woocommerce/cart/shipping-calculator.php:70
 msgid "State / county"
-msgstr ""
+msgstr "Estado / país"
 
 #: woocommerce/cart/shipping-calculator.php:59
 msgid "Select a state&hellip;"
-msgstr ""
+msgstr "Selecciona un estado&hellip;"
 
 #: woocommerce/cart/shipping-calculator.php:79
 msgid "City"
-msgstr ""
+msgstr "Ciudad"
 
 #: woocommerce/cart/shipping-calculator.php:87
 msgid "Postcode / ZIP"
-msgstr ""
+msgstr "Código Postal / ZIP"
 
 #: woocommerce/cart/shipping-calculator.php:92
 msgid "Update Totals"
-msgstr ""
+msgstr "Actualizar Totales"
 
 #: woocommerce/checkout/form-checkout-v1.php:48
 msgid "Your order"
-msgstr ""
+msgstr "Tu orden"
 
 #: woocommerce/checkout/form-checkout-v2.php:45
 msgid "Order Review"
-msgstr ""
+msgstr "Revisar Orden"
 
 #: woocommerce/checkout/form-checkout.php:18
 msgid "You must be logged in to checkout."
-msgstr ""
+msgstr "Debes estar autenticado para pagar."
 
 #: woocommerce/checkout/form-coupon.php:27
 msgid "Have a coupon?"
-msgstr ""
+msgstr "¿Tienes un cupón?"
 
 #: woocommerce/checkout/form-coupon.php:27
 msgid "Click here to enter your code"
-msgstr ""
+msgstr "Haz Click aquí para entrar tu código"
 
 #: woocommerce/checkout/form-login.php:33
 msgid "Returning customer?"
-msgstr ""
+msgstr "¿Usuario Anterior?"
 
 #: woocommerce/checkout/form-login.php:34
 #: woocommerce/myaccount/form-lost-password.php:39
 #: woocommerce/myaccount/form-lost-password.php:77
 #: woocommerce/myaccount/form-reset-password.php:37
 msgid "Click here to login"
-msgstr ""
+msgstr "Haz click aquí para autenticarte"
 
 #: woocommerce/checkout/form-login.php:42
 msgid ""
@@ -7666,10 +7797,13 @@ msgid ""
 "below. If you are a new customer, please proceed to the Billing &amp; "
 "Shipping section."
 msgstr ""
+"Si ya compraste con nosotros anteriormente, por favor entra tus detalles en "
+"las campos debajo. Si eres un usuario nuevo, por favor, procede a la sección "
+"de Pago y Envío."
 
 #: woocommerce/checkout/form-pay.php:24
 msgid "Totals"
-msgstr ""
+msgstr "Totales"
 
 #: woocommerce/checkout/form-pay.php:90 woocommerce/checkout/form-pay.php:100
 msgid ""
@@ -7677,14 +7811,17 @@ msgid ""
 "location. Please contact us if you require assistance or wish to make "
 "alternate arrangements."
 msgstr ""
+"Lo sentimos, al parecer no hay disponibles métodos de pagos para tu "
+"ubicación. Por favor, contáctanos si requieres asistencia o si deseas llegar "
+"a un arreglo alternativo."
 
 #: woocommerce/checkout/form-pay.php:111
 msgid "Pay for order"
-msgstr ""
+msgstr "Pagar orden"
 
 #: woocommerce/checkout/payment.php:29
 msgid "Payment Methods"
-msgstr ""
+msgstr "Métodos de Pago"
 
 #: woocommerce/checkout/payment.php:40
 msgid ""
@@ -7692,10 +7829,15 @@ msgid ""
 "Please contact us if you require assistance or wish to make alternate "
 "arrangements."
 msgstr ""
+"Lo sentimos, al parecer no hay disponibles métodos de pagos para tu estado. "
+"Por favor, contáctanos si requieres asistencia o si deseas llegar a un "
+"arreglo alternativo."
 
 #: woocommerce/checkout/payment.php:40
 msgid "Please fill in your details above to see available payment methods."
 msgstr ""
+"Por favor, completa los detalles debajo, para ver los métodos de pago "
+"disponibles."
 
 #: woocommerce/checkout/payment.php:47
 msgid ""
@@ -7704,72 +7846,76 @@ msgid ""
 "order. You may be charged more than the amount stated above if you fail to "
 "do so."
 msgstr ""
+"Como su navegador no soporta JavaScript, o está deshabilitado, por favor, "
+"asegúrese de pinchar en el botón <em>Actualizar Totales</em> antes de enviar "
+"su orden. Puedes ser cargado con más dinero que el real si este "
+"procedimiento falla."
 
 #: woocommerce/checkout/payment.php:48
 msgid "Update totals"
-msgstr ""
+msgstr "Actualizar Totales"
 
 #: woocommerce/checkout/payment.php:58
 msgid "Grand Total:"
-msgstr ""
+msgstr "Total:"
 
 #: woocommerce/content-product.php:93 woocommerce/loop/sale-flash.php:1
 msgid "Out of stock"
-msgstr ""
+msgstr "Sin Reservas"
 
 #: woocommerce/content-product.php:93
 msgid "You've just added this product to the cart"
-msgstr ""
+msgstr "Yo has agregado este producto al carrito"
 
 #: woocommerce/content-product.php:93
 msgid "Go to cart page"
-msgstr ""
+msgstr "Ir a la página del carrito"
 
 #: woocommerce/content-product.php:93
 msgid "Continue"
-msgstr ""
+msgstr "Continuar"
 
 #: woocommerce/content-product_cat.php:235
 #: woocommerce/content-product_cat.php:286
 msgid "Products"
-msgstr ""
+msgstr "Productos"
 
 #: woocommerce/global/form-login.php:26
 #: woocommerce/myaccount/form-lost-password.php:29
 #: woocommerce/myaccount/form-lost-password.php:51
 msgid "Username or email"
-msgstr ""
+msgstr "Usuario o correo"
 
 #: woocommerce/global/form-login.php:30 woocommerce/myaccount/form-login.php:46
 #: woocommerce/myaccount/form-register-2.php:44
 #: woocommerce/myaccount/form-register.php:40
 msgid "Password"
-msgstr ""
+msgstr "Contraseña"
 
 #: woocommerce/global/form-login.php:42 woocommerce/myaccount/form-login.php:57
 msgid "Remember me"
-msgstr ""
+msgstr "Recuérdame"
 
 #: woocommerce/global/form-login.php:46 woocommerce/myaccount/form-login.php:48
 msgid "Lost your password?"
-msgstr ""
+msgstr "¿Perdiste tu contraseña?"
 
 #: woocommerce/global/quantity-input.php:15
 msgctxt "Product quantity input tooltip"
 msgid "Qty"
-msgstr ""
+msgstr "Cantidad"
 
 #: woocommerce/loop/add-to-cart.php:88
 msgid "Quick View"
-msgstr ""
+msgstr "Vista Previa"
 
 #: woocommerce/loop/no-products-found.php:13
 msgid "No products were found matching your selection."
-msgstr ""
+msgstr "No se encontraron productos que respondieran a tu selección."
 
 #: woocommerce/loop/orderby.php:14
 msgid "Sort By"
-msgstr ""
+msgstr "Ordenar Por"
 
 #: woocommerce/loop/sale-flash.php:1
 #: woocommerce/single-product/sale-flash.php:1
@@ -7779,7 +7925,7 @@ msgstr ""
 #: woocommerce/loop/sale-flash.php:1
 #: woocommerce/single-product/sale-flash.php:1
 msgid "Sale"
-msgstr ""
+msgstr "Oferta"
 
 #: woocommerce/myaccount/downloads.php:1
 msgid "&infin;"
@@ -7787,24 +7933,26 @@ msgstr ""
 
 #: woocommerce/myaccount/downloads.php:1
 msgid "Never"
-msgstr ""
+msgstr "Nunca"
 
 #: woocommerce/myaccount/downloads.php:1
 msgid "Download"
-msgstr ""
+msgstr "Descargar"
 
 #: woocommerce/myaccount/downloads.php:1
 msgid "No downloads available yet."
-msgstr ""
+msgstr "No hay descargas disponibles aun."
 
 #: woocommerce/myaccount/downloads.php:1 woocommerce/myaccount/orders.php:111
+#, fuzzy
 msgid "Go Shop"
-msgstr ""
+msgstr "Ir a la Tienda"
 
 #: woocommerce/myaccount/form-add-payment-method.php:49
 #: woocommerce/myaccount/payment-methods.php:67
+#, fuzzy
 msgid "Add Payment Method"
-msgstr ""
+msgstr "Agregar Método de Pago"
 
 #: woocommerce/myaccount/form-add-payment-method.php:55
 msgid ""
@@ -7812,59 +7960,62 @@ msgid ""
 "payment method. Please contact us if you require assistance or wish to make "
 "alternate arrangements."
 msgstr ""
+"Lo sentimos, al perecer no hay métodos de pago que soporten agregar nuevos "
+"método de pago. Por favor, contáctanos se requieres asistencia o deseas "
+"llegar a un arreglo alternativo."
 
 #: woocommerce/myaccount/form-edit-account.php:28
 msgid "First name"
-msgstr ""
+msgstr "Nombre"
 
 #: woocommerce/myaccount/form-edit-account.php:32
 msgid "Last name"
-msgstr ""
+msgstr "Apellido"
 
 #: woocommerce/myaccount/form-edit-account.php:38
 #: woocommerce/myaccount/form-register-2.php:35
 #: woocommerce/myaccount/form-register.php:33
 msgid "Email address"
-msgstr ""
+msgstr "Dirección de correo"
 
 #: woocommerce/myaccount/form-edit-account.php:43
 msgid "Password Change"
-msgstr ""
+msgstr "Cambiar Contraseña"
 
 #: woocommerce/myaccount/form-edit-account.php:46
 msgid "Current Password (leave blank to leave unchanged)"
-msgstr ""
+msgstr "Contraseña Actual (dejar en blanco para no cambiar)"
 
 #: woocommerce/myaccount/form-edit-account.php:50
 msgid "New Password (leave blank to leave unchanged)"
-msgstr ""
+msgstr "Nueva Contraseña (dejar en blanco para no cambiar)"
 
 #: woocommerce/myaccount/form-edit-account.php:54
 msgid "Confirm New Password"
-msgstr ""
+msgstr "Confirmar Nueva Contraseña"
 
 #: woocommerce/myaccount/form-edit-account.php:64
 msgid "Save changes"
-msgstr ""
+msgstr "Salvar cambios"
 
 #: woocommerce/myaccount/form-edit-address.php:12
 #: woocommerce/myaccount/my-address.php:25
 #: woocommerce/myaccount/my-address.php:31
 msgid "Billing Address"
-msgstr ""
+msgstr "Dirección de Pago"
 
 #: woocommerce/myaccount/form-edit-address.php:12
 #: woocommerce/myaccount/my-address.php:26
 msgid "Shipping Address"
-msgstr ""
+msgstr "Dirección de Envío"
 
 #: woocommerce/myaccount/form-edit-address.php:50
 msgid "Save Address"
-msgstr ""
+msgstr "Guardar Dirección"
 
 #: woocommerce/myaccount/form-login.php:32
 msgid "New Customers"
-msgstr ""
+msgstr "Usuario Nuevo"
 
 #: woocommerce/myaccount/form-login.php:33
 msgid ""
@@ -7872,14 +8023,17 @@ msgid ""
 "checkout process faster, store multiple shipping addresses, view and track "
 "your orders in your account and more."
 msgstr ""
+"Creándose una cuenta en nuestra tienda, podrá moverse fácilmente a través "
+"del proceso de pago, almacenar múltiples direcciones de envíos, ver y seguir "
+"sus órdenes en su cuenta y más."
 
 #: woocommerce/myaccount/form-login.php:34
 msgid "Create an Account"
-msgstr ""
+msgstr "Crear una Cuenta"
 
 #: woocommerce/myaccount/form-login.php:42
 msgid "Username or email address"
-msgstr ""
+msgstr "Usuario o dirección de correo"
 
 #: woocommerce/myaccount/form-lost-password.php:26
 #: woocommerce/myaccount/form-lost-password.php:49
@@ -7887,50 +8041,52 @@ msgid ""
 "Lost your password? Please enter your username or email address. You will "
 "receive a link to create a new password via email."
 msgstr ""
+"¿Perdiste tu contraseña? Por favor, entra tu usuario o dirección de correo. "
+"Recibirás un correo con un enlace para crear tu nueva contraseña."
 
 #: woocommerce/myaccount/form-lost-password.php:42
 #: woocommerce/myaccount/form-lost-password.php:80
 msgid "Reset Password"
-msgstr ""
+msgstr "Cambiar Contraseña"
 
 #: woocommerce/myaccount/form-lost-password.php:55
 #: woocommerce/myaccount/form-reset-password.php:18
 msgid "Enter a new password below."
-msgstr ""
+msgstr "Entrar una nueva contraseña debajo."
 
 #: woocommerce/myaccount/form-lost-password.php:58
 #: woocommerce/myaccount/form-reset-password.php:21
 msgid "New password"
-msgstr ""
+msgstr "Nueva Contraseña"
 
 #: woocommerce/myaccount/form-lost-password.php:62
 #: woocommerce/myaccount/form-reset-password.php:25
 msgid "Re-enter new password"
-msgstr ""
+msgstr "Confirmar Nueva Contraseña"
 
 #: woocommerce/myaccount/form-lost-password.php:80
 #: woocommerce/myaccount/form-reset-password.php:39
 #: woocommerce/wishlist-view.php:34
 msgid "Save"
-msgstr ""
+msgstr "Salvar"
 
 #: woocommerce/myaccount/form-register-2.php:19
 msgid "PERSONAL INFORMATION"
-msgstr ""
+msgstr "INFORMACIÓN PERSONAL"
 
 #: woocommerce/myaccount/form-register-2.php:28
 #: woocommerce/myaccount/form-register.php:26
 msgid "Username"
-msgstr ""
+msgstr "Usuario"
 
 #: woocommerce/myaccount/form-register-2.php:39
 msgid "LOGIN INFORMATION"
-msgstr ""
+msgstr "INFORMACIÓN DE AUTENTICACIÓN"
 
 #: woocommerce/myaccount/form-register-2.php:49
 #: woocommerce/myaccount/form-register.php:45
 msgid "Confirm Password"
-msgstr ""
+msgstr "Confirmar Contraseña"
 
 #: woocommerce/myaccount/form-register-2.php:57
 #: woocommerce/myaccount/form-register.php:53
@@ -7939,15 +8095,15 @@ msgstr ""
 
 #: woocommerce/myaccount/form-register-2.php:63
 msgid "* Required Fields"
-msgstr ""
+msgstr "* Campos Requeridos"
 
 #: woocommerce/myaccount/form-register-2.php:69
 msgid "Back"
-msgstr ""
+msgstr "Volver"
 
 #: woocommerce/myaccount/lost-password-confirmation.php:13
 msgid "Password reset email has been sent."
-msgstr ""
+msgstr "Se enviará un correo de reinicio de la contraseña."
 
 #: woocommerce/myaccount/lost-password-confirmation.php:17
 msgid ""
@@ -7960,6 +8116,7 @@ msgstr ""
 #, php-format
 msgid "Hello <strong>%1$s</strong> (not %1$s? <a href=\"%2$s\">Sign out</a>)."
 msgstr ""
+"Hola <strong>%1$s</strong> (¿No eres %1$s? <a href=\"%2$s\">Salir</a>)."
 
 #: woocommerce/myaccount/my-account.php:53
 #, php-format
@@ -7968,18 +8125,22 @@ msgid ""
 "shipping and billing addresses and <a href=\"%s\">edit your password and "
 "account details</a>."
 msgstr ""
+"Desde el escritorio de tu cuenta, puedes ver tus órdenes recientes, "
+"administrar tus direcciones de envío y pago y <a href=\"%s\">editar tu "
+"contraseña u detalles de la cuenta</a>."
 
 #: woocommerce/myaccount/my-address.php:23
 msgid "My Addresses"
-msgstr ""
+msgstr "Mis Direcciones"
 
 #: woocommerce/myaccount/my-address.php:29
 msgid "My Address"
-msgstr ""
+msgstr "Mi Dirección"
 
 #: woocommerce/myaccount/my-address.php:46
 msgid "The following addresses will be used on the checkout page by default."
 msgstr ""
+"Las siguientes direcciones fueron usadas en la página de La Caja por defecto."
 
 #: woocommerce/myaccount/my-address.php:75
 msgid "You have not set up this type of address yet."
@@ -7987,7 +8148,7 @@ msgstr ""
 
 #: woocommerce/myaccount/my-downloads.php:22
 msgid "Available Downloads"
-msgstr ""
+msgstr "Descargas Disponibles"
 
 #: woocommerce/myaccount/my-downloads.php:31
 #, php-format
@@ -7998,49 +8159,49 @@ msgstr[1] ""
 
 #: woocommerce/myaccount/my-orders.php:18
 msgid "Order"
-msgstr ""
+msgstr "Orden"
 
 #: woocommerce/myaccount/my-orders.php:38
 msgid "Recent Orders"
-msgstr ""
+msgstr "Ordenes Recientes"
 
 #: woocommerce/myaccount/my-orders.php:65 woocommerce/myaccount/orders.php:42
 msgctxt "hash before order number"
 msgid "#"
-msgstr ""
+msgstr "#"
 
 #: woocommerce/myaccount/my-orders.php:72 woocommerce/myaccount/orders.php:52
 #, php-format
 msgid "%s for %s item"
 msgid_plural "%s for %s items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s para %s elemento"
+msgstr[1] "%s para %s elementos"
 
 #: woocommerce/myaccount/my-orders.php:78 woocommerce/myaccount/orders.php:59
 msgid "Pay"
-msgstr ""
+msgstr "Pagar"
 
 #: woocommerce/myaccount/my-orders.php:82 woocommerce/myaccount/orders.php:63
 msgid "View"
-msgstr ""
+msgstr "Ver"
 
 #: woocommerce/myaccount/my-orders.php:86 woocommerce/myaccount/orders.php:67
 #: woocommerce/wishlist-view.php:38
 msgid "Cancel"
-msgstr ""
+msgstr "Cancelar"
 
 #: woocommerce/myaccount/orders.php:109
 msgid "No order has been made yet."
-msgstr ""
+msgstr "No se ha realizado ninguna orden aun."
 
 #: woocommerce/myaccount/payment-methods.php:40
 #, php-format
 msgid "%s ending in %s"
-msgstr ""
+msgstr "%s finaliza en %s"
 
 #: woocommerce/myaccount/payment-methods.php:61
 msgid "No saved methods found."
-msgstr ""
+msgstr "No se encontraron métodos salvados."
 
 #: woocommerce/myaccount/view-order.php:22
 #, php-format
@@ -8054,10 +8215,13 @@ msgid ""
 "\"order-date\">%s</mark> and is currently <mark class=\"order-status\">%s</"
 "mark>."
 msgstr ""
+"La orden #<mark class=\"order-number\">%s</mark> fue puesta en <mark class="
+"\"order-date\">%s</mark> y actualmente está <mark class=\"order-status\">%s</"
+"mark>."
 
 #: woocommerce/myaccount/view-order.php:38 woocommerce/order/tracking.php:25
 msgid "Order Updates"
-msgstr ""
+msgstr "Actualizaciones de la Orden"
 
 #: woocommerce/myaccount/view-order.php:44 woocommerce/order/tracking.php:31
 msgid "l jS \\o\\f F Y, h:ia"
@@ -8069,10 +8233,12 @@ msgid ""
 "the \"Track\" button. This was given to you on your receipt and in the "
 "confirmation email you should have received."
 msgstr ""
+"Para seguir tu orden, por favor, entre el ID de la Orden en la campo debajo "
+"y presione el botón \"Seguir\"."
 
 #: woocommerce/order/form-tracking.php:22
 msgid "Order ID"
-msgstr ""
+msgstr "Orden ID"
 
 #: woocommerce/order/form-tracking.php:22
 msgid "Found in your order confirmation email."
@@ -8080,40 +8246,40 @@ msgstr ""
 
 #: woocommerce/order/form-tracking.php:23
 msgid "Billing Email"
-msgstr ""
+msgstr "Correo de Pago"
 
 #: woocommerce/order/form-tracking.php:23
 msgid "Email you used during checkout."
-msgstr ""
+msgstr "Correo que usarás para el pago."
 
 #: woocommerce/order/form-tracking.php:26
 msgid "Track"
-msgstr ""
+msgstr "Seguir"
 
 #: woocommerce/order/order-details-test.php:1
 msgid "Order Details"
-msgstr ""
+msgstr "Detalles de la Orden"
 
 #: woocommerce/order/tracking.php:12
 #, php-format
 msgid "Order #%s which was made %s has the status &ldquo;%s&rdquo;"
-msgstr ""
+msgstr "La orden #%s que fue realizada %s tiene el estado &ldquo;%s&rdquo;"
 
 #: woocommerce/order/tracking.php:12
 msgid "ago"
-msgstr ""
+msgstr "atrás"
 
 #: woocommerce/order/tracking.php:14
 msgid "and was completed"
-msgstr ""
+msgstr "y fue completado"
 
 #: woocommerce/order/tracking.php:14
 msgid " ago"
-msgstr ""
+msgstr " atrás"
 
 #: woocommerce/share.php:24
 msgid "Share on"
-msgstr ""
+msgstr "Compartir en"
 
 #: woocommerce/single-product-reviews.php:1
 #, php-format
@@ -8144,7 +8310,7 @@ msgstr ""
 #: woocommerce/single-product-reviews.php:1
 #, php-format
 msgid "Leave a Reply to %s"
-msgstr ""
+msgstr "Responder a %s"
 
 #: woocommerce/single-product-reviews.php:1
 #, php-format
@@ -8153,7 +8319,7 @@ msgstr ""
 
 #: woocommerce/single-product-reviews.php:1
 msgid "Your Rating"
-msgstr ""
+msgstr "Tu Valoración"
 
 #: woocommerce/single-product-reviews.php:1
 msgid "Rate&hellip;"
@@ -8176,12 +8342,14 @@ msgid "Not that bad"
 msgstr ""
 
 #: woocommerce/single-product-reviews.php:1
+#, fuzzy
 msgid "Very Poor"
-msgstr ""
+msgstr "Muy Pobre"
 
 #: woocommerce/single-product-reviews.php:1
+#, fuzzy
 msgid "Your Review"
-msgstr ""
+msgstr "Tu revisión"
 
 #: woocommerce/single-product-reviews.php:1
 msgid ""
@@ -8194,48 +8362,48 @@ msgstr ""
 
 #: woocommerce/single-product/add-to-cart/variable.php:1
 msgid "Choose an option"
-msgstr ""
+msgstr "Selecciona una opción"
 
 #: woocommerce/single-product/add-to-cart/variable.php:1
 msgid "Clear selection"
-msgstr ""
+msgstr "Limpiar selección"
 
 #: woocommerce/single-product/add-to-cart/variable.php:1
 msgid "Clear"
-msgstr ""
+msgstr "Limpiar"
 
 #: woocommerce/single-product/meta.php:1
 msgid "SKU:"
-msgstr ""
+msgstr "SKU:"
 
 #: woocommerce/single-product/meta.php:1
 msgid "N/A"
-msgstr ""
+msgstr "N/D"
 
 #: woocommerce/single-product/meta.php:1
 msgid "Category:"
 msgid_plural "Categories:"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Categoría:"
+msgstr[1] "Categorías:"
 
 #: woocommerce/single-product/meta.php:1
 msgid "Tag:"
 msgid_plural "Tags:"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Etiqueta:"
+msgstr[1] "Etiquetas:"
 
 #: woocommerce/single-product/product-attributes.php:1
 msgid "Weight"
-msgstr ""
+msgstr "Peso"
 
 #: woocommerce/single-product/product-attributes.php:1
 msgid "Dimensions"
-msgstr ""
+msgstr "Dimensiones"
 
 #: woocommerce/single-product/rating.php:27
 #, php-format
 msgid "out of %s5%s"
-msgstr ""
+msgstr "sin %s5%s"
 
 #: woocommerce/single-product/rating.php:33
 #, php-format
@@ -8246,7 +8414,7 @@ msgstr[1] ""
 
 #: woocommerce/single-product/related.php:1
 msgid "Related Products"
-msgstr ""
+msgstr "Productos Relacionados"
 
 #: woocommerce/single-product/review-meta.php:1
 msgid "Your review is awaiting approval"
@@ -8255,7 +8423,7 @@ msgstr ""
 #: woocommerce/single-product/review-meta.php:1
 #: woocommerce/single-product/review.php:99
 msgid "verified owner"
-msgstr ""
+msgstr "propietario verificado"
 
 #: woocommerce/single-product/review-rating.php:1
 #, php-format
@@ -8264,40 +8432,41 @@ msgstr ""
 
 #: woocommerce/single-product/review.php:90
 msgid "Your comment is awaiting approval"
-msgstr ""
+msgstr "Tu comentario está esperando moderación"
 
 #: woocommerce/single-product/up-sells.php:1
 msgid "You may also like&hellip;"
-msgstr ""
+msgstr "También te puede gustar&hellip;"
 
 #: woocommerce/wishlist-view.php:25
 msgid "Edit title"
-msgstr ""
+msgstr "Editar título"
 
 #: woocommerce/wishlist-view.php:72
 msgid "Stock Status"
-msgstr ""
+msgstr "Estado de Stock"
 
 #: woocommerce/wishlist-view.php:109
 msgid "Remove this product"
-msgstr ""
+msgstr "Eliminar este producto"
 
 #: woocommerce/wishlist-view.php:138
 msgid "Free!"
-msgstr ""
+msgstr "¡Gratis!"
 
 #: woocommerce/wishlist-view.php:149
 msgid "Out of Stock"
-msgstr "Out of Stock"
+msgstr "Sin Reservas"
 
 #: woocommerce/wishlist-view.php:152
 msgid "In Stock"
-msgstr ""
+msgstr "En Reserva"
 
 #: woocommerce/wishlist-view.php:194
+#, fuzzy
 msgid "No products were added to the wishlist"
-msgstr ""
+msgstr "Ningún producto fue añadido a la lista de deseos"
 
 #: woocommerce/wishlist-view.php:220
 msgid "Ask for an estimate"
-msgstr ""
+msgstr "Pregunta por un estimado"

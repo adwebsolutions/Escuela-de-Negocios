@@ -404,6 +404,39 @@ body.single-product .entry-summary .page-top {
 .single-product .product_meta {
 	display: none;
 }
+#mini-cart .buttons a {
+	padding: 5px;
+}
 #mini-cart.minicart-style1 .buttons a {
 	font-family: Lato, sans-serif;
+}
+/*filtro de categorias*/
+.widget_product_categories, .widget_price_filter, .widget_layered_nav, .widget_layered_nav_filters, .widget_rating_filter {
+	border: 0;
+	background: none;
+	text-align: center;
+}
+.cat-filter ul {
+	margin-top:20px;
+	padding: 20px 0;
+	display: inline;
+}
+.cat-filter > ul li {
+	display: inline-block;
+	text-transform: uppercase;
+}
+.cat-filter .yith-wcan-show-all-categories a{
+	font-size: 13px;
+}
+.cat-filter ul li > a, .cat-filter .yith-wcan-show-all-categories a, .cat-filter .yith-wcan-show-all-tags a {
+	color: #1b1464 !important;
+	padding: 0 10px;
+	line-height: 35px;
+	display: block;
+}
+.cat-filter ul li.chosen > a, .cat-filter ul li > a:hover, .cat-filter ul li > a:focus, .cat-filter ul li > a:active, .cat-filter .yith-wcan-show-all-categories a:hover, .cat-filter .yith-wcan-show-all-tags a:hover {
+	color: #ffffff !important;
+	background: #946531;
+	padding: 0 10px;
+	text-decoration: none;
 }

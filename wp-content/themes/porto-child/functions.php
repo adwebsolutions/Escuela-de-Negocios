@@ -46,3 +46,25 @@ add_filter( 'woocommerce_product_single_add_to_cart_text', 'custom_button_text' 
 function custom_button_text (){
     return __( 'Comprar Curso', 'porto' );
 }
+
+function category_widgets_init() {
+    register_sidebar( array(
+        'name'          => 'Category Filter sidebar',
+        'id'            => 'cust_cat_shop',
+        'before_widget' => '<aside id="%1$s" class="widget %2$s cat-filter">',
+        'after_widget'  => '</aside>',
+        'before_title'  => '<h3 class="widget-title">',
+        'after_title'   => '</h3>',
+    ) );
+
+}
+add_action( 'widgets_init', 'category_widgets_init' );
+
+function custom_category_filter(){
+    if ( is_active_sidebar( 'cust_cat_shop' ) ) :
+        dynamic_sidebar( 'cust_cat_shop' );
+    endif;
+}
+add_action ('woocommerce_before_main_content','custom_category_filter',5);
+//remove_action( 'woocommerce_before_shop_loop', 'woocommerce_result_count', 20 );
+//remove_action( 'woocommerce_before_shop_loop', 'woocommerce_catalog_ordering', 30 );
