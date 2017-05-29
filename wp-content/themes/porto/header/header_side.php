@@ -16,8 +16,7 @@ global $porto_settings, $porto_layout;
 
                 echo $view_switcher;
 
-                echo $minicart;
-                ?>
+               ?>								<div class="<?php if ($minicart) echo 'header-minicart'.str_replace('minicart', '', $porto_settings['minicart-type']) ?>">									<?php echo $minicart; ?>								</div>
             </div>
         </div>
 

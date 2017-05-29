@@ -25,7 +25,61 @@
         height: auto;
         @include transition($image-transition);
     }
+	
+	.viewcart {
+		font-size: 1.8em;
+		background: if-light(#fff, $color-dark-3);
+		border-radius: 50%;
+		position: absolute;
+		top: 0; bottom: 0;
+		left: 0; right: 0;
+		margin: auto;
+		z-index: 1;
+		text-align: center;
+		width: 2.2em;
+		height: 2.2em;
+		line-height: 2.1em;
+		display: none;
+		opacity: 0;
+		@include transition($transition);
 
+		&:before {
+			font-family: "minicart-font" !important;
+			font-style: normal !important;
+			font-weight: normal !important;
+			font-variant: normal !important;
+			text-transform: none !important;
+			speak: none;
+			-webkit-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale;
+			content: "\e800";
+			font-size: .9em;
+			vertical-align: top;
+		}
+
+		&.viewcart2:before {
+			font-family: "Porto" !important;
+			content: "\e87f";
+			vertical-align: baseline;
+		}
+
+		&.viewcart3:before {
+			font-family: "Simple-Line-Icons" !important;
+			content: "\e04e";
+			vertical-align: baseline;
+			font-size: 1.1em;
+		}
+		&.viewcart4:before {
+			font-family: "Simple-Line-Icons" !important;
+			content: "\e035";
+			vertical-align: baseline;
+		}
+
+		&:hover {
+			color: #fff;
+		}
+	}
+	
     .labels {
         line-height: 1;
         color: $color-white;
@@ -51,61 +105,7 @@
             background: $sale-bg;
             #{$right}: .8em;
         }
-
-        .viewcart {
-            font-size: 1.8em;
-            background: if-light(#fff, $color-dark-3);
-            border-radius: 50%;
-            position: absolute;
-            top: 0; bottom: 0;
-            left: 0; right: 0;
-            margin: auto;
-            z-index: 1;
-            text-align: center;
-            width: 2.2em;
-            height: 2.2em;
-            line-height: 2.1em;
-            display: none;
-            opacity: 0;
-            @include transition($transition);
-
-            &:before {
-                font-family: "minicart-font" !important;
-                font-style: normal !important;
-                font-weight: normal !important;
-                font-variant: normal !important;
-                text-transform: none !important;
-                speak: none;
-                -webkit-font-smoothing: antialiased;
-                -moz-osx-font-smoothing: grayscale;
-                content: "\e800";
-                font-size: .9em;
-                vertical-align: top;
-            }
-
-            &.viewcart2:before {
-                font-family: "Porto" !important;
-                content: "\e87f";
-                vertical-align: baseline;
-            }
-
-            &.viewcart3:before {
-                font-family: "Simple-Line-Icons" !important;
-                content: "\e04e";
-                vertical-align: baseline;
-                font-size: 1.1em;
-            }
-            &.viewcart4:before {
-                font-family: "Simple-Line-Icons" !important;
-                content: "\e035";
-                vertical-align: baseline;
-            }
-
-            &:hover {
-                color: #fff;
-            }
-        }
-
+		
         .tooltip {
             font-weight: normal;
             text-transform: none;

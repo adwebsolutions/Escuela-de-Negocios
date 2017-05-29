@@ -88,8 +88,8 @@ function porto_loop_shop_per_page() {
 }
 // add thumbnail image parameter
 function porto_woocommerce_available_variation($variations, $product, $variation) {
-    if ( has_post_thumbnail( $variation->get_variation_id() ) ) {
-        $attachment_id = get_post_thumbnail_id( $variation->get_variation_id() );
+    if ( has_post_thumbnail( $variation->get_id() ) ) {
+        $attachment_id = get_post_thumbnail_id( $variation->get_id() );
         $image_thumb_link = wp_get_attachment_image_src($attachment_id, 'shop_thumbnail');
         $variations = array_merge( $variations, array( 'image_thumb' => $image_thumb_link[0] ) );
         $image_thumb_link = wp_get_attachment_image_src($attachment_id, 'shop_single');

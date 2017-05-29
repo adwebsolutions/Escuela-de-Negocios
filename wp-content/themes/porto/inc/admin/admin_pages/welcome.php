@@ -11,8 +11,8 @@ if ($theme->parent_theme) {
     <div class="porto-logo"><span class="porto-version"><?php _e( 'Version', 'porto' ); ?> <?php echo porto_version; ?></span></div>
     <h2 class="nav-tab-wrapper">
         <?php
-        printf( '<a href="#" class="nav-tab nav-tab-active">%s</a>', __( "Welcome", 'porto' ) );
-        printf( '<a href="%s" class="nav-tab">%s</a>', admin_url( 'admin.php?page=porto-system' ), __( "System Status", 'porto' ) );
+        printf( '<a href="#" class="nav-tab nav-tab-active">%s</a>', __( "Welcome", 'porto' ) );		
+        printf( '<a href="%s" class="nav-tab">%s</a>', admin_url( 'admin.php?page=porto-registration' ), __( "Registration", 'porto' ) );        printf( '<a href="%s" class="nav-tab">%s</a>', admin_url( 'admin.php?page=porto-system' ), __( "System Status", 'porto' ) );
         printf( '<a href="%s" class="nav-tab">%s</a>', admin_url( 'admin.php?page=porto-plugins' ), __( "Plugins", 'porto' ) );
         printf( '<a href="%s" class="nav-tab">%s</a>', admin_url( 'admin.php?page=porto-demos' ), __( "Install Demos", 'porto' ) );
         printf( '<a href="%s" class="nav-tab">%s</a>', admin_url( 'admin.php?page=porto_settings' ), __( "Theme Options", 'porto' ) );

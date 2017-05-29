@@ -27,6 +27,50 @@ body {
     .vc_row {
         margin-left: -($grid-gutter-width / 2);
         margin-right: -($grid-gutter-width / 2);
+		&.vc_column-gap-1{
+			margin-left: -0.5px;
+			margin-right: -0.5px;
+		}
+		&.vc_column-gap-2{
+			margin-left: 0px;
+			margin-right: 0px;
+		}
+		&.vc_column-gap-3{
+			margin-left: -0.5px;
+			margin-right: -0.5px;
+		}
+		&.vc_column-gap-4{
+			margin-left: -1px;
+			margin-right: -1px;
+		}
+		&.vc_column-gap-5{
+			margin-left: -1.5px;
+			margin-right: -1.5px;
+		}
+		&.vc_column-gap-10{
+			margin-left: -4px;
+			margin-right: -4px;
+		}
+		&.vc_column-gap-15{
+			margin-left: -6.5px;
+			margin-right: -6.5px;
+		}
+		&.vc_column-gap-20{
+			margin-left: -9.5px;
+			margin-right: -9.5px;
+		}
+		&.vc_column-gap-25{
+			margin-left: -11.5px;
+			margin-right: -11.5px;
+		}
+		&.vc_column-gap-30{
+			margin-left: -14px;
+			margin-right: -14px;
+		}
+		&.vc_column-gap-35{
+			margin-left: -16.5px;
+			margin-right: -16.5px;
+		}
     }
 
     .vc_col-xs-1, .vc_col-sm-1, .vc_col-md-1, .vc_col-lg-1,
@@ -59,6 +103,14 @@ body {
         padding-left: ($grid-gutter-width / 2);
         padding-right: ($grid-gutter-width / 2);
     }
+}
+
+@if $rtl == 1{
+	@media (min-width:1200px){
+		.vc_col-lg-1, .vc_col-lg-2, .vc_col-lg-3, .vc_col-lg-4, .vc_col-lg-5, .vc_col-lg-6, .vc_col-lg-7, .vc_col-lg-8, .vc_col-lg-9, .vc_col-lg-10, .vc_col-lg-11, .vc_col-lg-12 {
+			float: right;
+		}
+	}
 }
 
 /* Visual Composer Buttons */
@@ -375,6 +427,11 @@ body {
     }
 
     @import "buttons";
+}
+
+[dir="rtl"] .vc_btn3-container{
+	&.vc_btn3-left{ text-align:right;}
+	&.vc_btn3-right{ text-align:left;}
 }
 
 /* Visual Composer Alert */

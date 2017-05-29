@@ -408,7 +408,6 @@ ul.products {
 			.price{
 				margin-top: 0.5em;
 				margin-bottom: 0.75em;
-				font-family: "Oswald", "Open Sans", Arial, serif;
 				font-size: 18px;
 				font-weight: $font-weight-normal;
 				ins{ color: #ff0000; }
@@ -752,12 +751,10 @@ ul.products {
 
     li.product:hover {
         .product-image {
-            .labels {
-                .viewcart.added {
-                    display: block;
-                    opacity: 1;
-                }
-            }
+			.viewcart.added {
+				display: block;
+				opacity: 1;
+			}
         }
         .links-on-image {
             .add-links-wrap .add-links {

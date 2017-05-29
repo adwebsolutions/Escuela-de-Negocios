@@ -14,6 +14,7 @@ div.quantity {
     }
     .minus,
     .plus {
+        font-family: arial;
         background: if-light(transparent, $color-dark-3);
         position: absolute;
         #{$left}: 2.8571em;

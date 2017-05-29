@@ -31,7 +31,6 @@ $sub_title = porto_page_sub_title();
                 </div>
             <?php endif; ?>
             <?php
-            porto_woocommerce_product_nav();
             porto_breadcrumbs_filter();
             ?>
         </div>

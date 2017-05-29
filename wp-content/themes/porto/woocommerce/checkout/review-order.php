@@ -14,8 +14,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 <table class="shop_table review-order woocommerce-checkout-review-order-table">
     <thead>
         <tr>
-            <th class="product-name"><?php _e( 'Product', 'woocommerce' ); ?></th>
-            <th class="product-total"><?php _e( 'Total', 'woocommerce' ); ?></th>
+            <th class="product-name"><?php _e( 'Product', 'porto' ); ?></th>
+            <th class="product-total"><?php _e( 'Total', 'porto' ); ?></th>
         </tr>
     </thead>
     <tbody>
@@ -47,7 +47,7 @@ if ( ! defined( 'ABSPATH' ) ) {
     <tfoot>
 
         <tr class="cart-subtotal">
-            <th><?php _e( 'Subtotal', 'woocommerce' ); ?></th>
+            <th><?php _e( 'Subtotal', 'porto' ); ?></th>
             <td><?php echo apply_filters('porto_get_price_html', WC()->cart->get_cart_subtotal()); ?></td>
         </tr>
 

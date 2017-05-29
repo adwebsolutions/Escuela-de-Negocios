@@ -66,5 +66,16 @@ function custom_category_filter(){
     endif;
 }
 add_action ('woocommerce_before_main_content','custom_category_filter',5);
-//remove_action( 'woocommerce_before_shop_loop', 'woocommerce_result_count', 20 );
-//remove_action( 'woocommerce_before_shop_loop', 'woocommerce_catalog_ordering', 30 );
+
+
+//Redirecting after success submit contact form
+function add_this_script_footer(){ ?>
+    <script>
+        document.addEventListener( 'wpcf7mailsent', function( event ) {
+            location = '<?php echo get_site_url();?>/gracias/';
+        }, false );
+    </script>
+
+<?php }
+
+add_action('wp_footer', 'add_this_script_footer');

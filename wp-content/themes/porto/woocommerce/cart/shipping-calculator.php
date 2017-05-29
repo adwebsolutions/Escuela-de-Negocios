@@ -24,7 +24,7 @@ $cart_ver = porto_cart_version();
 	
 	<?php if( 'v1' == $cart_ver ): ?>
 	
-    <p class="m-t-xs m-b-none"><a href="#" class="shipping-calculator-button"><?php _e( 'Calculate Shipping', 'woocommerce' ); ?></a></p>
+    <p class="m-t-xs m-b-none"><a href="#" class="shipping-calculator-button"><?php _e( 'Calculate Shipping', 'porto' ); ?></a></p>
 
 	<?php endif; ?>
 	
@@ -32,7 +32,7 @@ $cart_ver = porto_cart_version();
 
         <p class="form-row form-row-wide" id="calc_shipping_country_field">
             <select name="calc_shipping_country" id="calc_shipping_country" class="country_to_state" rel="calc_shipping_state">
-                <option value=""><?php _e( 'Select a country&hellip;', 'woocommerce' ); ?></option>
+                <option value=""><?php _e( 'Select a country&hellip;', 'porto' ); ?></option>
                 <?php
                     foreach( WC()->countries->get_shipping_countries() as $key => $value )
                         echo '<option value="' . esc_attr( $key ) . '"' . selected( WC()->customer->get_shipping_country(), esc_attr( $key ), false ) . '>' . esc_html( $value ) . '</option>';
@@ -49,17 +49,17 @@ $cart_ver = porto_cart_version();
                 // Hidden Input
                 if ( is_array( $states ) && empty( $states ) ) {
 
-                    ?><input type="hidden" name="calc_shipping_state" id="calc_shipping_state" placeholder="<?php esc_attr_e( 'State / county', 'woocommerce' ); ?>" /><?php
+                    ?><input type="hidden" name="calc_shipping_state" id="calc_shipping_state" placeholder="<?php esc_attr_e( 'State / county', 'porto' ); ?>" /><?php
 
                 // Dropdown Input
                 } elseif ( is_array( $states ) ) {
 
                     ?><span>
-                        <select name="calc_shipping_state" id="calc_shipping_state" placeholder="<?php esc_attr_e( 'State / county', 'woocommerce' ); ?>">
-                            <option value=""><?php _e( 'Select a state&hellip;', 'woocommerce' ); ?></option>
+                        <select name="calc_shipping_state" id="calc_shipping_state" placeholder="<?php esc_attr_e( 'State / county', 'porto' ); ?>">
+                            <option value=""><?php _e( 'Select a state&hellip;', 'porto' ); ?></option>
                             <?php
                                 foreach ( $states as $ckey => $cvalue )
-                                    echo '<option value="' . esc_attr( $ckey ) . '" ' . selected( $current_r, $ckey, false ) . '>' . __( esc_html( $cvalue ), 'woocommerce' ) .'</option>';
+                                    echo '<option value="' . esc_attr( $ckey ) . '" ' . selected( $current_r, $ckey, false ) . '>' . __( esc_html( $cvalue ), 'porto' ) .'</option>';
                             ?>
                         </select>
                     </span><?php
@@ -67,7 +67,7 @@ $cart_ver = porto_cart_version();
                 // Standard Input
                 } else {
 
-                    ?><input type="text" class="input-text" value="<?php echo esc_attr( $current_r ); ?>" placeholder="<?php esc_attr_e( 'State / county', 'woocommerce' ); ?>" name="calc_shipping_state" id="calc_shipping_state" /><?php
+                    ?><input type="text" class="input-text" value="<?php echo esc_attr( $current_r ); ?>" placeholder="<?php esc_attr_e( 'State / county', 'porto' ); ?>" name="calc_shipping_state" id="calc_shipping_state" /><?php
 
                 }
             ?>
@@ -76,7 +76,7 @@ $cart_ver = porto_cart_version();
         <?php if ( apply_filters( 'woocommerce_shipping_calculator_enable_city', false ) ) : ?>
 
             <p class="form-row form-row-wide" id="calc_shipping_city_field">
-                <input type="text" class="input-text" value="<?php echo esc_attr( WC()->customer->get_shipping_city() ); ?>" placeholder="<?php esc_attr_e( 'City', 'woocommerce' ); ?>" name="calc_shipping_city" id="calc_shipping_city" />
+                <input type="text" class="input-text" value="<?php echo esc_attr( WC()->customer->get_shipping_city() ); ?>" placeholder="<?php esc_attr_e( 'City', 'porto' ); ?>" name="calc_shipping_city" id="calc_shipping_city" />
             </p>
 
         <?php endif; ?>
@@ -84,12 +84,12 @@ $cart_ver = porto_cart_version();
         <?php if ( apply_filters( 'woocommerce_shipping_calculator_enable_postcode', true ) ) : ?>
 
             <p class="form-row form-row-wide" id="calc_shipping_postcode_field">
-                <input type="text" class="input-text" value="<?php echo esc_attr( WC()->customer->get_shipping_postcode() ); ?>" placeholder="<?php esc_attr_e( 'Postcode / ZIP', 'woocommerce' ); ?>" name="calc_shipping_postcode" id="calc_shipping_postcode" />
+                <input type="text" class="input-text" value="<?php echo esc_attr( WC()->customer->get_shipping_postcode() ); ?>" placeholder="<?php esc_attr_e( 'Postcode / ZIP', 'porto' ); ?>" name="calc_shipping_postcode" id="calc_shipping_postcode" />
             </p>
 
         <?php endif; ?>
 
-        <p><button type="submit" name="calc_shipping" value="1" class="btn btn-default"><?php _e( 'Update Totals', 'woocommerce' ); ?></button></p>
+        <p><button type="submit" name="calc_shipping" value="1" class="btn btn-default"><?php _e( 'Update Totals', 'porto' ); ?></button></p>
 
         <?php wp_nonce_field( 'woocommerce-cart' ); ?>
     </section>

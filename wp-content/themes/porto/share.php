@@ -18,7 +18,7 @@ $title = esc_attr(get_the_title());
 if (porto_is_ajax() && isset($_GET['action'])) {
     $tooltip = ' data-tooltip';
 } else {
-    $tooltip = ' data-tooltip data-placement="bottom"';
+    $page_share_pos = ( isset($porto_settings['page-share-pos']) && $porto_settings['page-share-pos'] ) ? $porto_settings['page-share-pos'] : '';	$position = '';		if( $page_share_pos ){		if( $page_share_pos == 'left' ){			$position = 'right';			if( is_rtl() ){				$position = 'left';			}		}else{			$position = 'left';			if( is_rtl() ){				$position = 'right';			}		}	}else{		$position = 'bottom';	}		$tooltip = " data-tooltip data-placement='".$position."'";
 }
 
 $extra_attr = 'target="_blank" ' . $nofollow . $tooltip;

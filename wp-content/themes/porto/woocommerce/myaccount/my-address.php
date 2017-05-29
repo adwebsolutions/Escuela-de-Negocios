@@ -20,15 +20,15 @@ if (version_compare($porto_woo_version, '2.6', '>=')) {
 }
 
 if ( ! wc_ship_to_billing_address_only() && $shipping_enabled ) {
-	$page_title = apply_filters( 'woocommerce_my_account_my_address_title', __( 'My Addresses', 'woocommerce' ) );
+	$page_title = apply_filters( 'woocommerce_my_account_my_address_title', __( 'My Addresses', 'porto' ) );
 	$get_addresses    = apply_filters( 'woocommerce_my_account_get_addresses', array(
-		'billing' => __( 'Billing Address', 'woocommerce' ),
-		'shipping' => __( 'Shipping Address', 'woocommerce' )
+		'billing' => __( 'Billing Address', 'porto' ),
+		'shipping' => __( 'Shipping Address', 'porto' )
 	), $customer_id );
 } else {
-	$page_title = apply_filters( 'woocommerce_my_account_my_address_title', __( 'My Address', 'woocommerce' ) );
+	$page_title = apply_filters( 'woocommerce_my_account_my_address_title', __( 'My Address', 'porto' ) );
 	$get_addresses    = apply_filters( 'woocommerce_my_account_get_addresses', array(
-		'billing' =>  __( 'Billing Address', 'woocommerce' )
+		'billing' =>  __( 'Billing Address', 'porto' )
 	), $customer_id );
 }
 
@@ -43,7 +43,7 @@ $col = 1;
 <?php endif; ?>
 
 <p class="myaccount_address m-b-none">
-    <?php echo apply_filters( 'woocommerce_my_account_my_address_description', __( 'The following addresses will be used on the checkout page by default.', 'woocommerce' ) ); ?>
+    <?php echo apply_filters( 'woocommerce_my_account_my_address_description', __( 'The following addresses will be used on the checkout page by default.', 'porto' ) ); ?>
 </p>
 
 <?php if ( ! wc_ship_to_billing_address_only() && $shipping_enabled ) echo '<div class="u-columns woocommerce-Addresses col2-set addresses">'; ?>
@@ -53,7 +53,7 @@ $col = 1;
     <div class="u-column<?php echo ( ( $col = $col * -1 ) < 0 ) ? 1 : 2; ?> col-<?php echo ( ( $oldcol = $oldcol * -1 ) < 0 ) ? 1 : 2; ?> woocommerce-Address address">
         <header class="woocommerce-Address-title title">
             <h3><?php echo $title; ?></h3>
-            <a href="<?php echo esc_url( wc_get_endpoint_url( 'edit-address', $name ) ); ?>" class="edit"><?php _e( 'Edit', 'woocommerce' ); ?></a>
+            <a href="<?php echo esc_url( wc_get_endpoint_url( 'edit-address', $name ) ); ?>" class="edit"><?php _e( 'Edit', 'porto' ); ?></a>
         </header>
         <address>
             <?php
@@ -72,7 +72,7 @@ $col = 1;
                 $formatted_address = WC()->countries->get_formatted_address( $address );
 
                 if ( ! $formatted_address )
-                    _e( 'You have not set up this type of address yet.', 'woocommerce' );
+                    _e( 'You have not set up this type of address yet.', 'porto' );
                 else
                     echo $formatted_address;
             ?>

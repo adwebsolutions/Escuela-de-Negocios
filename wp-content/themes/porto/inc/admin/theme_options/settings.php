@@ -1372,7 +1372,7 @@ if (!class_exists('Redux_Framework_porto_settings')) {
                         'type' => 'spacing',
                         'mode' => 'padding',
                         'title' => __('Padding on Desktop', 'porto'),
-                        'desc' => __('if header type is like 1, 4, 13, 14, 18', 'porto'),
+						'desc' => __('if header type is like 1, 4, 13, 14, 18', 'porto'),
                         'default' => array('padding-top' => 11, 'padding-bottom' => 9, 'padding-left' => 13, 'padding-right' => 13)
                     ),
                     array(
@@ -1380,7 +1380,7 @@ if (!class_exists('Redux_Framework_porto_settings')) {
                         'type' => 'spacing',
                         'mode' => 'padding',
                         'title' => __('Padding on Desktop (width > 991px)', 'porto'),
-                        'desc' => __('if header type is like 1, 4, 13, 14, 18', 'porto'),
+						'desc' => __('if header type is like 1, 4, 13, 14, 18', 'porto'),
                         'default' => array('padding-top' => 9, 'padding-bottom' => 7, 'padding-left' => 10, 'padding-right' => 10)
                     ),
                     array(
@@ -2168,7 +2168,7 @@ if (!class_exists('Redux_Framework_porto_settings')) {
 						'line-height' => false,
                         'default'=> array(
                             'google'=>true,
-                            'font-family'=>'Oswald',
+							'font-family'=>'Open Sans'
                         ),
                     ),
                 )
@@ -2228,6 +2228,16 @@ if (!class_exists('Redux_Framework_porto_settings')) {
                         'type' => 'textarea',
                         'title' => __('Side Navigation Copyright (Header Type: Side)', 'porto'),
                         'default' => sprintf( __('&copy; Copyright %s. All Rights Reserved.', 'porto'), date('Y') )
+                    ),
+					array(
+                        'id' => "header-side-position",
+                        'type' => 'button_set',
+                        'title' => __('Position (Header Type: Side)', 'porto'),
+                        'options' => array(
+                            '' => __('Left', 'porto'),
+                            'right' => __('Right', 'porto'),
+                        ),
+                        'default' => ''
                     ),
                     array(
                         'id'=>'show-header-tooltip',
@@ -2567,6 +2577,15 @@ if (!class_exists('Redux_Framework_porto_settings')) {
                         'on' => __('Yes', 'porto'),
                         'off' => __('No', 'porto'),
                     ),
+					array(
+                        'id'=>'search-sub-cats',
+                        'type' => 'switch',
+                        'title' => __('Show Sub Categories', 'porto'),
+                        'required' => array('search-cats','equals',true),
+                        'default' => true,
+                        'on' => __('Yes', 'porto'),
+                        'off' => __('No', 'porto'),
+                    ),
                 )
             );
             $this->sections[] = array(
@@ -2715,6 +2734,15 @@ if (!class_exists('Redux_Framework_porto_settings')) {
                         'title' => __('Show Register Link', 'porto'),
                         'required' => array('menu-login-pos','equals',array('top_nav', 'main_menu')),
                         'default' => true,
+                        'on' => __('Yes', 'porto'),
+                        'off' => __('No', 'porto'),
+                    ),
+					array(
+                        'id' => "menu-show-login-icon",
+                        'type' => 'switch',
+                        'title' => __('Show Login/Logout Icon', 'porto'),
+                        'required' => array('menu-login-pos','equals',array('top_nav', 'main_menu')),
+                        'default' => false,
                         'on' => __('Yes', 'porto'),
                         'off' => __('No', 'porto'),
                     ),
@@ -3104,6 +3132,17 @@ if (!class_exists('Redux_Framework_porto_settings')) {
                         'default' => false,
                         'on' => __('Yes', 'porto'),
                         'off' => __('No', 'porto'),
+                    ),
+					array(
+                        'id' => "page-share-pos",
+                        'type' => 'button_set',
+                        'title' => __('Position', 'porto'),
+                        'options' => array(
+                            '' => __('Default', 'porto'),
+                            'left' => __('Float Left', 'porto'),
+                            'right' => __('Float Right', 'porto')
+                        ),
+						'required' => array('page-share','equals',true),
                     ),
                     array(
                         'id'=>'page-microdata',
@@ -5109,7 +5148,6 @@ if (!class_exists('Redux_Framework_porto_settings')) {
                             'id'=>'product-nav',
                             'type' => 'switch',
                             'title' => __('Show Prev/Next Product', 'porto'),
-                            'desc' => __('Will be show in breadcrumbs', 'porto'),
                             'default' => true,
                             'on' => __('Yes', 'porto'),
                             'off' => __('No', 'porto'),

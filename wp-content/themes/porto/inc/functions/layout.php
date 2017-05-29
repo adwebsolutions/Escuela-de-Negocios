@@ -2742,7 +2742,9 @@ function porto_top_navigation() {
 
 
 
-            $html .= '<li class="menu-item"><a href="' . $logout_link . '"><i class="avatar">' . get_avatar( get_current_user_id(), $size = '24' ) . '</i>' . __('Log out', 'porto') . '</a></li>';
+            $html .= '<li class="menu-item"><a href="' . $logout_link . '">';
+			$html .= ( isset($porto_settings['menu-show-login-icon']) && $porto_settings['menu-show-login-icon'] ) ? '<i class="avatar">' . get_avatar( get_current_user_id(), $size = '24' ) . '</i>' : '';
+			$html .= __('Log out', 'porto') . '</a></li>';
 
 
 
@@ -2802,7 +2804,9 @@ function porto_top_navigation() {
 
 
 
-            $html .= '<li class="menu-item"><a href="' . $login_link . '"><i class="fa fa-user"></i>' . __('Log in', 'porto') . '</a></li>';
+            $html .= '<li class="menu-item"><a href="' . $login_link . '">';
+			$html .= ( isset($porto_settings['menu-show-login-icon']) && $porto_settings['menu-show-login-icon'] ) ? '<i class="fa fa-user"></i>' : '';
+			$html .= __('Log In', 'porto') . '</a></li>';
 
 
 
@@ -2810,7 +2814,9 @@ function porto_top_navigation() {
 
 
 
-                $html .= '<li class="menu-item"><a href="' . $register_link . '"><i class="fa fa-user-plus"></i>' . __('Register', 'porto') . '</a></li>';
+                $html .= '<li class="menu-item"><a href="' . $register_link . '">';
+				$html .= ( isset($porto_settings['menu-show-login-icon']) && $porto_settings['menu-show-login-icon'] ) ? '<i class="fa fa-user-plus"></i>' : '';
+				$html .= __('Register', 'porto') . '</a></li>';
 
 
 
@@ -2986,7 +2992,9 @@ function porto_mobile_top_navigation() {
 
 
 
-            $html .= '<li class="menu-item"><a href="' . $logout_link . '"><i class="avatar">' . get_avatar( get_current_user_id(), $size = '24' ) . '</i>' . __('Log out', 'porto') . '</a></li>';
+            $html .= '<li class="menu-item"><a href="' . $logout_link . '">';
+			$html .= ( isset($porto_settings['menu-show-login-icon']) && $porto_settings['menu-show-login-icon'] ) ? '<i class="avatar">' . get_avatar( get_current_user_id(), $size = '24' ) . '</i>' : '';
+			$html .= __('Log out', 'porto') . '</a></li>';
 
 
 
@@ -3046,7 +3054,9 @@ function porto_mobile_top_navigation() {
 
 
 
-            $html .= '<li class="menu-item"><a href="' . $login_link . '"><i class="fa fa-user"></i>' . __('Log in', 'porto') . '</a></li>';
+            $html .= '<li class="menu-item"><a href="' . $login_link . '">';
+			$html .= ( isset($porto_settings['menu-show-login-icon']) && $porto_settings['menu-show-login-icon'] ) ? '<i class="fa fa-user"></i>' : '';
+			$html .= __('Log In', 'porto') . '</a></li>';
 
 
 
@@ -3054,7 +3064,9 @@ function porto_mobile_top_navigation() {
 
 
 
-                $html .= '<li class="menu-item"><a href="' . $register_link . '"><i class="fa fa-user-plus"></i>' . __('Register', 'porto') . '</a></li>';
+                $html .= '<li class="menu-item"><a href="' . $register_link . '">';
+				$html .= ( isset($porto_settings['menu-show-login-icon']) && $porto_settings['menu-show-login-icon'] ) ? '<i class="fa fa-user-plus"></i>' : '';
+				$html .= __('Register', 'porto') . '</a></li>';
 
 
 
@@ -3838,7 +3850,9 @@ function porto_main_menu() {
 
 
 
-                $html .= '<li class="' . (is_rtl() ? 'pull-left' : 'pull-right') . '"><div class="menu-custom-block"><a href="' . $logout_link . '"><i class="avatar">' . get_avatar( get_current_user_id(), $size = '24' ) . '</i>' . __('Log out', 'porto') . '</a></div></li>';
+                $html .= '<li class="' . (is_rtl() ? 'pull-left' : 'pull-right') . '"><div class="menu-custom-block"><a href="' . $logout_link . '">';
+				$html .= ( isset($porto_settings['menu-show-login-icon']) && $porto_settings['menu-show-login-icon'] ) ? '<i class="avatar">' . get_avatar( get_current_user_id(), $size = '24' ) . '</i>' : '';
+				$html .= __('Log out', 'porto') . '</a></div></li>';
 
 
 
@@ -3846,7 +3860,9 @@ function porto_main_menu() {
 
 
 
-                $html .= '<li class="menu-item"><a href="' . $logout_link . '"><i class="avatar">' . get_avatar( get_current_user_id(), $size = '24' ) . '</i>' . __('Log out', 'porto') . '</a></li>';
+                $html .= '<li class="menu-item"><a href="' . $logout_link . '">';
+				$html .= ( isset($porto_settings['menu-show-login-icon']) && $porto_settings['menu-show-login-icon'] ) ? '<i class="avatar">' . get_avatar( get_current_user_id(), $size = '24' ) . '</i>' : '';
+				$html .= __('Log out', 'porto') . '</a></li>';
 
 
 
@@ -3918,7 +3934,9 @@ function porto_main_menu() {
 
 
 
-                    $html .= '<li class="' . (is_rtl() ? 'pull-left' : 'pull-right') . '"><div class="menu-custom-block"><a href="' . $register_link . '"><i class="fa fa-user-plus"></i>' . __('Register', 'porto') . '</a></div></li>';
+                    $html .= '<li class="' . (is_rtl() ? 'pull-left' : 'pull-right') . '"><div class="menu-custom-block"><a href="' . $register_link . '">';
+					$html .= ( isset($porto_settings['menu-show-login-icon']) && $porto_settings['menu-show-login-icon'] ) ? '<i class="fa fa-user-plus"></i>' : '';
+					$html .= __('Register', 'porto') . '</a></div></li>';
 
 
 
@@ -3926,7 +3944,9 @@ function porto_main_menu() {
 
 
 
-                $html .= '<li class="' . (is_rtl() ? 'pull-left' : 'pull-right') . '"><div class="menu-custom-block"><a href="' . $login_link . '"><i class="fa fa-user"></i>' . __('Log in', 'porto') . '</a></div></li>';
+                $html .= '<li class="' . (is_rtl() ? 'pull-left' : 'pull-right') . '"><div class="menu-custom-block"><a href="' . $login_link . '">';
+				$html .= ( isset($porto_settings['menu-show-login-icon']) && $porto_settings['menu-show-login-icon'] ) ? '<i class="fa fa-user"></i>' : '';
+				$html .= __('Log In', 'porto') . '</a></div></li>';
 
 
 
@@ -3934,7 +3954,9 @@ function porto_main_menu() {
 
 
 
-                $html .= '<li class="menu-item"><a href="' . $login_link . '"><i class="fa fa-user"></i>' . __('Log in', 'porto') . '</a></li>';
+                $html .= '<li class="menu-item"><a href="' . $login_link . '">';
+				$html .= ( isset($porto_settings['menu-show-login-icon']) && $porto_settings['menu-show-login-icon'] ) ? '<i class="fa fa-user"></i>' : '';
+				$html .= __('Log In', 'porto') . '</a></li>';
 
 
 
@@ -3942,7 +3964,9 @@ function porto_main_menu() {
 
 
 
-                    $html .= '<li class="menu-item"><a href="' . $register_link . '"><i class="fa fa-user-plus"></i>' . __('Register', 'porto') . '</a></li>';
+                    $html .= '<li class="menu-item"><a href="' . $register_link . '">';
+					$html .= ( isset($porto_settings['menu-show-login-icon']) && $porto_settings['menu-show-login-icon'] ) ? '<i class="fa fa-user-plus"></i>' : '';
+					$html .= __('Register', 'porto') . '</a></li>';
 
 
 
@@ -4850,7 +4874,9 @@ function porto_header_side_menu() {
 
 
 
-            $html .= '<li class="menu-item"><a href="' . $logout_link . '"><i class="avatar">' . get_avatar( get_current_user_id(), $size = '24' ) . '</i>' . __('Log out', 'porto') . '</a></li>';
+            $html .= '<li class="menu-item"><a href="' . $logout_link . '">';
+			$html .= ( isset($porto_settings['menu-show-login-icon']) && $porto_settings['menu-show-login-icon'] ) ? '<i class="avatar">' . get_avatar( get_current_user_id(), $size = '24' ) . '</i>' : '';
+			$html .= __('Log out', 'porto') . '</a></li>';
 
 
 
@@ -4910,7 +4936,9 @@ function porto_header_side_menu() {
 
 
 
-            $html .= '<li class="menu-item"><a href="' . $login_link . '"><i class="fa fa-user"></i>' . __('Log in', 'porto') . '</a></li>';
+            $html .= '<li class="menu-item"><a href="' . $login_link . '">';
+			$html .= ( isset($porto_settings['menu-show-login-icon']) && $porto_settings['menu-show-login-icon'] ) ? '<i class="fa fa-user"></i>' : '';
+			$html .= __('Log In', 'porto') . '</a></li>';
 
 
 
@@ -4918,7 +4946,9 @@ function porto_header_side_menu() {
 
 
 
-                $html .= '<li class="menu-item"><a href="' . $register_link . '"><i class="fa fa-user-plus"></i>' . __('Register', 'porto') . '</a></li>';
+                $html .= '<li class="menu-item"><a href="' . $register_link . '">';
+				$html .= ( isset($porto_settings['menu-show-login-icon']) && $porto_settings['menu-show-login-icon'] ) ? '<i class="fa fa-user-plus"></i>' : '';
+				$html .= __('Register', 'porto') . '</a></li>';
 
 
 
@@ -5886,7 +5916,9 @@ function porto_sidebar_menu() {
 
 
 
-                $html .= '<li class="menu-item"><a href="' . $logout_link . '"><i class="avatar">' . get_avatar( get_current_user_id(), $size = '24' ) . '</i>' . __('Log out', 'porto') . '</a></li>';
+                $html .= '<li class="menu-item"><a href="' . $logout_link . '">';
+				$html .= ( isset($porto_settings['menu-show-login-icon']) && $porto_settings['menu-show-login-icon'] ) ? '<i class="avatar">' . get_avatar( get_current_user_id(), $size = '24' ) . '</i>' : '';
+				$html .= __('Log out', 'porto') . '</a></li>';
 
 
 
@@ -5946,7 +5978,9 @@ function porto_sidebar_menu() {
 
 
 
-                $html .= '<li class="menu-item"><a href="' . $login_link . '"><i class="fa fa-user"></i>' . __('Log in', 'porto') . '</a></li>';
+                $html .= '<li class="menu-item"><a href="' . $login_link . '">';
+				$html .= ( isset($porto_settings['menu-show-login-icon']) && $porto_settings['menu-show-login-icon'] ) ? '<i class="fa fa-user"></i>' : '';
+				$html .= __('Log In', 'porto') . '</a></li>';
 
 
 
@@ -5954,7 +5988,9 @@ function porto_sidebar_menu() {
 
 
 
-                    $html .= '<li class="menu-item"><a href="' . $register_link . '"><i class="fa fa-user-plus"></i>' . __('Register', 'porto') . '</a></li>';
+                    $html .= '<li class="menu-item"><a href="' . $register_link . '">';
+					$html .= ( isset($porto_settings['menu-show-login-icon']) && $porto_settings['menu-show-login-icon'] ) ? '<i class="fa fa-user-plus"></i>' : '';
+					$html .= __('Register', 'porto') . '</a></li>';
 
 
 
@@ -6262,7 +6298,9 @@ function porto_mobile_menu() {
 
 
 
-            $html .= '<li class="menu-item"><a href="' . $logout_link . '"><i class="avatar">' . get_avatar( get_current_user_id(), $size = '24' ) . '</i>' . __('Log out', 'porto') . '</a></li>';
+            $html .= '<li class="menu-item"><a href="' . $logout_link . '">';
+			$html .= ( isset($porto_settings['menu-show-login-icon']) && $porto_settings['menu-show-login-icon'] ) ? '<i class="avatar">' . get_avatar( get_current_user_id(), $size = '24' ) . '</i>' : '';
+			$html .= __('Log out', 'porto') . '</a></li>';
 
 
 
@@ -6322,7 +6360,9 @@ function porto_mobile_menu() {
 
 
 
-            $html .= '<li class="menu-item"><a href="' . $login_link . '"><i class="fa fa-user"></i>' . __('Log in', 'porto') . '</a></li>';
+            $html .= '<li class="menu-item"><a href="' . $login_link . '">';
+			$html .= ( isset($porto_settings['menu-show-login-icon']) && $porto_settings['menu-show-login-icon'] ) ? '<i class="fa fa-user"></i>' : '';
+			$html .= __('Log In', 'porto') . '</a></li>';
 
 
 
@@ -6330,7 +6370,9 @@ function porto_mobile_menu() {
 
 
 
-                $html .= '<li class="menu-item"><a href="' . $register_link . '"><i class="fa fa-user-plus"></i>' . __('Register', 'porto') . '</a></li>';
+                $html .= '<li class="menu-item"><a href="' . $register_link . '">';
+				$html .= ( isset($porto_settings['menu-show-login-icon']) && $porto_settings['menu-show-login-icon'] ) ? '<i class="fa fa-user-plus"></i>' : '';
+				$html .= __('Register', 'porto') . '</a></li>';
 
 
 
@@ -6720,11 +6762,7 @@ function porto_search_form_content() {
 
                         'show_option_all' => __( 'All Categories', 'porto' ),
 
-
-
-                        'hierarchical' => 1,
-
-
+						'hierarchical' => 1,
 
                         'class' => 'cat',
 
@@ -6776,6 +6814,12 @@ function porto_search_form_content() {
 
                     }
 
+					
+					if( isset( $porto_settings['search-sub-cats'] ) && ! $porto_settings['search-sub-cats'] ) {
+						
+						$args['depth'] = 1;	
+					
+					}
 
 
                     wp_dropdown_categories($args);
@@ -7276,8 +7320,6 @@ function porto_minicart() {
 
                 <?php else :
 
-
-
                     $_cartQty = $woocommerce->cart->cart_contents_count;
 
 
@@ -7286,15 +7328,9 @@ function porto_minicart() {
 
 
 
-                    <span class="cart-items"><?php echo ($minicart_type == 'minicart-inline')
-
-
-
-                            ? '<span class="mobile-hide">' . sprintf( _n( '%d item', '%d items', $_cartQty, 'porto' ), $_cartQty ) . '</span><span class="mobile-show">' . $_cartQty . '</span>'
-
-
-
-                            : (($_cartQty > 0) ? $_cartQty : '0'); ?></span>
+                    <span class="cart-items">
+					
+					<?php echo ($minicart_type == 'minicart-inline') ? '<span class="mobile-hide">' . sprintf( _n( '%d item', '%d items', $_cartQty, 'porto' ), $_cartQty ) . '</span><span class="mobile-show">' . $_cartQty . '</span>' : (($_cartQty > 0) ? $_cartQty : '0'); ?></span>
 
 
 
@@ -7418,7 +7454,8 @@ function porto_get_minicart_type() {
 
 
 
-    return apply_filters('porto_get_minicart_type', ($header_type == 'side' || $header_type >= 10) ? 'minicart-inline' : $porto_settings['minicart-type']);
+    //return apply_filters('porto_get_minicart_type', ($header_type == 'side' || $header_type >= 10) ? 'minicart-inline' : $porto_settings['minicart-type']);
+	return apply_filters('porto_get_minicart_type', $porto_settings['minicart-type']);
 
 
 

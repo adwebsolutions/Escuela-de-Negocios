@@ -24,7 +24,7 @@ add_action( 'wp_ajax_porto_import_options', 'porto_import_options' );
 
 function porto_extra_demos() {
 
-    return array('digital-agency', 'law-firm', 'construction', 'restaurant', 'hotel', 'medical', 'wedding', 'photography1', 'photography2', 'photography3','business-consulting','gym','event','resume','church','finance','agency-onepage');
+    return array('digital-agency', 'law-firm', 'construction', 'restaurant', 'hotel', 'medical', 'wedding', 'photography1', 'photography2', 'photography3','business-consulting','gym','event','resume','church','finance','agency-onepage','app-landing');
 
 }
 
@@ -458,7 +458,7 @@ function porto_import_dummy() {
 
             $homepage = get_page_by_title( 'Home' );
 
-            if ($demo == 'law-firm') {
+            if ($demo == 'law-firm' || 'finance') {
 
                 $posts_page = get_page_by_title( 'News' );
 
@@ -796,7 +796,7 @@ function porto_import_widget_data( $widget_data ) {
 
     foreach ( $widget_data as $widget_data_title => $widget_data_value ) {
 
-        $widgets[ $widget_data_title ] = '';
+        $widgets[ $widget_data_title ] = array();
 
         foreach( $widget_data_value as $widget_data_key => $widget_data_array ) {
 

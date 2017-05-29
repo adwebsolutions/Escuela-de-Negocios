@@ -1966,8 +1966,8 @@
 	"add-to-cart-font":{
 
         "google":true,
-
-        "font-family":"Oswald"
+		
+		"font-family":"Open Sans"
 
     },
 

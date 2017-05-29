@@ -10,14 +10,10 @@
  *
 
 
- * @version     1.6.4
+ * @version     3.0.0
 
 
  */
-
-
-
-
 
 if ( ! defined( 'ABSPATH' ) ) {
 
@@ -27,15 +23,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 }
 
-
-
-
-
 ?>
-
-
-
-
 
 <?php
 
@@ -57,10 +45,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 	 do_action( 'woocommerce_before_single_product' );
 
-
-
-
-
 	 if ( post_password_required() ) {
 
 
@@ -72,15 +56,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 	 }
 
-
-
-
-
 global $porto_layout;
-
-
-
-
 
 $post_class = join( ' ', get_post_class() );
 
@@ -102,14 +78,8 @@ if ($porto_layout === 'widewidth' || $porto_layout === 'wide-left-sidebar' || $p
 
 ?>
 
-
-
 <!-- woocommerce_get_product_schema DEPRECATED with NO altertative in 3.0.0 -->
 <div itemscope itemtype="<?php //echo woocommerce_get_product_schema(); ?>" id="product-<?php the_ID(); ?>" class="<?php echo $post_class ?>">
-
-
-
-
 
     <div class="product-summary-wrap">
 
@@ -148,10 +118,6 @@ if ($porto_layout === 'widewidth' || $porto_layout === 'wide-left-sidebar' || $p
 
 
             </div>
-
-
-
-
 
             <div class="col-md-6 summary entry-summary">
 
@@ -207,10 +173,6 @@ if ($porto_layout === 'widewidth' || $porto_layout === 'wide-left-sidebar' || $p
 
     </div><!-- .summary -->
 
-
-
-
-
 	<?php
 
 
@@ -240,21 +202,9 @@ if ($porto_layout === 'widewidth' || $porto_layout === 'wide-left-sidebar' || $p
 
 	?>
 
-
-
-
-
 	<meta itemprop="url" content="<?php the_permalink(); ?>" />
 
-
-
-
-
 </div><!-- #product-<?php the_ID(); ?> -->
-
-
-
-
 
 <?php do_action( 'woocommerce_after_single_product' ); ?>
 

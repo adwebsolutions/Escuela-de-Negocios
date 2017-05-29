@@ -47,11 +47,11 @@ if ( ! (version_compare($porto_woo_version, '2.5', '<') ? WC()->cart->coupons_en
 						<form class="checkout_coupon" method="post" style="display:none">
 
 							<p class="form-row form-row-first">
-								<input type="text" name="coupon_code" class="input-text" placeholder="<?php esc_attr_e( 'Coupon code', 'woocommerce' ); ?>" id="coupon_code" value="" />
+								<input type="text" name="coupon_code" class="input-text" placeholder="<?php esc_attr_e( 'Coupon code', 'porto' ); ?>" id="coupon_code" value="" />
 							</p>
 
 							<p class="form-row form-row-last">
-								<input type="submit" class="btn btn-default" name="apply_coupon" value="<?php esc_attr_e( 'Apply Coupon', 'woocommerce' ); ?>" />
+								<input type="submit" class="btn btn-default" name="apply_coupon" value="<?php esc_attr_e( 'Apply Coupon', 'porto' ); ?>" />
 							</p>
 
 							<div class="clear"></div>

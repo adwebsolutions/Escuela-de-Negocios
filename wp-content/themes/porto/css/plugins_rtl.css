@@ -1,18 +1,18 @@
 @charset "UTF-8";
-/*****************************************************************//*
- /*** 00. Minicart Icon
- /*** 01. Config Variables
- /*** 02. FontAwesome Icon
- /*** 03. Elusive Icon
- /*** 04. Owl Carousel
- /*** 05. Easy Responsive Tabs
- /*** 06. jQuery Srollbar
- /*** 07. jQuery Fancybox
- /*** 08. Circle Flip Slideshow
- /*** 09. Simple Line Icons
- /*** 10. Magnific Popup
- /*** 11. jQuery Selectric
- /*
+/*****************************************************************//*
+ /*** 00. Minicart Icon
+ /*** 01. Config Variables
+ /*** 02. FontAwesome Icon
+ /*** 03. Elusive Icon
+ /*** 04. Owl Carousel
+ /*** 05. Easy Responsive Tabs
+ /*** 06. jQuery Srollbar
+ /*** 07. jQuery Fancybox
+ /*** 08. Circle Flip Slideshow
+ /*** 09. Simple Line Icons
+ /*** 10. Magnific Popup
+ /*** 11. jQuery Selectric
+ /*
  /*****************************************************************/@font-face {
     font-family: "minicart-font";
     src: url('../fonts/minicart-font/minicart-font.eot?v=1.0');
@@ -34,10 +34,10 @@
 .minicart-icon:before {
     content: "\e800";
 }
-/*!
- *  Font Awesome 4.6.2 by @davegandy - http://fontawesome.io - @fontawesome
- *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
- *//* FONT PATH
+/*!
+ *  Font Awesome 4.6.2 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ *//* FONT PATH
  * -------------------------- */@font-face {
     font-family: 'FontAwesome';
     src: url('../fonts/fontawesome/fontawesome-webfont.eot?v=4.6.3');
@@ -205,7 +205,7 @@
 .fa-inverse {
     color: #fff;
 }
-/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
  readers do not read off random characters that represent icons */.fa-glass:before {
     content: "\f000";
 }
@@ -2126,10 +2126,10 @@
     overflow: visible;
     clip: auto;
 }
-/*!
- *  Elusive Icons 2.0.0 by @ReduxFramework - http://elusiveicons.com - @reduxframework
- *  License - http://elusiveicons.com/license (Font: SIL OFL 1.1, CSS: MIT License)
- *//* FONT PATH
+/*!
+ *  Elusive Icons 2.0.0 by @ReduxFramework - http://elusiveicons.com - @reduxframework
+ *  License - http://elusiveicons.com/license (Font: SIL OFL 1.1, CSS: MIT License)
+ *//* FONT PATH
  * -------------------------- */@font-face {
     font-family: 'Elusive-Icons';
     src: url('../fonts/elusive/elusiveicons-webfont.eot?v=2.0.0');
@@ -2286,7 +2286,7 @@
 .el-inverse {
     color: #fff;
 }
-/* Elusive Icons uses the Unicode Private Use Area (PUA) to ensure screen
+/* Elusive Icons uses the Unicode Private Use Area (PUA) to ensure screen
  readers do not read off random characters that represent icons */.el-address-book-alt:before {
     content: "\f101";
 }
@@ -3199,8 +3199,8 @@
 .el-zoom-out:before {
     content: "\f230";
 }
-/* 
- *  Owl Carousel - Animate Plugin
+/* 
+ *  Owl Carousel - Animate Plugin
  */.owl-carousel .animated {
     -webkit-animation-duration: 1000ms;
     animation-duration: 1000ms;
@@ -3233,8 +3233,8 @@
         opacity: 0;
     }
 }
-/* 
- * 	Owl Carousel - Auto Height Plugin
+/* 
+ * 	Owl Carousel - Auto Height Plugin
  */.owl-height {
     -webkit-transition: height 500ms ease-in-out;
     -moz-transition: height 500ms ease-in-out;
@@ -3242,8 +3242,8 @@
     -o-transition: height 500ms ease-in-out;
     transition: height 500ms ease-in-out;
 }
-/* 
- *  Core Owl Carousel CSS File
+/* 
+ *  Core Owl Carousel CSS File
  */.owl-carousel {
     display: none;
     width: 100%;
@@ -3332,8 +3332,8 @@
 /* No Js */.no-js .owl-carousel {
     display: block;
 }
-/* 
- * 	Owl Carousel - Lazy Load Plugin
+/* 
+ * 	Owl Carousel - Lazy Load Plugin
  */.owl-carousel .owl-item .owl-lazy {
     opacity: 0;
     -webkit-transition: opacity 400ms ease;
@@ -3345,8 +3345,8 @@
 .owl-carousel .owl-item img {
     -webkit-transform-style: preserve-3d;
 }
-/* 
- * 	Owl Carousel - Video Plugin
+/* 
+ * 	Owl Carousel - Video Plugin
  */.owl-carousel .owl-video-wrapper {
     position: relative;
     height: 100%;
@@ -3401,8 +3401,8 @@
     height: 100%;
     width: 100%;
 }
-/* 
- * 	Default theme - Owl Carousel CSS File
+/* 
+ * 	Default theme - Owl Carousel CSS File
  */.owl-carousel .owl-nav {
     margin-top: 10px;
     text-align: center;
@@ -4528,6 +4528,44 @@ html.ie12 .scroll-wrapper > .scroll-content {
         /*The size of the normal image, half the size of the hi-res image*/
     }
 }
+/* Shop Single Page fancybox*/.fancybox-overlay .page-top {
+    display: none;
+}
+.fancybox-overlay .star-rating {
+    margin-top: 4px;
+}
+a.fancybox-close {
+    background: transparent;
+    transition: all 0.2s;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    top: 0;
+    right: 0;
+    font-size: 15px;
+}
+a.fancybox-close:before {
+    content: "\e82c";
+    font-family: "porto";
+}
+a.fancybox-close:hover {
+    text-decoration: none;
+    opacity: 0.65;
+    filter: alpha(opacity=65);
+}
+a.fancybox-close.fancybox-newsletter-close {
+    top: 10px;
+    right: 10px;
+}
+.fancybox-wrap .woocommerce-product-rating {
+    margin-top: 20px;
+}
+.fancybox-wrap .product_title a:hover {
+    color: #555;
+}
+.fancybox-skin {
+    background: #fff none repeat scroll 0 0;
+}
 .fc-slideshow {
     position: relative;
     width: 338px;
@@ -5609,8 +5647,8 @@ button::-moz-focus-inner {
 .mfp-gallery .mfp-image-holder .mfp-figure {
     cursor: pointer;
 }
-/**
- * Remove all paddings around the image on small screen
+/**
+ * Remove all paddings around the image on small screen
  */@media screen and (max-width: 800px) and (orientation: landscape), screen and (max-height: 300px) {
     .mfp-img-mobile .mfp-image-holder {
         padding-right: 0;

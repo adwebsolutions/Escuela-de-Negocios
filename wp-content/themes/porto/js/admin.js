@@ -848,6 +848,6 @@ jQuery(function($) {
             showImportMessage(demo, 'Finished! Please visit your site.');
             setTimeout(removeAlertLeavePage, 3000);
         }, 3000);
-    }
+    }		if ( jQuery( 'body' ).hasClass( 'porto_page_porto-plugins' ) ) {		var $confirm;		jQuery( '.porto-install-plugins .theme-actions .button-primary.disabled' ).on( 'click', function( e ) {			e.preventDefault();			$confirm = window.alert( 'ERROR:\n\nThis plugin can only be installed or updated, after you have successfully completed the Porto Registration on the "Registration" tab.' );		});	}
 });
 

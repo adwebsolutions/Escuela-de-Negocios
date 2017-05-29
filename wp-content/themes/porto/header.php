@@ -104,7 +104,7 @@ if ('no' !== $loading_overlay && ('yes' === $loading_overlay || ('yes' !== $load
     do_action('porto_before_wrapper');
     ?>
 
-    <div class="page-wrapper<?php if ($header_type == 'side') echo ' side-nav' ?>"><!-- page wrapper -->
+    <div class="page-wrapper<?php if ($header_type == 'side') echo ' side-nav' ?><?php if (isset($porto_settings['header-side-position']) && $porto_settings['header-side-position'] ) echo ' side-nav-right' ?>"><!-- page wrapper -->
 
         <?php
         if ($porto_banner_pos == 'before_header') {

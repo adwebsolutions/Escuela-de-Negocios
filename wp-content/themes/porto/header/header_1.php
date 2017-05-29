@@ -112,11 +112,9 @@ global $porto_settings, $porto_layout;
                 <?php if ($porto_settings['show-sticky-searchform'] || $porto_settings['show-sticky-minicart']) : ?>
                     <div class="menu-right">
                         <?php
-                        // show search form
-                        echo porto_search_form();
+                        // show search form						if($porto_settings['show-sticky-searchform'])                        echo porto_search_form();
 
-                        // show mini cart
-                        echo porto_minicart();
+                        // show mini cart						if($porto_settings['show-sticky-minicart'])                        echo porto_minicart();
                         ?>
                     </div>
                 <?php endif; ?>

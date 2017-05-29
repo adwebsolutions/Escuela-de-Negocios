@@ -58,7 +58,7 @@ if ( is_array( $settings ) && ! empty( $settings ) ) {
 if ( isset( $google_fonts_data['values']['font_family'] ) ) {
     wp_enqueue_style( 'vc_google_fonts_' . vc_build_safe_css_class( $google_fonts_data['values']['font_family'] ), '//fonts.googleapis.com/css?family=' . $google_fonts_data['values']['font_family'] . $subsets );
 }
-
+$text_align_left = "text-align: left";$text_align_right = "text-align: right";if( in_array($text_align_left, $styles) ){	$css_class .= ' align-left';	$key = array_search($text_align_left, $styles);	unset($styles[$key]);}else if( in_array($text_align_right, $styles) ){	$css_class .= ' align-right';	$key = array_search($text_align_right, $styles);	unset($styles[$key]);}
 if ( ! empty( $styles ) ) {
     $style = 'style="' . esc_attr( implode( ';', $styles ) ) . '"';
 } else {

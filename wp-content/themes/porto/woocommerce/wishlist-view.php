@@ -22,7 +22,7 @@
                 <?php if( $wishlist_meta['is_default'] != 1 && $is_user_owner ): ?>
                     <a class="btn button show-title-form">
                         <?php echo apply_filters( 'yith_wcwl_edit_title_icon', '<i class="fa fa-pencil"></i>' )?>
-                        <?php _e( 'Edit title', 'yith-woocommerce-wishlist' ) ?>
+                        <?php _e( 'Edit title', 'porto' ) ?>
                     </a>
                 <?php endif; ?>
             </div>
@@ -31,11 +31,11 @@
                     <input type="text" value="<?php echo $page_title ?>" name="wishlist_name"/>
                     <button>
                         <?php echo apply_filters( 'yith_wcwl_save_wishlist_title_icon', '<i class="fa fa-check"></i>' )?>
-                        <?php _e( 'Save', 'yith-woocommerce-wishlist' )?>
+                        <?php _e( 'Save', 'porto' )?>
                     </button>
                     <a class="hide-title-form btn button">
                         <?php echo apply_filters( 'yith_wcwl_cancel_wishlist_title_icon', '<i class="fa fa-remove"></i>' )?>
-                        <?php _e( 'Cancel', 'yith-woocommerce-wishlist' )?>
+                        <?php _e( 'Cancel', 'porto' )?>
                     </a>
                 </div>
             <?php endif; ?>
@@ -55,13 +55,13 @@
                 <th class="product-thumbnail"></th>
 
                 <th class="product-name">
-                    <span class="nobr"><?php echo apply_filters( 'yith_wcwl_wishlist_view_name_heading', __( 'Product Name', 'yith-woocommerce-wishlist' ) ) ?></span>
+                    <span class="nobr"><?php echo apply_filters( 'yith_wcwl_wishlist_view_name_heading', __( 'Product Name', 'porto' ) ) ?></span>
                 </th>
 
                 <?php if( $show_price ) : ?>
                     <th class="product-price">
                         <span class="nobr">
-                            <?php echo apply_filters( 'yith_wcwl_wishlist_view_price_heading', __( 'Unit Price', 'yith-woocommerce-wishlist' ) ) ?>
+                            <?php echo apply_filters( 'yith_wcwl_wishlist_view_price_heading', __( 'Unit Price', 'porto' ) ) ?>
                         </span>
                     </th>
                 <?php endif ?>
@@ -69,7 +69,7 @@
                 <?php if( $show_stock_status ) : ?>
                     <th class="product-stock-stauts">
                         <span class="nobr">
-                            <?php echo apply_filters( 'yith_wcwl_wishlist_view_stock_heading', __( 'Stock Status', 'yith-woocommerce-wishlist' ) ) ?>
+                            <?php echo apply_filters( 'yith_wcwl_wishlist_view_stock_heading', __( 'Stock Status', 'porto' ) ) ?>
                         </span>
                     </th>
                 <?php endif ?>
@@ -106,7 +106,7 @@
                             <?php if( $is_user_owner ): ?>
                             <td class="product-remove">
                                 <div>
-                                    <a href="<?php echo esc_url( add_query_arg( 'remove_from_wishlist', $item['prod_id'] ) ) ?>" class="btn-arrow remove remove_from_wishlist" title="<?php _e( 'Remove this product', 'yith-woocommerce-wishlist' ) ?>">&times;</a>
+                                    <a href="<?php echo esc_url( add_query_arg( 'remove_from_wishlist', $item['prod_id'] ) ) ?>" class="btn-arrow remove remove_from_wishlist" title="<?php _e( 'Remove this product', 'porto' ) ?>">&times;</a>
                                 </div>
                             </td>
                             <?php endif; ?>
@@ -124,18 +124,18 @@
                             <?php if( $show_price ) : ?>
                                 <td class="product-price">
                                     <?php
-                                    if( $product->price != '0' ) {
+                                    if( $product->get_price() != '0' ) {
                                         $wc_price = function_exists('wc_price') ? 'wc_price' : 'woocommerce_price';
 
                                         if( $price_excl_tax ) {
-                                            echo apply_filters( 'woocommerce_cart_item_price_html', $wc_price( $product->get_price_excluding_tax() ), $item, '' );
+                                            echo apply_filters( 'woocommerce_cart_item_price_html', $wc_price( wc_get_price_excluding_tax($product) ), $item, '' );
                                         }
                                         else {
                                             echo apply_filters( 'woocommerce_cart_item_price_html', $wc_price( $product->get_price() ), $item, '' );
                                         }
                                     }
                                     else {
-                                        echo apply_filters( 'yith_free_text', __( 'Free!', 'yith-woocommerce-wishlist' ) );
+                                        echo apply_filters( 'yith_free_text', __( 'Free!', 'porto' ) );
                                     }
                                     ?>
                                 </td>
@@ -146,10 +146,10 @@
                                     <?php
                                     if( $stock_status == 'out-of-stock' ) {
                                         $stock_status = "Out";
-                                        echo '<span class="wishlist-out-of-stock">' . __( 'Out of Stock', 'yith-woocommerce-wishlist' ) . '</span>';
+                                        echo '<span class="wishlist-out-of-stock">' . __( 'Out of Stock', 'porto' ) . '</span>';
                                     } else {
                                         $stock_status = "In";
-                                        echo '<span class="wishlist-in-stock">' . __( 'In Stock', 'yith-woocommerce-wishlist' ) . '</span>';
+                                        echo '<span class="wishlist-in-stock">' . __( 'In Stock', 'porto' ) . '</span>';
                                     }
                                     ?>
                                 </td>
@@ -168,7 +168,7 @@
                                                     'quantity' => 1,
                                                     'class'    => implode( ' ', array_filter( array(
                                                         'button',
-                                                        'product_type_' . $product->product_type,
+                                                        'product_type_' . $product->get_type(),
                                                         $product->is_purchasable() && $product->is_in_stock() ? 'add_to_cart_button' : '',
                                                         $product->supports( 'ajax_add_to_cart' ) ? 'ajax_add_to_cart' : ''
                                                     ) ) )
@@ -191,7 +191,7 @@
                 endforeach;
             else: ?>
                 <tr class="pagination-row">
-                    <td colspan="6" class="wishlist-empty"><?php _e( 'No products were added to the wishlist', 'yith-woocommerce-wishlist' ) ?></td>
+                    <td colspan="6" class="wishlist-empty"><?php _e( 'No products were added to the wishlist', 'porto' ) ?></td>
                 </tr>
             <?php
             endif;
@@ -217,7 +217,7 @@
                         <td colspan="<?php echo ( $is_user_owner && $wishlist_meta['wishlist_privacy'] != 2 && $share_enabled ) ? 2 : 6 ?>">
                             <a href="<?php echo $ask_estimate_url ?>" class="btn button ask-an-estimate-button">
                                 <?php echo apply_filters( 'yith_wcwl_ask_an_estimate_icon', '<i class="fa fa-shopping-cart"></i>' )?>
-                                <?php _e( 'Ask for an estimate', 'yith-woocommerce-wishlist' ) ?>
+                                <?php _e( 'Ask for an estimate', 'porto' ) ?>
                             </a>
                         </td>
                     <?php

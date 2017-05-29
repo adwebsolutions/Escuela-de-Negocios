@@ -45,7 +45,7 @@ $get_checkout_url = version_compare($porto_woo_version, '2.5', '<') ? apply_filt
 
     <div class="checkout-order-review featured-box align-left">
         <div class="box-content">
-            <h3 id="order_review_heading"><?php _e( 'Your order', 'woocommerce' ); ?></h3>
+            <h3 id="order_review_heading"><?php _e( 'Your order', 'porto' ); ?></h3>
 
             <?php do_action( 'woocommerce_checkout_before_order_review' ); ?>
 

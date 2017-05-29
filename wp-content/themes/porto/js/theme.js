@@ -3952,9 +3952,16 @@ function portoCalcSliderTitleLine($parent) {
                         } else {
                             flag = false;
                         }
+						if( $('.page-wrapper').hasClass('side-nav-right') ){
+							if( this.rtl ){
+								flag = false;
+							}else{
+								flag = true;
+							}
+						}
                     }
                 }
-
+				
                 return flag;
             },
 

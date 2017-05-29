@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Porto\n"
-"POT-Creation-Date: 2017-05-11 15:39-0400\n"
-"PO-Revision-Date: 2017-05-11 15:42-0400\n"
+"POT-Creation-Date: 2017-05-27 17:13-0400\n"
+"PO-Revision-Date: 2017-05-28 10:51-0400\n"
 "Last-Translator: \n"
 "Language-Team: porto <porto@example.com>\n"
 "Language: es_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.1\n"
+"X-Generator: Poedit 2.0.2\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
@@ -37,11 +37,11 @@ msgid "Apologies, but no results were found for the requested archive."
 msgstr "Lo sentimos, pero no se encontraron resultados."
 
 #: archive-faq.php:85 archive-member.php:101 archive-portfolio.php:199
-#: inc/functions/layout.php:8357 inc/functions/layout.php:8385
-#: inc/functions/layout.php:8609 inc/functions/layout.php:8637
-#: inc/functions/layout.php:8841 inc/functions/layout.php:8869
-#: inc/functions/layout.php:9069 inc/functions/layout.php:9097
-#: inc/functions/layout.php:9321 inc/functions/layout.php:9349
+#: inc/functions/layout.php:8394 inc/functions/layout.php:8422
+#: inc/functions/layout.php:8646 inc/functions/layout.php:8674
+#: inc/functions/layout.php:8878 inc/functions/layout.php:8906
+#: inc/functions/layout.php:9106 inc/functions/layout.php:9134
+#: inc/functions/layout.php:9358 inc/functions/layout.php:9386
 #: taxonomy-faq_cat.php:83 taxonomy-portfolio_cat.php:109
 #, fuzzy
 msgid "Show All"
@@ -99,8 +99,8 @@ msgstr ""
 msgctxt "comments title"
 msgid "Comment (1)"
 msgid_plural "Comments (%1$s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Comentario (1)"
+msgstr[1] "Comentarios (%1$s)"
 
 #: comments.php:53
 #, fuzzy
@@ -121,7 +121,6 @@ msgstr "Los comentarios están cerrados."
 #: content-portfolio-medium.php:451 content-post-full-alt.php:124
 #: content-post-full.php:115 content-post-large-alt.php:140
 #: content-post-large.php:136 content-post-medium.php:81
-#, fuzzy
 msgid "Pages:"
 msgstr "Páginas:"
 
@@ -139,28 +138,27 @@ msgstr "Páginas:"
 #: content-portfolio-medium.php:459 content-post-full-alt.php:128
 #: content-post-full.php:119 content-post-large-alt.php:144
 #: content-post-large.php:140 content-post-medium.php:85
-#: inc/admin/theme_options/settings.php:3082
-#, fuzzy
+#: inc/admin/theme_options/settings.php:3110
 msgid "Page"
 msgstr "Página"
 
 #: content-archive-member.php:103 content-member-item.php:84
-#: content-member.php:36 inc/admin/theme_options/settings.php:2350
-#: inc/content_types/member.php:84 inc/functions/layout.php:6869 share.php:27
+#: content-member.php:36 inc/admin/theme_options/settings.php:2360
+#: inc/content_types/member.php:84 inc/functions/layout.php:6913 share.php:27
 #, fuzzy
 msgid "Facebook"
 msgstr "Facebook"
 
 #: content-archive-member.php:107 content-member-item.php:87
-#: content-member.php:39 inc/admin/theme_options/settings.php:2356
-#: inc/content_types/member.php:90 inc/functions/layout.php:6885 share.php:31
+#: content-member.php:39 inc/admin/theme_options/settings.php:2366
+#: inc/content_types/member.php:90 inc/functions/layout.php:6929 share.php:31
 #, fuzzy
 msgid "Twitter"
 msgstr "Twitter"
 
 #: content-archive-member.php:111 content-member-item.php:90
-#: content-member.php:42 inc/admin/theme_options/settings.php:2392
-#: inc/content_types/member.php:96 inc/functions/layout.php:6981 share.php:35
+#: content-member.php:42 inc/admin/theme_options/settings.php:2402
+#: inc/content_types/member.php:96 inc/functions/layout.php:7025 share.php:35
 #, fuzzy
 msgid "LinkedIn"
 msgstr "LinkedIn"
@@ -172,8 +170,8 @@ msgid "Google +"
 msgstr "Google +"
 
 #: content-archive-member.php:119 content-member-item.php:96
-#: content-member.php:48 inc/admin/theme_options/settings.php:2368
-#: inc/content_types/member.php:108 inc/functions/layout.php:6917 share.php:43
+#: content-member.php:48 inc/admin/theme_options/settings.php:2378
+#: inc/content_types/member.php:108 inc/functions/layout.php:6961 share.php:43
 #, fuzzy
 msgid "Pinterest"
 msgstr "Pinterest"
@@ -186,63 +184,63 @@ msgid "Email"
 msgstr "Email"
 
 #: content-archive-member.php:127 content-member-item.php:102
-#: content-member.php:54 inc/admin/theme_options/settings.php:2404
-#: inc/content_types/member.php:120 inc/functions/layout.php:7013 share.php:51
+#: content-member.php:54 inc/admin/theme_options/settings.php:2414
+#: inc/content_types/member.php:120 inc/functions/layout.php:7057 share.php:51
 #, fuzzy
 msgid "VK"
 msgstr "VK"
 
 #: content-archive-member.php:131 content-member-item.php:105
-#: content-member.php:57 inc/admin/theme_options/settings.php:2410
-#: inc/content_types/member.php:126 inc/functions/layout.php:7029 share.php:55
+#: content-member.php:57 inc/admin/theme_options/settings.php:2420
+#: inc/content_types/member.php:126 inc/functions/layout.php:7073 share.php:55
 #, fuzzy
 msgid "Xing"
 msgstr "Xing"
 
 #: content-archive-member.php:135 content-member-item.php:108
-#: content-member.php:60 inc/admin/theme_options/settings.php:2416
-#: inc/content_types/member.php:132 inc/functions/layout.php:7045 share.php:59
+#: content-member.php:60 inc/admin/theme_options/settings.php:2426
+#: inc/content_types/member.php:132 inc/functions/layout.php:7089 share.php:59
 #, fuzzy
 msgid "Tumblr"
 msgstr "Tumblr"
 
 #: content-archive-member.php:139 content-member-item.php:111
-#: content-member.php:63 inc/admin/theme_options/settings.php:2422
-#: inc/content_types/member.php:138 inc/functions/layout.php:7061 share.php:63
+#: content-member.php:63 inc/admin/theme_options/settings.php:2432
+#: inc/content_types/member.php:138 inc/functions/layout.php:7105 share.php:63
 #, fuzzy
 msgid "Reddit"
 msgstr "Reddit"
 
 #: content-archive-member.php:143 content-member-item.php:114
-#: content-member.php:66 inc/admin/theme_options/settings.php:2428
-#: inc/content_types/member.php:144 inc/functions/layout.php:7077
+#: content-member.php:66 inc/admin/theme_options/settings.php:2438
+#: inc/content_types/member.php:144 inc/functions/layout.php:7121
 #, fuzzy
 msgid "Vimeo"
 msgstr "Vimeo"
 
 #: content-archive-member.php:147 content-member-item.php:117
-#: content-member.php:69 inc/admin/theme_options/settings.php:2380
-#: inc/content_types/member.php:150 inc/functions/layout.php:6949
+#: content-member.php:69 inc/admin/theme_options/settings.php:2390
+#: inc/content_types/member.php:150 inc/functions/layout.php:6993
 #, fuzzy
 msgid "Instagram"
 msgstr "Instragram"
 
 #: content-archive-member.php:151 content-member-item.php:120
-#: content-member.php:72 inc/admin/theme_options/settings.php:2452
-#: inc/content_types/member.php:156 inc/functions/layout.php:7141 share.php:67
+#: content-member.php:72 inc/admin/theme_options/settings.php:2462
+#: inc/content_types/member.php:156 inc/functions/layout.php:7185 share.php:67
 #, fuzzy
 msgid "WhatsApp"
 msgstr "WhatsApp"
 
 #: content-archive-member.php:203 content-member-item.php:166
-#: inc/admin/theme_options/settings.php:4596
+#: inc/admin/theme_options/settings.php:4635
 #, fuzzy
 msgid "View More..."
 msgstr "Ver Más..."
 
 #: content-archive-member.php:249 content-member-item.php:212
 msgid "..."
-msgstr ""
+msgstr "..."
 
 #: content-archive-portfolio-full.php:212
 #: content-archive-portfolio-large.php:220
@@ -258,8 +256,8 @@ msgstr "Aprender Más"
 #: content-portfolio-full-video.php:395 content-portfolio-full.php:572
 #: content-portfolio-gallery.php:401 content-portfolio-large.php:547
 #: content-portfolio-masonry.php:413 content-portfolio-medias.php:397
-#: content-portfolio-medium.php:527 inc/admin/theme_options/settings.php:3730
-#: inc/admin/theme_options/settings.php:3748
+#: content-portfolio-medium.php:527 inc/admin/theme_options/settings.php:3769
+#: inc/admin/theme_options/settings.php:3787
 #, fuzzy
 msgid "Skills"
 msgstr "Habilidades"
@@ -271,8 +269,8 @@ msgstr "Habilidades"
 #: content-portfolio-full-video.php:417 content-portfolio-full.php:608
 #: content-portfolio-gallery.php:437 content-portfolio-large.php:569
 #: content-portfolio-masonry.php:435 content-portfolio-medias.php:419
-#: content-portfolio-medium.php:549 inc/admin/theme_options/settings.php:3731
-#: inc/admin/theme_options/settings.php:3749
+#: content-portfolio-medium.php:549 inc/admin/theme_options/settings.php:3770
+#: inc/admin/theme_options/settings.php:3788
 #: inc/content_types/portfolio.php:161
 #, fuzzy
 msgid "Location"
@@ -285,14 +283,14 @@ msgstr "Ubicación"
 #: content-portfolio-full-video.php:431 content-portfolio-full.php:622
 #: content-portfolio-gallery.php:451 content-portfolio-large.php:583
 #: content-portfolio-masonry.php:449 content-portfolio-medias.php:433
-#: content-portfolio-medium.php:563 inc/admin/theme_options/settings.php:3732
+#: content-portfolio-medium.php:563 inc/admin/theme_options/settings.php:3771
 #, fuzzy
 msgid "Client"
 msgstr "Cliente"
 
 #: content-archive-portfolio-grid.php:240
 #: content-archive-portfolio-masonry.php:222 content-portfolio-item.php:88
-#: inc/admin/theme_options/settings.php:3964
+#: inc/admin/theme_options/settings.php:4003
 #, fuzzy
 msgid "View Project..."
 msgstr "Ver Proyecto..."
@@ -336,7 +334,7 @@ msgstr "1 Comentario"
 #: content-post-item-no-image.php:83 content-post-item-no-image.php:126
 #: content-post-item.php:83 content-post-item.php:163 content-post-item.php:218
 #: content-post-large-alt.php:120 content-post-large.php:121
-#: content-post-medium.php:110 inc/admin/theme_options/settings.php:3159
+#: content-post-medium.php:110 inc/admin/theme_options/settings.php:3198
 #, fuzzy
 msgid "Comments"
 msgstr "Comentarios"
@@ -349,24 +347,20 @@ msgid "Read more..."
 msgstr "Leer Más..."
 
 #: content-blog-medium-alt.php:11
-#, fuzzy
 msgid "Posted By "
-msgstr "Publicado Por"
+msgstr "Publicado Por "
 
 #: content-blog-medium-alt.php:11 content-post-full-alt.php:85
-#, fuzzy
 msgid "Category: "
-msgstr "Categoría:"
+msgstr "Categoría: "
 
 #: content-blog-medium-alt.php:11 content-post-full-alt.php:91
-#, fuzzy
 msgid "Tags: "
-msgstr "Etiquetas:"
+msgstr "Etiquetas: "
 
 #: content-blog-medium-alt.php:11 content-post-full-alt.php:96
-#, fuzzy
 msgid "Comments: "
-msgstr "Comentarios:"
+msgstr "Comentarios: "
 
 #: content-blog-medium-alt.php:11 inc/content_types/portfolio.php:291
 #: inc/content_types/post.php:178
@@ -380,9 +374,8 @@ msgid "1"
 msgstr "1"
 
 #: content-blog-medium-alt.php:11 content-post-full-alt.php:110
-#, fuzzy
 msgid "Post Date: "
-msgstr "Fecha de la Entrada:"
+msgstr "Fecha de la Entrada: "
 
 #: content-blog-medium-alt.php:120
 #, fuzzy
@@ -423,7 +416,7 @@ msgstr "Volver al listado"
 #: content-portfolio-full.php:78 content-portfolio-gallery.php:71
 #: content-portfolio-large.php:73 content-portfolio-masonry.php:73
 #: content-portfolio-medias.php:71 content-portfolio-medium.php:73
-#: functions.php:435 woocommerce/myaccount/orders.php:98
+#: functions.php:377 woocommerce/myaccount/orders.php:98
 #, fuzzy
 msgid "Previous"
 msgstr "Anterior"
@@ -433,7 +426,7 @@ msgstr "Anterior"
 #: content-portfolio-full.php:80 content-portfolio-gallery.php:73
 #: content-portfolio-large.php:75 content-portfolio-masonry.php:75
 #: content-portfolio-medias.php:73 content-portfolio-medium.php:75
-#: functions.php:436 woocommerce/myaccount/orders.php:102
+#: functions.php:378 woocommerce/myaccount/orders.php:101
 #, fuzzy
 msgid "Next"
 msgstr "Siguiente"
@@ -498,8 +491,8 @@ msgstr "<strong>Trabajos </strong> Relacionados"
 #: content-post-large-alt.php:174 content-post-large-alt.php:176
 #: content-post-large.php:170 content-post-large.php:172
 #: content-post-medium.php:138 content-post-medium.php:140
-#: inc/admin/theme_options/settings.php:3156
-#: inc/admin/theme_options/settings.php:3733
+#: inc/admin/theme_options/settings.php:3195
+#: inc/admin/theme_options/settings.php:3772
 #, fuzzy
 msgid "Author"
 msgstr "Autor"
@@ -513,13 +506,12 @@ msgstr "Galería de Proyecto"
 #, php-format
 msgid "%d photo"
 msgid_plural "%d photos"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d foto"
+msgstr[1] "%d fotos"
 
 #: content-post-full-alt.php:77
-#, fuzzy
 msgid "Posted by: "
-msgstr "Publicado por:"
+msgstr "Publicado por: "
 
 #: content-post-full-alt.php:97
 #, php-format
@@ -552,59 +544,58 @@ msgstr "Por"
 msgid "Read More"
 msgstr "Leer Más"
 
-#: functions.php:111 inc/admin/theme_options/settings.php:1212
+#: functions.php:109 inc/admin/theme_options/settings.php:1212
 #: inc/functions/content_type/meta_fields.php:109
 #, fuzzy
 msgid "Main Menu"
 msgstr "Menú Principal"
 
-#: functions.php:112 inc/functions/content_type/meta_fields.php:117
+#: functions.php:110 inc/functions/content_type/meta_fields.php:117
 #, fuzzy
 msgid "Sidebar Menu"
 msgstr "Barra Lateral"
 
-#: functions.php:113
+#: functions.php:111
 msgid "Top Navigation"
 msgstr ""
 
-#: functions.php:114
+#: functions.php:112
 #, fuzzy
 msgid "View Switcher"
 msgstr "Ver Cambiador"
 
-#: functions.php:115
-#, fuzzy
+#: functions.php:113
 msgid "Currency Switcher"
-msgstr "Cambiador Monedas "
+msgstr "Cambiador Monedas"
 
-#: functions.php:431
+#: functions.php:373
 #, fuzzy
 msgid "%curr% of %total%"
 msgstr "%curr% de %total%"
 
-#: functions.php:432
+#: functions.php:374
 #, fuzzy
 msgid "<a href=\"%url%\">The image</a> could not be loaded."
 msgstr "<a href=\"%url%\">La imagen</a> no se pudo cargar."
 
-#: functions.php:433
+#: functions.php:375
 #, fuzzy
 msgid "<a href=\"%url%\">The content</a> could not be loaded."
 msgstr "<a href=\"%url%\">El contenido</a> no se pudo cargar."
 
-#: functions.php:434
+#: functions.php:376
 #, fuzzy
 msgid "Close"
 msgstr "Cerrar"
 
-#: functions.php:437
+#: functions.php:379
 #, fuzzy
 msgid "The requested content cannot be loaded.<br/>Please try again later."
 msgstr ""
 "El contenido solicitado no pudo ser cargado.<br/>Por favor, intente más "
 "tarde."
 
-#: functions.php:475
+#: functions.php:417
 #, fuzzy
 msgid ""
 "If you want to import demo, please backup current theme options in "
@@ -618,10 +609,10 @@ msgstr ""
 msgid "Logout"
 msgstr "Salir"
 
-#: header/header_9.php:146 inc/functions/layout.php:2813
-#: inc/functions/layout.php:3057 inc/functions/layout.php:3921
-#: inc/functions/layout.php:3945 inc/functions/layout.php:4921
-#: inc/functions/layout.php:5957 inc/functions/layout.php:6333
+#: header/header_9.php:146 inc/functions/layout.php:2819
+#: inc/functions/layout.php:3069 inc/functions/layout.php:3939
+#: inc/functions/layout.php:3969 inc/functions/layout.php:4951
+#: inc/functions/layout.php:5993 inc/functions/layout.php:6375
 #: woocommerce/myaccount/form-register.php:17
 #: woocommerce/myaccount/form-register.php:60
 #, fuzzy
@@ -631,9 +622,8 @@ msgstr "Registrarse"
 #: header/header_9.php:148 woocommerce/checkout/form-login.php:29
 #: woocommerce/global/form-login.php:39 woocommerce/myaccount/form-login.php:38
 #: woocommerce/myaccount/form-login.php:59
-#, fuzzy
 msgid "Login"
-msgstr "Entrar"
+msgstr "Iniciar Sesión"
 
 #: inc/admin/ReduxCore/inc/extensions/custom_fonts/custom_fonts/field_custom_fonts.php:110
 #: inc/admin/ReduxCore/inc/extensions/custom_fonts/custom_fonts/field_custom_fonts.php:117
@@ -646,56 +636,66 @@ msgstr "Agregar Tipografía"
 msgid "No Custom Fonts Found"
 msgstr "No se encontró Tipografía Personalizada"
 
-#: inc/admin/admin.php:19 inc/admin/admin.php:99
-#: inc/admin/admin_pages/install-demos.php:21
+#: inc/admin/admin.php:1 inc/admin/admin_pages/install-demos.php:20
+#: inc/admin/admin_pages/porto-plugins.php:70
+#: inc/admin/admin_pages/porto-registration.php:1
+#: inc/admin/admin_pages/system-status.php:14
+#: inc/admin/admin_pages/welcome.php:15
+#, fuzzy
+msgid "Registration"
+msgstr "Registrarse"
+
+#: inc/admin/admin.php:1 inc/admin/admin_pages/install-demos.php:21
 #: inc/admin/admin_pages/porto-plugins.php:71
+#: inc/admin/admin_pages/porto-registration.php:1
 #: inc/admin/admin_pages/system-status.php:15
 #: inc/admin/admin_pages/welcome.php:15
 #, fuzzy
 msgid "System Status"
 msgstr "Estado del Sistema"
 
-#: inc/admin/admin.php:20 inc/admin/admin.php:100
-#: inc/admin/admin_pages/install-demos.php:22
+#: inc/admin/admin.php:1 inc/admin/admin_pages/install-demos.php:22
 #: inc/admin/admin_pages/porto-plugins.php:72
+#: inc/admin/admin_pages/porto-registration.php:1
 #: inc/admin/admin_pages/system-status.php:16
 #: inc/admin/admin_pages/welcome.php:16
 #, fuzzy
 msgid "Plugins"
 msgstr "Complementos"
 
-#: inc/admin/admin.php:21 inc/admin/admin.php:101
-#: inc/admin/admin_pages/install-demos.php:23
+#: inc/admin/admin.php:1 inc/admin/admin_pages/install-demos.php:23
 #: inc/admin/admin_pages/porto-plugins.php:73
+#: inc/admin/admin_pages/porto-registration.php:1
 #: inc/admin/admin_pages/system-status.php:17
 #: inc/admin/admin_pages/welcome.php:17
 #, fuzzy
 msgid "Install Demos"
 msgstr "Instalar Demos"
 
-#: inc/admin/admin.php:22 inc/admin/admin.php:102
-#: inc/admin/admin_pages/install-demos.php:24
+#: inc/admin/admin.php:1 inc/admin/admin_pages/install-demos.php:24
 #: inc/admin/admin_pages/porto-plugins.php:74
+#: inc/admin/admin_pages/porto-registration.php:1
 #: inc/admin/admin_pages/system-status.php:18
 #: inc/admin/admin_pages/welcome.php:18
-#: inc/admin/theme_options/settings.php:5986
-#: inc/admin/theme_options/settings.php:5990
-#: inc/admin/theme_options/settings.php:5991
-#: inc/admin/theme_options/settings.php:5992
+#: inc/admin/theme_options/settings.php:6024
+#: inc/admin/theme_options/settings.php:6028
+#: inc/admin/theme_options/settings.php:6029
+#: inc/admin/theme_options/settings.php:6030
 #, fuzzy
 msgid "Theme Options"
 msgstr "Opciones del Tema"
 
-#: inc/admin/admin.php:98 inc/admin/admin_pages/install-demos.php:20
-#: inc/admin/admin_pages/porto-plugins.php:70
-#: inc/admin/admin_pages/system-status.php:14
-#: inc/admin/admin_pages/welcome.php:14
-#, fuzzy
-msgid "Welcome"
-msgstr "Bienvenido"
+#: inc/admin/admin.php:1
+#, php-format
+msgid ""
+"It seems, you have updated your theme so please go to <a href=\"%s\">Theme "
+"Options</a> under \"Skin > Compile Default CSS\" and Compile CSS Files and "
+"Save Changes after Compiling Successfully."
+msgstr ""
 
 #: inc/admin/admin_pages/install-demos.php:15
 #: inc/admin/admin_pages/porto-plugins.php:65
+#: inc/admin/admin_pages/porto-registration.php:1
 #: inc/admin/admin_pages/system-status.php:9
 #: inc/admin/admin_pages/welcome.php:9
 #, fuzzy
@@ -704,6 +704,7 @@ msgstr "¡Bienvenido a Porto!"
 
 #: inc/admin/admin_pages/install-demos.php:16
 #: inc/admin/admin_pages/porto-plugins.php:66
+#: inc/admin/admin_pages/porto-registration.php:1
 #: inc/admin/admin_pages/system-status.php:10
 #: inc/admin/admin_pages/welcome.php:10
 #, fuzzy
@@ -716,6 +717,7 @@ msgstr ""
 
 #: inc/admin/admin_pages/install-demos.php:17
 #: inc/admin/admin_pages/porto-plugins.php:67
+#: inc/admin/admin_pages/porto-registration.php:1
 #: inc/admin/admin_pages/system-status.php:11
 #: inc/admin/admin_pages/welcome.php:11
 #: inc/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2688
@@ -723,7 +725,16 @@ msgstr ""
 msgid "Version"
 msgstr "Versión"
 
-#: inc/admin/admin_pages/install-demos.php:28
+#: inc/admin/admin_pages/install-demos.php:20
+#: inc/admin/admin_pages/porto-plugins.php:70
+#: inc/admin/admin_pages/porto-registration.php:1
+#: inc/admin/admin_pages/system-status.php:14
+#: inc/admin/admin_pages/welcome.php:14
+#, fuzzy
+msgid "Welcome"
+msgstr "Bienvenido"
+
+#: inc/admin/admin_pages/install-demos.php:27
 msgid ""
 "Installing a demo provides pages, posts, menus, images, theme options, "
 "widgets and more. IMPORTANT: The included plugins need to be installed and "
@@ -732,50 +743,50 @@ msgid ""
 "Settings that need attention will be listed in red."
 msgstr ""
 
-#: inc/admin/admin_pages/install-demos.php:31
+#: inc/admin/admin_pages/install-demos.php:27
 #, fuzzy
 msgid "Install Options"
 msgstr "Instalar Opciones"
 
-#: inc/admin/admin_pages/install-demos.php:32
+#: inc/admin/admin_pages/install-demos.php:27
 #, fuzzy
 msgid "Import theme options"
 msgstr "Importar Opciones del Tema"
 
-#: inc/admin/admin_pages/install-demos.php:34
+#: inc/admin/admin_pages/install-demos.php:27
 #, fuzzy
 msgid "Reset menus"
 msgstr "Reiniciar Menu"
 
-#: inc/admin/admin_pages/install-demos.php:35
+#: inc/admin/admin_pages/install-demos.php:27
 #, fuzzy
 msgid "Reset widgets"
 msgstr "Reiniciar Widgets"
 
-#: inc/admin/admin_pages/install-demos.php:36
+#: inc/admin/admin_pages/install-demos.php:27
 #, fuzzy
 msgid "Import dummy content"
 msgstr "Importar contenido"
 
-#: inc/admin/admin_pages/install-demos.php:37
+#: inc/admin/admin_pages/install-demos.php:27
 #, fuzzy
 msgid "Import widgets"
 msgstr "Importar widgets"
 
-#: inc/admin/admin_pages/install-demos.php:38
+#: inc/admin/admin_pages/install-demos.php:27
 msgid "Import icons for ultimate addons plugin"
 msgstr ""
 
-#: inc/admin/admin_pages/install-demos.php:39
+#: inc/admin/admin_pages/install-demos.php:27
 msgid "Import shortcode pages"
 msgstr ""
 
-#: inc/admin/admin_pages/install-demos.php:40
+#: inc/admin/admin_pages/install-demos.php:27
 #, fuzzy
 msgid "Do you want to install demo? It can also take a minute to complete."
 msgstr "¿Quieres instalar el demo? Puede tomar unos minutos para terminar."
 
-#: inc/admin/admin_pages/install-demos.php:41
+#: inc/admin/admin_pages/install-demos.php:27
 #: inc/admin/theme_options/settings.php:147
 #: inc/admin/theme_options/settings.php:155
 #: inc/admin/theme_options/settings.php:164
@@ -802,163 +813,165 @@ msgstr "¿Quieres instalar el demo? Puede tomar unos minutos para terminar."
 #: inc/admin/theme_options/settings.php:1791
 #: inc/admin/theme_options/settings.php:2203
 #: inc/admin/theme_options/settings.php:2211
-#: inc/admin/theme_options/settings.php:2237
-#: inc/admin/theme_options/settings.php:2274
-#: inc/admin/theme_options/settings.php:2295
-#: inc/admin/theme_options/settings.php:2335
-#: inc/admin/theme_options/settings.php:2344
-#: inc/admin/theme_options/settings.php:2467
-#: inc/admin/theme_options/settings.php:2533
-#: inc/admin/theme_options/settings.php:2567
-#: inc/admin/theme_options/settings.php:2582
-#: inc/admin/theme_options/settings.php:2591
-#: inc/admin/theme_options/settings.php:2600
-#: inc/admin/theme_options/settings.php:2625
-#: inc/admin/theme_options/settings.php:2634
-#: inc/admin/theme_options/settings.php:2643
-#: inc/admin/theme_options/settings.php:2652
-#: inc/admin/theme_options/settings.php:2687
-#: inc/admin/theme_options/settings.php:2718
-#: inc/admin/theme_options/settings.php:2771
-#: inc/admin/theme_options/settings.php:2786
-#: inc/admin/theme_options/settings.php:2795
-#: inc/admin/theme_options/settings.php:2815
-#: inc/admin/theme_options/settings.php:2844
-#: inc/admin/theme_options/settings.php:2854
-#: inc/admin/theme_options/settings.php:2863
-#: inc/admin/theme_options/settings.php:2871
-#: inc/admin/theme_options/settings.php:2886
-#: inc/admin/theme_options/settings.php:2895
-#: inc/admin/theme_options/settings.php:2904
-#: inc/admin/theme_options/settings.php:2979
-#: inc/admin/theme_options/settings.php:3012
-#: inc/admin/theme_options/settings.php:3041
-#: inc/admin/theme_options/settings.php:3089
-#: inc/admin/theme_options/settings.php:3105
-#: inc/admin/theme_options/settings.php:3129
-#: inc/admin/theme_options/settings.php:3193
-#: inc/admin/theme_options/settings.php:3229
-#: inc/admin/theme_options/settings.php:3250
-#: inc/admin/theme_options/settings.php:3259
-#: inc/admin/theme_options/settings.php:3279
-#: inc/admin/theme_options/settings.php:3406
+#: inc/admin/theme_options/settings.php:2247
+#: inc/admin/theme_options/settings.php:2284
+#: inc/admin/theme_options/settings.php:2305
+#: inc/admin/theme_options/settings.php:2345
+#: inc/admin/theme_options/settings.php:2354
+#: inc/admin/theme_options/settings.php:2477
+#: inc/admin/theme_options/settings.php:2543
+#: inc/admin/theme_options/settings.php:2577
+#: inc/admin/theme_options/settings.php:2586
+#: inc/admin/theme_options/settings.php:2601
+#: inc/admin/theme_options/settings.php:2610
+#: inc/admin/theme_options/settings.php:2619
+#: inc/admin/theme_options/settings.php:2644
+#: inc/admin/theme_options/settings.php:2653
+#: inc/admin/theme_options/settings.php:2662
+#: inc/admin/theme_options/settings.php:2671
+#: inc/admin/theme_options/settings.php:2706
+#: inc/admin/theme_options/settings.php:2737
+#: inc/admin/theme_options/settings.php:2746
+#: inc/admin/theme_options/settings.php:2799
+#: inc/admin/theme_options/settings.php:2814
+#: inc/admin/theme_options/settings.php:2823
+#: inc/admin/theme_options/settings.php:2843
+#: inc/admin/theme_options/settings.php:2872
+#: inc/admin/theme_options/settings.php:2882
+#: inc/admin/theme_options/settings.php:2891
+#: inc/admin/theme_options/settings.php:2899
+#: inc/admin/theme_options/settings.php:2914
+#: inc/admin/theme_options/settings.php:2923
+#: inc/admin/theme_options/settings.php:2932
+#: inc/admin/theme_options/settings.php:3007
+#: inc/admin/theme_options/settings.php:3040
+#: inc/admin/theme_options/settings.php:3069
+#: inc/admin/theme_options/settings.php:3117
+#: inc/admin/theme_options/settings.php:3133
+#: inc/admin/theme_options/settings.php:3168
+#: inc/admin/theme_options/settings.php:3232
+#: inc/admin/theme_options/settings.php:3268
+#: inc/admin/theme_options/settings.php:3289
+#: inc/admin/theme_options/settings.php:3298
+#: inc/admin/theme_options/settings.php:3318
 #: inc/admin/theme_options/settings.php:3445
-#: inc/admin/theme_options/settings.php:3453
-#: inc/admin/theme_options/settings.php:3461
-#: inc/admin/theme_options/settings.php:3481
-#: inc/admin/theme_options/settings.php:3489
-#: inc/admin/theme_options/settings.php:3497
-#: inc/admin/theme_options/settings.php:3542
-#: inc/admin/theme_options/settings.php:3788
-#: inc/admin/theme_options/settings.php:3796
-#: inc/admin/theme_options/settings.php:3805
-#: inc/admin/theme_options/settings.php:3820
-#: inc/admin/theme_options/settings.php:3956
-#: inc/admin/theme_options/settings.php:3971
-#: inc/admin/theme_options/settings.php:3991
-#: inc/admin/theme_options/settings.php:4000
-#: inc/admin/theme_options/settings.php:4016
-#: inc/admin/theme_options/settings.php:4025
-#: inc/admin/theme_options/settings.php:4034
-#: inc/admin/theme_options/settings.php:4071
-#: inc/admin/theme_options/settings.php:4086
-#: inc/admin/theme_options/settings.php:4094
-#: inc/admin/theme_options/settings.php:4138
-#: inc/admin/theme_options/settings.php:4146
-#: inc/admin/theme_options/settings.php:4154
-#: inc/admin/theme_options/settings.php:4162
-#: inc/admin/theme_options/settings.php:4258
-#: inc/admin/theme_options/settings.php:4341
-#: inc/admin/theme_options/settings.php:4351
+#: inc/admin/theme_options/settings.php:3484
+#: inc/admin/theme_options/settings.php:3492
+#: inc/admin/theme_options/settings.php:3500
+#: inc/admin/theme_options/settings.php:3520
+#: inc/admin/theme_options/settings.php:3528
+#: inc/admin/theme_options/settings.php:3536
+#: inc/admin/theme_options/settings.php:3581
+#: inc/admin/theme_options/settings.php:3827
+#: inc/admin/theme_options/settings.php:3835
+#: inc/admin/theme_options/settings.php:3844
+#: inc/admin/theme_options/settings.php:3859
+#: inc/admin/theme_options/settings.php:3995
+#: inc/admin/theme_options/settings.php:4010
+#: inc/admin/theme_options/settings.php:4030
+#: inc/admin/theme_options/settings.php:4039
+#: inc/admin/theme_options/settings.php:4055
+#: inc/admin/theme_options/settings.php:4064
+#: inc/admin/theme_options/settings.php:4073
+#: inc/admin/theme_options/settings.php:4110
+#: inc/admin/theme_options/settings.php:4125
+#: inc/admin/theme_options/settings.php:4133
+#: inc/admin/theme_options/settings.php:4177
+#: inc/admin/theme_options/settings.php:4185
+#: inc/admin/theme_options/settings.php:4193
+#: inc/admin/theme_options/settings.php:4201
+#: inc/admin/theme_options/settings.php:4297
 #: inc/admin/theme_options/settings.php:4380
-#: inc/admin/theme_options/settings.php:4446
-#: inc/admin/theme_options/settings.php:4487
-#: inc/admin/theme_options/settings.php:4495
-#: inc/admin/theme_options/settings.php:4505
-#: inc/admin/theme_options/settings.php:4513
-#: inc/admin/theme_options/settings.php:4588
-#: inc/admin/theme_options/settings.php:4603
-#: inc/admin/theme_options/settings.php:4611
-#: inc/admin/theme_options/settings.php:4620
-#: inc/admin/theme_options/settings.php:4636
-#: inc/admin/theme_options/settings.php:4685
-#: inc/admin/theme_options/settings.php:4699
-#: inc/admin/theme_options/settings.php:4743
-#: inc/admin/theme_options/settings.php:4870
-#: inc/admin/theme_options/settings.php:4878
-#: inc/admin/theme_options/settings.php:4930
-#: inc/admin/theme_options/settings.php:4952
-#: inc/admin/theme_options/settings.php:4960
-#: inc/admin/theme_options/settings.php:5006
-#: inc/admin/theme_options/settings.php:5014
-#: inc/admin/theme_options/settings.php:5028
-#: inc/admin/theme_options/settings.php:5060
-#: inc/admin/theme_options/settings.php:5068
-#: inc/admin/theme_options/settings.php:5076
-#: inc/admin/theme_options/settings.php:5105
-#: inc/admin/theme_options/settings.php:5114
-#: inc/admin/theme_options/settings.php:5122
-#: inc/admin/theme_options/settings.php:5190
-#: inc/admin/theme_options/settings.php:5213
-#: inc/admin/theme_options/settings.php:5237
-#: inc/admin/theme_options/settings.php:5252
-#: inc/admin/theme_options/settings.php:5268
-#: inc/admin/theme_options/settings.php:5276
-#: inc/admin/theme_options/settings.php:5291
+#: inc/admin/theme_options/settings.php:4390
+#: inc/admin/theme_options/settings.php:4419
+#: inc/admin/theme_options/settings.php:4485
+#: inc/admin/theme_options/settings.php:4526
+#: inc/admin/theme_options/settings.php:4534
+#: inc/admin/theme_options/settings.php:4544
+#: inc/admin/theme_options/settings.php:4552
+#: inc/admin/theme_options/settings.php:4627
+#: inc/admin/theme_options/settings.php:4642
+#: inc/admin/theme_options/settings.php:4650
+#: inc/admin/theme_options/settings.php:4659
+#: inc/admin/theme_options/settings.php:4675
+#: inc/admin/theme_options/settings.php:4724
+#: inc/admin/theme_options/settings.php:4738
+#: inc/admin/theme_options/settings.php:4782
+#: inc/admin/theme_options/settings.php:4909
+#: inc/admin/theme_options/settings.php:4917
+#: inc/admin/theme_options/settings.php:4969
+#: inc/admin/theme_options/settings.php:4991
+#: inc/admin/theme_options/settings.php:4999
+#: inc/admin/theme_options/settings.php:5045
+#: inc/admin/theme_options/settings.php:5053
+#: inc/admin/theme_options/settings.php:5067
+#: inc/admin/theme_options/settings.php:5099
+#: inc/admin/theme_options/settings.php:5107
+#: inc/admin/theme_options/settings.php:5115
+#: inc/admin/theme_options/settings.php:5144
+#: inc/admin/theme_options/settings.php:5152
+#: inc/admin/theme_options/settings.php:5160
+#: inc/admin/theme_options/settings.php:5228
+#: inc/admin/theme_options/settings.php:5251
+#: inc/admin/theme_options/settings.php:5275
+#: inc/admin/theme_options/settings.php:5290
 #: inc/admin/theme_options/settings.php:5306
-#: inc/admin/theme_options/settings.php:5315
-#: inc/admin/theme_options/settings.php:5323
-#: inc/admin/theme_options/settings.php:5339
-#: inc/admin/theme_options/settings.php:5363
-#: inc/admin/theme_options/settings.php:5399
-#: inc/admin/theme_options/settings.php:5442
-#: inc/admin/theme_options/settings.php:5451
-#: inc/admin/theme_options/settings.php:5460
-#: inc/admin/theme_options/settings.php:5469
+#: inc/admin/theme_options/settings.php:5314
+#: inc/admin/theme_options/settings.php:5329
+#: inc/admin/theme_options/settings.php:5344
+#: inc/admin/theme_options/settings.php:5353
+#: inc/admin/theme_options/settings.php:5361
+#: inc/admin/theme_options/settings.php:5377
+#: inc/admin/theme_options/settings.php:5401
+#: inc/admin/theme_options/settings.php:5437
+#: inc/admin/theme_options/settings.php:5480
+#: inc/admin/theme_options/settings.php:5489
+#: inc/admin/theme_options/settings.php:5498
 #: inc/admin/theme_options/settings.php:5507
-#: inc/admin/theme_options/settings.php:5516
-#: inc/admin/theme_options/settings.php:5561
-#: inc/admin/theme_options/settings.php:5572
-#: inc/admin/theme_options/settings.php:5582
-#: inc/admin/theme_options/settings.php:5600
-#: inc/admin/theme_options/settings.php:5612
-#: inc/admin/theme_options/settings.php:5622
-#: inc/admin/theme_options/settings.php:5634
-#: inc/admin/theme_options/settings.php:5651
-#: inc/admin/theme_options/settings.php:5661
-#: inc/admin/theme_options/settings.php:5671
-#: inc/admin/theme_options/settings.php:5681
-#: inc/admin/theme_options/settings.php:5691
-#: inc/admin/theme_options/settings.php:5702
-#: inc/admin/theme_options/settings.php:5713
+#: inc/admin/theme_options/settings.php:5545
+#: inc/admin/theme_options/settings.php:5554
+#: inc/admin/theme_options/settings.php:5599
+#: inc/admin/theme_options/settings.php:5610
+#: inc/admin/theme_options/settings.php:5620
+#: inc/admin/theme_options/settings.php:5638
+#: inc/admin/theme_options/settings.php:5650
+#: inc/admin/theme_options/settings.php:5660
+#: inc/admin/theme_options/settings.php:5672
+#: inc/admin/theme_options/settings.php:5689
+#: inc/admin/theme_options/settings.php:5699
+#: inc/admin/theme_options/settings.php:5709
+#: inc/admin/theme_options/settings.php:5719
 #: inc/admin/theme_options/settings.php:5729
-#: inc/admin/theme_options/settings.php:5761
-#: inc/admin/theme_options/settings.php:5778
-#: inc/admin/theme_options/settings.php:5787
-#: inc/admin/theme_options/settings.php:5796
-#: inc/admin/theme_options/settings.php:5805
-#: inc/admin/theme_options/settings.php:5814
-#: inc/admin/theme_options/settings.php:5823
-#: inc/admin/theme_options/settings.php:5832
-#: inc/admin/theme_options/settings.php:5841
-#: inc/admin/theme_options/settings.php:5850
-#: inc/admin/theme_options/settings.php:5859
-#: inc/admin/theme_options/settings.php:5868
-#: inc/admin/theme_options/settings.php:5877
-#: inc/admin/theme_options/settings.php:5886
-#: inc/admin/theme_options/settings.php:5902
-#: inc/admin/theme_options/settings.php:5910
-#: inc/admin/theme_options/settings.php:5926
-#: inc/admin/theme_options/settings.php:5934
-#: inc/admin/theme_options/settings.php:5943
-#: inc/admin/theme_options/settings.php:5952
-#: inc/admin/theme_options/settings.php:5960 inc/content_types/block.php:15
+#: inc/admin/theme_options/settings.php:5740
+#: inc/admin/theme_options/settings.php:5751
+#: inc/admin/theme_options/settings.php:5767
+#: inc/admin/theme_options/settings.php:5799
+#: inc/admin/theme_options/settings.php:5816
+#: inc/admin/theme_options/settings.php:5825
+#: inc/admin/theme_options/settings.php:5834
+#: inc/admin/theme_options/settings.php:5843
+#: inc/admin/theme_options/settings.php:5852
+#: inc/admin/theme_options/settings.php:5861
+#: inc/admin/theme_options/settings.php:5870
+#: inc/admin/theme_options/settings.php:5879
+#: inc/admin/theme_options/settings.php:5888
+#: inc/admin/theme_options/settings.php:5897
+#: inc/admin/theme_options/settings.php:5906
+#: inc/admin/theme_options/settings.php:5915
+#: inc/admin/theme_options/settings.php:5924
+#: inc/admin/theme_options/settings.php:5940
+#: inc/admin/theme_options/settings.php:5948
+#: inc/admin/theme_options/settings.php:5964
+#: inc/admin/theme_options/settings.php:5972
+#: inc/admin/theme_options/settings.php:5981
+#: inc/admin/theme_options/settings.php:5990
+#: inc/admin/theme_options/settings.php:5998 inc/content_types/block.php:15
 #: inc/functions/content_type/meta_values.php:591
 #, fuzzy
 msgid "Yes"
 msgstr "Sí"
 
-#: inc/admin/admin_pages/install-demos.php:42
+#: inc/admin/admin_pages/install-demos.php:27
 #: inc/admin/theme_options/settings.php:148
 #: inc/admin/theme_options/settings.php:156
 #: inc/admin/theme_options/settings.php:165
@@ -985,222 +998,287 @@ msgstr "Sí"
 #: inc/admin/theme_options/settings.php:1792
 #: inc/admin/theme_options/settings.php:2204
 #: inc/admin/theme_options/settings.php:2212
-#: inc/admin/theme_options/settings.php:2238
-#: inc/admin/theme_options/settings.php:2275
-#: inc/admin/theme_options/settings.php:2296
-#: inc/admin/theme_options/settings.php:2336
-#: inc/admin/theme_options/settings.php:2345
-#: inc/admin/theme_options/settings.php:2468
-#: inc/admin/theme_options/settings.php:2534
-#: inc/admin/theme_options/settings.php:2568
-#: inc/admin/theme_options/settings.php:2583
-#: inc/admin/theme_options/settings.php:2592
-#: inc/admin/theme_options/settings.php:2601
-#: inc/admin/theme_options/settings.php:2626
-#: inc/admin/theme_options/settings.php:2635
-#: inc/admin/theme_options/settings.php:2644
-#: inc/admin/theme_options/settings.php:2653
-#: inc/admin/theme_options/settings.php:2688
-#: inc/admin/theme_options/settings.php:2719
-#: inc/admin/theme_options/settings.php:2772
-#: inc/admin/theme_options/settings.php:2787
-#: inc/admin/theme_options/settings.php:2796
-#: inc/admin/theme_options/settings.php:2816
-#: inc/admin/theme_options/settings.php:2845
-#: inc/admin/theme_options/settings.php:2855
-#: inc/admin/theme_options/settings.php:2864
-#: inc/admin/theme_options/settings.php:2872
-#: inc/admin/theme_options/settings.php:2887
-#: inc/admin/theme_options/settings.php:2896
-#: inc/admin/theme_options/settings.php:2905
-#: inc/admin/theme_options/settings.php:2980
-#: inc/admin/theme_options/settings.php:3013
-#: inc/admin/theme_options/settings.php:3042
-#: inc/admin/theme_options/settings.php:3090
-#: inc/admin/theme_options/settings.php:3106
-#: inc/admin/theme_options/settings.php:3130
-#: inc/admin/theme_options/settings.php:3194
-#: inc/admin/theme_options/settings.php:3230
-#: inc/admin/theme_options/settings.php:3251
-#: inc/admin/theme_options/settings.php:3260
-#: inc/admin/theme_options/settings.php:3280
-#: inc/admin/theme_options/settings.php:3407
+#: inc/admin/theme_options/settings.php:2248
+#: inc/admin/theme_options/settings.php:2285
+#: inc/admin/theme_options/settings.php:2306
+#: inc/admin/theme_options/settings.php:2346
+#: inc/admin/theme_options/settings.php:2355
+#: inc/admin/theme_options/settings.php:2478
+#: inc/admin/theme_options/settings.php:2544
+#: inc/admin/theme_options/settings.php:2578
+#: inc/admin/theme_options/settings.php:2587
+#: inc/admin/theme_options/settings.php:2602
+#: inc/admin/theme_options/settings.php:2611
+#: inc/admin/theme_options/settings.php:2620
+#: inc/admin/theme_options/settings.php:2645
+#: inc/admin/theme_options/settings.php:2654
+#: inc/admin/theme_options/settings.php:2663
+#: inc/admin/theme_options/settings.php:2672
+#: inc/admin/theme_options/settings.php:2707
+#: inc/admin/theme_options/settings.php:2738
+#: inc/admin/theme_options/settings.php:2747
+#: inc/admin/theme_options/settings.php:2800
+#: inc/admin/theme_options/settings.php:2815
+#: inc/admin/theme_options/settings.php:2824
+#: inc/admin/theme_options/settings.php:2844
+#: inc/admin/theme_options/settings.php:2873
+#: inc/admin/theme_options/settings.php:2883
+#: inc/admin/theme_options/settings.php:2892
+#: inc/admin/theme_options/settings.php:2900
+#: inc/admin/theme_options/settings.php:2915
+#: inc/admin/theme_options/settings.php:2924
+#: inc/admin/theme_options/settings.php:2933
+#: inc/admin/theme_options/settings.php:3008
+#: inc/admin/theme_options/settings.php:3041
+#: inc/admin/theme_options/settings.php:3070
+#: inc/admin/theme_options/settings.php:3118
+#: inc/admin/theme_options/settings.php:3134
+#: inc/admin/theme_options/settings.php:3169
+#: inc/admin/theme_options/settings.php:3233
+#: inc/admin/theme_options/settings.php:3269
+#: inc/admin/theme_options/settings.php:3290
+#: inc/admin/theme_options/settings.php:3299
+#: inc/admin/theme_options/settings.php:3319
 #: inc/admin/theme_options/settings.php:3446
-#: inc/admin/theme_options/settings.php:3454
-#: inc/admin/theme_options/settings.php:3462
-#: inc/admin/theme_options/settings.php:3482
-#: inc/admin/theme_options/settings.php:3490
-#: inc/admin/theme_options/settings.php:3498
-#: inc/admin/theme_options/settings.php:3543
-#: inc/admin/theme_options/settings.php:3789
-#: inc/admin/theme_options/settings.php:3797
-#: inc/admin/theme_options/settings.php:3806
-#: inc/admin/theme_options/settings.php:3821
-#: inc/admin/theme_options/settings.php:3957
-#: inc/admin/theme_options/settings.php:3972
-#: inc/admin/theme_options/settings.php:3992
-#: inc/admin/theme_options/settings.php:4001
-#: inc/admin/theme_options/settings.php:4017
-#: inc/admin/theme_options/settings.php:4026
-#: inc/admin/theme_options/settings.php:4035
-#: inc/admin/theme_options/settings.php:4072
-#: inc/admin/theme_options/settings.php:4087
-#: inc/admin/theme_options/settings.php:4095
-#: inc/admin/theme_options/settings.php:4139
-#: inc/admin/theme_options/settings.php:4147
-#: inc/admin/theme_options/settings.php:4155
-#: inc/admin/theme_options/settings.php:4163
-#: inc/admin/theme_options/settings.php:4259
-#: inc/admin/theme_options/settings.php:4342
-#: inc/admin/theme_options/settings.php:4352
+#: inc/admin/theme_options/settings.php:3485
+#: inc/admin/theme_options/settings.php:3493
+#: inc/admin/theme_options/settings.php:3501
+#: inc/admin/theme_options/settings.php:3521
+#: inc/admin/theme_options/settings.php:3529
+#: inc/admin/theme_options/settings.php:3537
+#: inc/admin/theme_options/settings.php:3582
+#: inc/admin/theme_options/settings.php:3828
+#: inc/admin/theme_options/settings.php:3836
+#: inc/admin/theme_options/settings.php:3845
+#: inc/admin/theme_options/settings.php:3860
+#: inc/admin/theme_options/settings.php:3996
+#: inc/admin/theme_options/settings.php:4011
+#: inc/admin/theme_options/settings.php:4031
+#: inc/admin/theme_options/settings.php:4040
+#: inc/admin/theme_options/settings.php:4056
+#: inc/admin/theme_options/settings.php:4065
+#: inc/admin/theme_options/settings.php:4074
+#: inc/admin/theme_options/settings.php:4111
+#: inc/admin/theme_options/settings.php:4126
+#: inc/admin/theme_options/settings.php:4134
+#: inc/admin/theme_options/settings.php:4178
+#: inc/admin/theme_options/settings.php:4186
+#: inc/admin/theme_options/settings.php:4194
+#: inc/admin/theme_options/settings.php:4202
+#: inc/admin/theme_options/settings.php:4298
 #: inc/admin/theme_options/settings.php:4381
-#: inc/admin/theme_options/settings.php:4447
-#: inc/admin/theme_options/settings.php:4488
-#: inc/admin/theme_options/settings.php:4496
-#: inc/admin/theme_options/settings.php:4506
-#: inc/admin/theme_options/settings.php:4514
-#: inc/admin/theme_options/settings.php:4589
-#: inc/admin/theme_options/settings.php:4604
-#: inc/admin/theme_options/settings.php:4612
-#: inc/admin/theme_options/settings.php:4621
-#: inc/admin/theme_options/settings.php:4637
-#: inc/admin/theme_options/settings.php:4686
-#: inc/admin/theme_options/settings.php:4700
-#: inc/admin/theme_options/settings.php:4744
-#: inc/admin/theme_options/settings.php:4871
-#: inc/admin/theme_options/settings.php:4879
-#: inc/admin/theme_options/settings.php:4931
-#: inc/admin/theme_options/settings.php:4953
-#: inc/admin/theme_options/settings.php:4961
-#: inc/admin/theme_options/settings.php:5007
-#: inc/admin/theme_options/settings.php:5015
-#: inc/admin/theme_options/settings.php:5029
-#: inc/admin/theme_options/settings.php:5061
-#: inc/admin/theme_options/settings.php:5069
-#: inc/admin/theme_options/settings.php:5077
-#: inc/admin/theme_options/settings.php:5106
-#: inc/admin/theme_options/settings.php:5115
-#: inc/admin/theme_options/settings.php:5123
-#: inc/admin/theme_options/settings.php:5191
-#: inc/admin/theme_options/settings.php:5214
-#: inc/admin/theme_options/settings.php:5238
-#: inc/admin/theme_options/settings.php:5253
-#: inc/admin/theme_options/settings.php:5269
-#: inc/admin/theme_options/settings.php:5277
-#: inc/admin/theme_options/settings.php:5292
+#: inc/admin/theme_options/settings.php:4391
+#: inc/admin/theme_options/settings.php:4420
+#: inc/admin/theme_options/settings.php:4486
+#: inc/admin/theme_options/settings.php:4527
+#: inc/admin/theme_options/settings.php:4535
+#: inc/admin/theme_options/settings.php:4545
+#: inc/admin/theme_options/settings.php:4553
+#: inc/admin/theme_options/settings.php:4628
+#: inc/admin/theme_options/settings.php:4643
+#: inc/admin/theme_options/settings.php:4651
+#: inc/admin/theme_options/settings.php:4660
+#: inc/admin/theme_options/settings.php:4676
+#: inc/admin/theme_options/settings.php:4725
+#: inc/admin/theme_options/settings.php:4739
+#: inc/admin/theme_options/settings.php:4783
+#: inc/admin/theme_options/settings.php:4910
+#: inc/admin/theme_options/settings.php:4918
+#: inc/admin/theme_options/settings.php:4970
+#: inc/admin/theme_options/settings.php:4992
+#: inc/admin/theme_options/settings.php:5000
+#: inc/admin/theme_options/settings.php:5046
+#: inc/admin/theme_options/settings.php:5054
+#: inc/admin/theme_options/settings.php:5068
+#: inc/admin/theme_options/settings.php:5100
+#: inc/admin/theme_options/settings.php:5108
+#: inc/admin/theme_options/settings.php:5116
+#: inc/admin/theme_options/settings.php:5145
+#: inc/admin/theme_options/settings.php:5153
+#: inc/admin/theme_options/settings.php:5161
+#: inc/admin/theme_options/settings.php:5229
+#: inc/admin/theme_options/settings.php:5252
+#: inc/admin/theme_options/settings.php:5276
+#: inc/admin/theme_options/settings.php:5291
 #: inc/admin/theme_options/settings.php:5307
-#: inc/admin/theme_options/settings.php:5316
-#: inc/admin/theme_options/settings.php:5324
-#: inc/admin/theme_options/settings.php:5340
-#: inc/admin/theme_options/settings.php:5364
-#: inc/admin/theme_options/settings.php:5400
-#: inc/admin/theme_options/settings.php:5443
-#: inc/admin/theme_options/settings.php:5452
-#: inc/admin/theme_options/settings.php:5461
-#: inc/admin/theme_options/settings.php:5470
+#: inc/admin/theme_options/settings.php:5315
+#: inc/admin/theme_options/settings.php:5330
+#: inc/admin/theme_options/settings.php:5345
+#: inc/admin/theme_options/settings.php:5354
+#: inc/admin/theme_options/settings.php:5362
+#: inc/admin/theme_options/settings.php:5378
+#: inc/admin/theme_options/settings.php:5402
+#: inc/admin/theme_options/settings.php:5438
+#: inc/admin/theme_options/settings.php:5481
+#: inc/admin/theme_options/settings.php:5490
+#: inc/admin/theme_options/settings.php:5499
 #: inc/admin/theme_options/settings.php:5508
-#: inc/admin/theme_options/settings.php:5517
-#: inc/admin/theme_options/settings.php:5562
-#: inc/admin/theme_options/settings.php:5573
-#: inc/admin/theme_options/settings.php:5583
-#: inc/admin/theme_options/settings.php:5601
-#: inc/admin/theme_options/settings.php:5613
-#: inc/admin/theme_options/settings.php:5623
-#: inc/admin/theme_options/settings.php:5635
-#: inc/admin/theme_options/settings.php:5652
-#: inc/admin/theme_options/settings.php:5662
-#: inc/admin/theme_options/settings.php:5672
-#: inc/admin/theme_options/settings.php:5682
-#: inc/admin/theme_options/settings.php:5692
-#: inc/admin/theme_options/settings.php:5703
-#: inc/admin/theme_options/settings.php:5714
+#: inc/admin/theme_options/settings.php:5546
+#: inc/admin/theme_options/settings.php:5555
+#: inc/admin/theme_options/settings.php:5600
+#: inc/admin/theme_options/settings.php:5611
+#: inc/admin/theme_options/settings.php:5621
+#: inc/admin/theme_options/settings.php:5639
+#: inc/admin/theme_options/settings.php:5651
+#: inc/admin/theme_options/settings.php:5661
+#: inc/admin/theme_options/settings.php:5673
+#: inc/admin/theme_options/settings.php:5690
+#: inc/admin/theme_options/settings.php:5700
+#: inc/admin/theme_options/settings.php:5710
+#: inc/admin/theme_options/settings.php:5720
 #: inc/admin/theme_options/settings.php:5730
-#: inc/admin/theme_options/settings.php:5762
-#: inc/admin/theme_options/settings.php:5779
-#: inc/admin/theme_options/settings.php:5788
-#: inc/admin/theme_options/settings.php:5797
-#: inc/admin/theme_options/settings.php:5806
-#: inc/admin/theme_options/settings.php:5815
-#: inc/admin/theme_options/settings.php:5824
-#: inc/admin/theme_options/settings.php:5833
-#: inc/admin/theme_options/settings.php:5842
-#: inc/admin/theme_options/settings.php:5851
-#: inc/admin/theme_options/settings.php:5860
-#: inc/admin/theme_options/settings.php:5869
-#: inc/admin/theme_options/settings.php:5878
-#: inc/admin/theme_options/settings.php:5887
-#: inc/admin/theme_options/settings.php:5903
-#: inc/admin/theme_options/settings.php:5911
-#: inc/admin/theme_options/settings.php:5927
-#: inc/admin/theme_options/settings.php:5935
-#: inc/admin/theme_options/settings.php:5944
-#: inc/admin/theme_options/settings.php:5953
-#: inc/admin/theme_options/settings.php:5961 inc/content_types/block.php:16
+#: inc/admin/theme_options/settings.php:5741
+#: inc/admin/theme_options/settings.php:5752
+#: inc/admin/theme_options/settings.php:5768
+#: inc/admin/theme_options/settings.php:5800
+#: inc/admin/theme_options/settings.php:5817
+#: inc/admin/theme_options/settings.php:5826
+#: inc/admin/theme_options/settings.php:5835
+#: inc/admin/theme_options/settings.php:5844
+#: inc/admin/theme_options/settings.php:5853
+#: inc/admin/theme_options/settings.php:5862
+#: inc/admin/theme_options/settings.php:5871
+#: inc/admin/theme_options/settings.php:5880
+#: inc/admin/theme_options/settings.php:5889
+#: inc/admin/theme_options/settings.php:5898
+#: inc/admin/theme_options/settings.php:5907
+#: inc/admin/theme_options/settings.php:5916
+#: inc/admin/theme_options/settings.php:5925
+#: inc/admin/theme_options/settings.php:5941
+#: inc/admin/theme_options/settings.php:5949
+#: inc/admin/theme_options/settings.php:5965
+#: inc/admin/theme_options/settings.php:5973
+#: inc/admin/theme_options/settings.php:5982
+#: inc/admin/theme_options/settings.php:5991
+#: inc/admin/theme_options/settings.php:5999 inc/content_types/block.php:16
 #: inc/functions/content_type/meta_values.php:593
 msgid "No"
 msgstr "No"
 
-#: inc/admin/admin_pages/install-demos.php:60
+#: inc/admin/admin_pages/install-demos.php:27
 #, fuzzy
 msgid "Preview"
 msgstr "Vista Previa"
 
-#: inc/admin/admin_pages/install-demos.php:64
+#: inc/admin/admin_pages/install-demos.php:27
 #: inc/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2852
 #, fuzzy
 msgid "Install"
 msgstr "Instalar"
 
-#: inc/admin/admin_pages/install-demos.php:75
-#: inc/admin/admin_pages/porto-plugins.php:151
+#: inc/admin/admin_pages/install-demos.php:27
+msgid "Porto Demos Can Only Be Installed After Product Registration"
+msgstr ""
+
+#: inc/admin/admin_pages/install-demos.php:27
+#, php-format
+msgid ""
+"Please visit the %s page and enter a valid purchase code to install the full "
+"Porto Demos and the single pages through Visual Composer."
+msgstr ""
+
+#: inc/admin/admin_pages/install-demos.php:27
+msgid "Porto Registration"
+msgstr ""
+
+#: inc/admin/admin_pages/install-demos.php:30
+#: inc/admin/admin_pages/porto-plugins.php:136
+#: inc/admin/admin_pages/porto-registration.php:1
 #: inc/admin/admin_pages/system-status.php:247
 #: inc/admin/admin_pages/welcome.php:38
 #, fuzzy
 msgid "Thank you, we hope you to enjoy using Porto!"
 msgstr "¡Gracias, esperamos que disfrutes usando Porto!"
 
-#: inc/admin/admin_pages/porto-plugins.php:78
+#: inc/admin/admin_pages/porto-plugins.php:77
 msgid ""
 "These are plugins we included inside or recommend for all design features of "
 "Porto. You can install, activate, deactivate or update the plugins from this "
 "tab."
 msgstr ""
 
-#: inc/admin/admin_pages/porto-plugins.php:84
+#: inc/admin/admin_pages/porto-plugins.php:78
+msgid ""
+"Premium Plugins Can Only Be Installed and Updated After Product Registration"
+msgstr ""
+
+#: inc/admin/admin_pages/porto-plugins.php:78
+#, php-format
+msgid ""
+"Please visit the %s page and enter a valid purchase code to install or "
+"update the premium plugins; WPBakery Visual Composer, Ultimate Addons for "
+"Visual Composer and Slider Revolution."
+msgstr ""
+
+#: inc/admin/admin_pages/porto-plugins.php:78
+msgid "Product Registration"
+msgstr "Registro del Producto"
+
+#: inc/admin/admin_pages/porto-plugins.php:79
 msgid "Click here to install plugins all together."
 msgstr ""
 
-#: inc/admin/admin_pages/porto-plugins.php:88
+#: inc/admin/admin_pages/porto-plugins.php:79
 msgid "Click here to activate plugins all together."
 msgstr ""
 
-#: inc/admin/admin_pages/porto-plugins.php:92
+#: inc/admin/admin_pages/porto-plugins.php:79
 msgid "Click here to update plugins all together."
 msgstr ""
 
-#: inc/admin/admin_pages/porto-plugins.php:117
+#: inc/admin/admin_pages/porto-plugins.php:102
 #, php-format
 msgid "Version: %1s"
 msgstr ""
 
-#: inc/admin/admin_pages/porto-plugins.php:119
+#: inc/admin/admin_pages/porto-plugins.php:104
 #, php-format
 msgid "Available Version: %s"
 msgstr ""
 
-#: inc/admin/admin_pages/porto-plugins.php:125
+#: inc/admin/admin_pages/porto-plugins.php:110
 #, php-format
 msgid "Active: %s"
 msgstr ""
 
-#: inc/admin/admin_pages/porto-plugins.php:135
+#: inc/admin/admin_pages/porto-plugins.php:120
 #, php-format
 msgid "Update Available: Version %s"
 msgstr ""
 
-#: inc/admin/admin_pages/porto-plugins.php:140
+#: inc/admin/admin_pages/porto-plugins.php:125
 #: inc/plugins/tgm-plugin-activation/class-tgm-plugin-activation.php:2407
 msgid "Required"
+msgstr ""
+
+#: inc/admin/admin_pages/porto-registration.php:1
+msgid ""
+"Thank you for choosing Porto! Your product must be registered to receive "
+"Porto demos and included premium plugins."
+msgstr ""
+
+#: inc/admin/admin_pages/porto-registration.php:1
+msgid "Congratulations! Your product is registered now."
+msgstr ""
+
+#: inc/admin/admin_pages/porto-registration.php:1
+msgid "Please enter your Purchase Code to complete registration."
+msgstr ""
+
+#: inc/admin/admin_pages/porto-registration.php:1
+#: inc/plugins/importer/porto-wordpress-importer.php:460
+#: woocommerce/myaccount/form-register-2.php:71
+#: woocommerce/single-product-reviews.php:1
+msgid "Submit"
+msgstr "Enviar"
+
+#: inc/admin/admin_pages/porto-registration.php:1
+msgid "This code is already used."
+msgstr ""
+
+#: inc/admin/admin_pages/porto-registration.php:1
+msgid ""
+"Invalid code, or corresponding Envato account does not have Porto purchased."
 msgstr ""
 
 #: inc/admin/admin_pages/system-status.php:26
@@ -1382,51 +1460,51 @@ msgstr ""
 msgid "Click here to view change logs."
 msgstr ""
 
-#: inc/admin/functions.php:176
+#: inc/admin/functions.php:180
 msgid "1 column - 1/12"
 msgstr ""
 
-#: inc/admin/functions.php:177
+#: inc/admin/functions.php:181
 msgid "2 columns - 1/6"
 msgstr ""
 
-#: inc/admin/functions.php:178
+#: inc/admin/functions.php:182
 msgid "3 columns - 1/4"
 msgstr ""
 
-#: inc/admin/functions.php:179
+#: inc/admin/functions.php:183
 msgid "4 columns - 1/3"
 msgstr ""
 
-#: inc/admin/functions.php:180
+#: inc/admin/functions.php:184
 msgid "5 columns - 5/12"
 msgstr ""
 
-#: inc/admin/functions.php:181
+#: inc/admin/functions.php:185
 msgid "6 columns - 1/2"
 msgstr ""
 
-#: inc/admin/functions.php:182
+#: inc/admin/functions.php:186
 msgid "7 columns - 7/12"
 msgstr ""
 
-#: inc/admin/functions.php:183
+#: inc/admin/functions.php:187
 msgid "8 columns - 2/3"
 msgstr ""
 
-#: inc/admin/functions.php:184
+#: inc/admin/functions.php:188
 msgid "9 columns - 3/4"
 msgstr ""
 
-#: inc/admin/functions.php:185
+#: inc/admin/functions.php:189
 msgid "10 columns - 5/6"
 msgstr ""
 
-#: inc/admin/functions.php:186
+#: inc/admin/functions.php:190
 msgid "11 columns - 11/12)"
 msgstr ""
 
-#: inc/admin/functions.php:187
+#: inc/admin/functions.php:191
 msgid "12 columns - 1/1"
 msgstr ""
 
@@ -1441,16 +1519,16 @@ msgid "Loading Overlay"
 msgstr ""
 
 #: inc/admin/theme_options/settings.php:77
-#: inc/admin/theme_options/settings.php:3619
-#: inc/admin/theme_options/settings.php:3849 inc/content_types/event.php:56
+#: inc/admin/theme_options/settings.php:3658
+#: inc/admin/theme_options/settings.php:3888 inc/content_types/event.php:56
 #: inc/functions/content_type/meta_values.php:607
 #: woocommerce/loop/pagination.php:23
 msgid "Show"
 msgstr "Mostrar"
 
 #: inc/admin/theme_options/settings.php:78
-#: inc/admin/theme_options/settings.php:3620
-#: inc/admin/theme_options/settings.php:3850 inc/content_types/event.php:57
+#: inc/admin/theme_options/settings.php:3659
+#: inc/admin/theme_options/settings.php:3889 inc/content_types/event.php:57
 #: inc/functions/content_type/meta_values.php:577
 #: inc/functions/content_type/meta_values.php:609
 msgid "Hide"
@@ -1461,27 +1539,27 @@ msgid "Body Wrapper"
 msgstr ""
 
 #: inc/admin/theme_options/settings.php:90
-#: inc/admin/theme_options/settings.php:3184
-#: inc/admin/theme_options/settings.php:3397
-#: inc/admin/theme_options/settings.php:3779
-#: inc/admin/theme_options/settings.php:4055
-#: inc/admin/theme_options/settings.php:4327
-#: inc/admin/theme_options/settings.php:4471
-#: inc/admin/theme_options/settings.php:4661
-#: inc/admin/theme_options/settings.php:4854
-#: inc/admin/theme_options/settings.php:4943
-#: inc/admin/theme_options/settings.php:5096
-#: inc/admin/theme_options/settings.php:5745
+#: inc/admin/theme_options/settings.php:3223
+#: inc/admin/theme_options/settings.php:3436
+#: inc/admin/theme_options/settings.php:3818
+#: inc/admin/theme_options/settings.php:4094
+#: inc/admin/theme_options/settings.php:4366
+#: inc/admin/theme_options/settings.php:4510
+#: inc/admin/theme_options/settings.php:4700
+#: inc/admin/theme_options/settings.php:4893
+#: inc/admin/theme_options/settings.php:4982
+#: inc/admin/theme_options/settings.php:5135
+#: inc/admin/theme_options/settings.php:5783
 msgid "Page Layout"
 msgstr ""
 
 #: inc/admin/theme_options/settings.php:97
-#: inc/admin/theme_options/settings.php:3811
-#: inc/admin/theme_options/settings.php:4062
-#: inc/admin/theme_options/settings.php:4478
-#: inc/admin/theme_options/settings.php:4676
-#: inc/admin/theme_options/settings.php:4861
-#: inc/admin/theme_options/settings.php:5752
+#: inc/admin/theme_options/settings.php:3850
+#: inc/admin/theme_options/settings.php:4101
+#: inc/admin/theme_options/settings.php:4517
+#: inc/admin/theme_options/settings.php:4715
+#: inc/admin/theme_options/settings.php:4900
+#: inc/admin/theme_options/settings.php:5790
 msgid "Select Sidebar"
 msgstr ""
 
@@ -1507,16 +1585,16 @@ msgid "Footer Wrapper"
 msgstr ""
 
 #: inc/admin/theme_options/settings.php:145
-#: inc/admin/theme_options/settings.php:3191
-#: inc/admin/theme_options/settings.php:3404
-#: inc/admin/theme_options/settings.php:3786
-#: inc/admin/theme_options/settings.php:4069
-#: inc/admin/theme_options/settings.php:4485
-#: inc/admin/theme_options/settings.php:4683
-#: inc/admin/theme_options/settings.php:4868
-#: inc/admin/theme_options/settings.php:4950
-#: inc/admin/theme_options/settings.php:5103
-#: inc/admin/theme_options/settings.php:5759
+#: inc/admin/theme_options/settings.php:3230
+#: inc/admin/theme_options/settings.php:3443
+#: inc/admin/theme_options/settings.php:3825
+#: inc/admin/theme_options/settings.php:4108
+#: inc/admin/theme_options/settings.php:4524
+#: inc/admin/theme_options/settings.php:4722
+#: inc/admin/theme_options/settings.php:4907
+#: inc/admin/theme_options/settings.php:4989
+#: inc/admin/theme_options/settings.php:5142
+#: inc/admin/theme_options/settings.php:5797
 msgid "Enable Sticky Sidebar"
 msgstr ""
 
@@ -1565,10 +1643,9 @@ msgid "Image"
 msgstr ""
 
 #: inc/admin/theme_options/settings.php:207
-#: inc/admin/theme_options/settings.php:3295
-#, fuzzy
+#: inc/admin/theme_options/settings.php:3334
 msgid "Text"
-msgstr "Subir Logo (reemplazar texto)"
+msgstr "Texto"
 
 #: inc/admin/theme_options/settings.php:214
 msgid "Logo Text"
@@ -1719,25 +1796,26 @@ msgid "Minify CSS"
 msgstr ""
 
 #: inc/admin/theme_options/settings.php:433
-#: inc/admin/theme_options/settings.php:3625
+#: inc/admin/theme_options/settings.php:3664
 msgid "Button Style"
 msgstr ""
 
 #: inc/admin/theme_options/settings.php:435
 #: inc/admin/theme_options/settings.php:529
-#: inc/admin/theme_options/settings.php:2283
-#: inc/admin/theme_options/settings.php:2304
-#: inc/admin/theme_options/settings.php:2667
-#: inc/admin/theme_options/settings.php:3218
-#: inc/admin/theme_options/settings.php:3270
-#: inc/admin/theme_options/settings.php:3472
-#: inc/admin/theme_options/settings.php:3651
-#: inc/admin/theme_options/settings.php:3895
-#: inc/admin/theme_options/settings.php:4213
-#: inc/admin/theme_options/settings.php:4647
-#: inc/admin/theme_options/settings.php:4671
-#: inc/admin/theme_options/settings.php:4754
-#: inc/admin/theme_options/settings.php:5149 inc/content_types/event.php:55
+#: inc/admin/theme_options/settings.php:2293
+#: inc/admin/theme_options/settings.php:2314
+#: inc/admin/theme_options/settings.php:2686
+#: inc/admin/theme_options/settings.php:3141
+#: inc/admin/theme_options/settings.php:3257
+#: inc/admin/theme_options/settings.php:3309
+#: inc/admin/theme_options/settings.php:3511
+#: inc/admin/theme_options/settings.php:3690
+#: inc/admin/theme_options/settings.php:3934
+#: inc/admin/theme_options/settings.php:4252
+#: inc/admin/theme_options/settings.php:4686
+#: inc/admin/theme_options/settings.php:4710
+#: inc/admin/theme_options/settings.php:4793
+#: inc/admin/theme_options/settings.php:5187 inc/content_types/event.php:55
 #: inc/content_types/event.php:189 inc/content_types/portfolio.php:65
 #: inc/content_types/portfolio.php:255 inc/content_types/portfolio.php:574
 #: inc/content_types/post.php:130
@@ -1763,7 +1841,7 @@ msgid "Default"
 msgstr ""
 
 #: inc/admin/theme_options/settings.php:436
-#: inc/admin/theme_options/settings.php:3629
+#: inc/admin/theme_options/settings.php:3668
 msgid "Borders"
 msgstr ""
 
@@ -1891,13 +1969,13 @@ msgid "Background Type"
 msgstr ""
 
 #: inc/admin/theme_options/settings.php:576
-#: inc/admin/theme_options/settings.php:3657 inc/functions/shortcodes.php:1844
+#: inc/admin/theme_options/settings.php:3696 inc/functions/shortcodes.php:1844
 #: inc/functions/shortcodes.php:1899 inc/functions/shortcodes.php:1922
 msgid "Light"
 msgstr ""
 
 #: inc/admin/theme_options/settings.php:577
-#: inc/admin/theme_options/settings.php:3656 inc/functions/shortcodes.php:1843
+#: inc/admin/theme_options/settings.php:3695 inc/functions/shortcodes.php:1843
 #: inc/functions/shortcodes.php:1898 inc/functions/shortcodes.php:1921
 msgid "Dark"
 msgstr ""
@@ -1915,7 +1993,7 @@ msgid "Grid Gutter Width"
 msgstr ""
 
 #: inc/admin/theme_options/settings.php:615
-#: inc/admin/theme_options/settings.php:2547 inc/functions/shortcodes.php:1469
+#: inc/admin/theme_options/settings.php:2557 inc/functions/shortcodes.php:1469
 msgid "Border Radius"
 msgstr ""
 
@@ -2095,7 +2173,7 @@ msgid "Margin"
 msgstr ""
 
 #: inc/admin/theme_options/settings.php:1054
-#: inc/admin/theme_options/settings.php:2575
+#: inc/admin/theme_options/settings.php:2594
 #: inc/functions/content_type/meta_fields.php:66
 #: inc/functions/content_type/meta_fields.php:254
 msgid "Sticky Header"
@@ -2213,17 +2291,17 @@ msgid "Text Transform"
 msgstr ""
 
 #: inc/admin/theme_options/settings.php:1315
-#: inc/admin/theme_options/settings.php:2315
-#: inc/admin/theme_options/settings.php:2514
-#: inc/admin/theme_options/settings.php:2608
-#: inc/admin/theme_options/settings.php:2706
-#: inc/admin/theme_options/settings.php:2726
-#: inc/admin/theme_options/settings.php:2739
-#: inc/admin/theme_options/settings.php:3514
-#: inc/admin/theme_options/settings.php:3744
-#: inc/admin/theme_options/settings.php:3922
-#: inc/admin/theme_options/settings.php:4179
-#: inc/admin/theme_options/settings.php:4716
+#: inc/admin/theme_options/settings.php:2325
+#: inc/admin/theme_options/settings.php:2524
+#: inc/admin/theme_options/settings.php:2627
+#: inc/admin/theme_options/settings.php:2725
+#: inc/admin/theme_options/settings.php:2754
+#: inc/admin/theme_options/settings.php:2767
+#: inc/admin/theme_options/settings.php:3553
+#: inc/admin/theme_options/settings.php:3783
+#: inc/admin/theme_options/settings.php:3961
+#: inc/admin/theme_options/settings.php:4218
+#: inc/admin/theme_options/settings.php:4755
 #: inc/functions/content_type/meta_values.php:641
 #: inc/functions/shortcodes.php:727 inc/functions/shortcodes.php:1666
 #: inc/functions/shortcodes.php:1850
@@ -2296,7 +2374,7 @@ msgstr ""
 #: inc/admin/theme_options/settings.php:1955
 #: inc/admin/theme_options/settings.php:2031
 #: inc/admin/theme_options/settings.php:2074
-#: inc/admin/theme_options/settings.php:5384 inc/functions/shortcodes.php:760
+#: inc/admin/theme_options/settings.php:5422 inc/functions/shortcodes.php:760
 msgid "Border Color"
 msgstr ""
 
@@ -2340,7 +2418,7 @@ msgid "Menu Custom Content (if header type is like 1, 4, 9, 13, 14)"
 msgstr ""
 
 #: inc/admin/theme_options/settings.php:1510
-#: inc/admin/theme_options/settings.php:2837
+#: inc/admin/theme_options/settings.php:2865
 #: inc/functions/content_type/meta_fields.php:35
 #: inc/functions/content_type/meta_fields.php:255
 msgid "Breadcrumbs"
@@ -2377,7 +2455,7 @@ msgid "Page Sub Title Margin"
 msgstr ""
 
 #: inc/admin/theme_options/settings.php:1617
-#: inc/admin/theme_options/settings.php:2939
+#: inc/admin/theme_options/settings.php:2967
 #: inc/functions/content_type/meta_fields.php:90
 #: inc/functions/content_type/meta_fields.php:259
 msgid "Footer"
@@ -2434,12 +2512,12 @@ msgid "Mobile Menu Panel"
 msgstr ""
 
 #: inc/admin/theme_options/settings.php:1912
-#: inc/admin/theme_options/settings.php:2266
+#: inc/admin/theme_options/settings.php:2276
 msgid "View, Currency Switcher"
 msgstr ""
 
 #: inc/admin/theme_options/settings.php:1943
-#: inc/admin/theme_options/settings.php:2526
+#: inc/admin/theme_options/settings.php:2536
 msgid "Search Form"
 msgstr ""
 
@@ -2468,7 +2546,7 @@ msgid "Toggle Hover Color"
 msgstr ""
 
 #: inc/admin/theme_options/settings.php:2012
-#: inc/admin/theme_options/settings.php:2460
+#: inc/admin/theme_options/settings.php:2470
 msgid "Mini Cart"
 msgstr ""
 
@@ -2566,228 +2644,247 @@ msgid "Side Navigation Copyright (Header Type: Side)"
 msgstr ""
 
 #: inc/admin/theme_options/settings.php:2230
-#: inc/admin/theme_options/settings.php:2961
+#: inc/admin/theme_options/settings.php:2989
 #, php-format
 msgid "&copy; Copyright %s. All Rights Reserved."
 msgstr ""
 
 #: inc/admin/theme_options/settings.php:2235
-#: inc/admin/theme_options/settings.php:3010
+msgid "Position (Header Type: Side)"
+msgstr ""
+
+#: inc/admin/theme_options/settings.php:2237
+#: inc/admin/theme_options/settings.php:2687
+#: inc/admin/theme_options/settings.php:2788
+#: inc/admin/theme_options/settings.php:2996 inc/functions/shortcodes.php:1667
+#: inc/functions/shortcodes.php:1723 inc/functions/shortcodes.php:1801
+msgid "Left"
+msgstr ""
+
+#: inc/admin/theme_options/settings.php:2238
+#: inc/admin/theme_options/settings.php:2688
+#: inc/admin/theme_options/settings.php:2998 inc/functions/shortcodes.php:1668
+#: inc/functions/shortcodes.php:1724 inc/functions/shortcodes.php:1802
+msgid "Right"
+msgstr ""
+
+#: inc/admin/theme_options/settings.php:2245
+#: inc/admin/theme_options/settings.php:3038
 msgid "Show Tooltip"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2243
-#: inc/admin/theme_options/settings.php:3018
+#: inc/admin/theme_options/settings.php:2253
+#: inc/admin/theme_options/settings.php:3046
 msgid "Tooltip Content"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2251
-#: inc/admin/theme_options/settings.php:2257
+#: inc/admin/theme_options/settings.php:2261
+#: inc/admin/theme_options/settings.php:2267
 msgid "Header Type"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2271
+#: inc/admin/theme_options/settings.php:2281
 msgid "Show WPML Language Switcher"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2272
+#: inc/admin/theme_options/settings.php:2282
 msgid "Show wpml language switcher instead of view switcher menu."
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2272
+#: inc/admin/theme_options/settings.php:2282
 msgid "Compatible with Polylang and qTranslate X plugins."
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2280
+#: inc/admin/theme_options/settings.php:2290
 msgid "Language Switcher Position"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2284
-#: inc/admin/theme_options/settings.php:2305
-#: inc/admin/theme_options/settings.php:2707
+#: inc/admin/theme_options/settings.php:2294
+#: inc/admin/theme_options/settings.php:2315
+#: inc/admin/theme_options/settings.php:2726
 msgid "In Top Navigation"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2285
-#: inc/admin/theme_options/settings.php:2306
-#: inc/admin/theme_options/settings.php:2708
+#: inc/admin/theme_options/settings.php:2295
+#: inc/admin/theme_options/settings.php:2316
+#: inc/admin/theme_options/settings.php:2727
 #, fuzzy
 msgid "In Main Menu"
 msgstr "Menú Principal"
 
-#: inc/admin/theme_options/settings.php:2292
+#: inc/admin/theme_options/settings.php:2302
 msgid "Show WPML Currency Switcher"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2293
+#: inc/admin/theme_options/settings.php:2303
 msgid "Show wpml currency switcher instead of currency switcher menu."
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2293
+#: inc/admin/theme_options/settings.php:2303
 msgid "Compatible with Woocommerce Currency Switcher plugin."
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2301
+#: inc/admin/theme_options/settings.php:2311
 msgid "Currency Switcher Position"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2313
-#: inc/admin/theme_options/settings.php:2511
-#: inc/admin/theme_options/settings.php:2724
+#: inc/admin/theme_options/settings.php:2323
+#: inc/admin/theme_options/settings.php:2521
+#: inc/admin/theme_options/settings.php:2752
 msgid "Popup Effect"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2316
-#: inc/admin/theme_options/settings.php:2727
-#: inc/admin/theme_options/settings.php:2740
+#: inc/admin/theme_options/settings.php:2326
+#: inc/admin/theme_options/settings.php:2755
+#: inc/admin/theme_options/settings.php:2768
 msgid "Drop Down"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2317
-#: inc/admin/theme_options/settings.php:2515
-#: inc/admin/theme_options/settings.php:2728
-#: inc/admin/theme_options/settings.php:2743
+#: inc/admin/theme_options/settings.php:2327
+#: inc/admin/theme_options/settings.php:2525
+#: inc/admin/theme_options/settings.php:2756
+#: inc/admin/theme_options/settings.php:2771
 msgid "Fade In Up"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2318
-#: inc/admin/theme_options/settings.php:2516
-#: inc/admin/theme_options/settings.php:2729
-#: inc/admin/theme_options/settings.php:2744
+#: inc/admin/theme_options/settings.php:2328
+#: inc/admin/theme_options/settings.php:2526
+#: inc/admin/theme_options/settings.php:2757
+#: inc/admin/theme_options/settings.php:2772
 msgid "Fade In Down"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2319
-#: inc/admin/theme_options/settings.php:2517
-#: inc/admin/theme_options/settings.php:2730
-#: inc/admin/theme_options/settings.php:2745
+#: inc/admin/theme_options/settings.php:2329
+#: inc/admin/theme_options/settings.php:2527
+#: inc/admin/theme_options/settings.php:2758
+#: inc/admin/theme_options/settings.php:2773
 msgid "Fade In"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2328
+#: inc/admin/theme_options/settings.php:2338
 msgid "Social Links"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2333
-#: inc/admin/theme_options/settings.php:4634
-#: inc/admin/theme_options/settings.php:4741
-#: inc/admin/theme_options/settings.php:5775
+#: inc/admin/theme_options/settings.php:2343
+#: inc/admin/theme_options/settings.php:4673
+#: inc/admin/theme_options/settings.php:4780
+#: inc/admin/theme_options/settings.php:5813
 msgid "Show Social Links"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2341
-#: inc/admin/theme_options/settings.php:5784
+#: inc/admin/theme_options/settings.php:2351
+#: inc/admin/theme_options/settings.php:5822
 msgid "Add rel=\"nofollow\" to social links"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2362 inc/functions/layout.php:6901
+#: inc/admin/theme_options/settings.php:2372 inc/functions/layout.php:6945
 msgid "RSS"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2374 inc/functions/layout.php:6933
+#: inc/admin/theme_options/settings.php:2384 inc/functions/layout.php:6977
 msgid "Youtube"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2386 inc/functions/layout.php:6965
+#: inc/admin/theme_options/settings.php:2396 inc/functions/layout.php:7009
 msgid "Skype"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2398 inc/functions/layout.php:6997
+#: inc/admin/theme_options/settings.php:2408 inc/functions/layout.php:7041
 msgid "Google Plus"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2434 inc/functions/layout.php:7093
+#: inc/admin/theme_options/settings.php:2444 inc/functions/layout.php:7137
 msgid "Telegram"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2440 inc/functions/layout.php:7109
+#: inc/admin/theme_options/settings.php:2450 inc/functions/layout.php:7153
 msgid "Yelp"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2446 inc/functions/layout.php:7125
+#: inc/admin/theme_options/settings.php:2456 inc/functions/layout.php:7169
 msgid "Flickr"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2465
-#: inc/admin/theme_options/settings.php:2640
+#: inc/admin/theme_options/settings.php:2475
+#: inc/admin/theme_options/settings.php:2659
 msgid "Show Mini Cart"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2473
+#: inc/admin/theme_options/settings.php:2483
 msgid "Minicart Type"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2476
+#: inc/admin/theme_options/settings.php:2486
 msgid "Minicart Type 1"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2477
+#: inc/admin/theme_options/settings.php:2487
 msgid "Minicart Type 2"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2478
+#: inc/admin/theme_options/settings.php:2488
 msgid "Minicart Type 3"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2479
+#: inc/admin/theme_options/settings.php:2489
 msgid "Minicart Type 4"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2480
+#: inc/admin/theme_options/settings.php:2490
 msgid "Minicart Type 5"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2487
+#: inc/admin/theme_options/settings.php:2497
 msgid "Minicart Icon"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2490
+#: inc/admin/theme_options/settings.php:2500
 msgid "Minicart Icon 1"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2491
+#: inc/admin/theme_options/settings.php:2501
 msgid "Minicart Icon 2"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2492
+#: inc/admin/theme_options/settings.php:2502
 msgid "Minicart Icon 3"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2493
+#: inc/admin/theme_options/settings.php:2503
 msgid "Minicart Icon 4"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2500
+#: inc/admin/theme_options/settings.php:2510
 msgid "Minicart Popup"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2503
-#: inc/admin/theme_options/settings.php:5050
-#: inc/admin/theme_options/settings.php:5143 inc/functions/shortcodes.php:1697
+#: inc/admin/theme_options/settings.php:2513
+#: inc/admin/theme_options/settings.php:5089
+#: inc/admin/theme_options/settings.php:5181 inc/functions/shortcodes.php:1697
 #: inc/functions/shortcodes.php:1783
 msgid "Style 1"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2504
-#: inc/admin/theme_options/settings.php:5051
-#: inc/admin/theme_options/settings.php:5143 inc/functions/shortcodes.php:1698
+#: inc/admin/theme_options/settings.php:2514
+#: inc/admin/theme_options/settings.php:5090
+#: inc/admin/theme_options/settings.php:5181 inc/functions/shortcodes.php:1698
 #: inc/functions/shortcodes.php:1784
 msgid "Style 2"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2531
-#: inc/admin/theme_options/settings.php:2631
+#: inc/admin/theme_options/settings.php:2541
+#: inc/admin/theme_options/settings.php:2650
 msgid "Show Search Form"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2539
+#: inc/admin/theme_options/settings.php:2549
 msgid "Search Form Size"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2541
-#: inc/admin/theme_options/settings.php:3202
-#: inc/admin/theme_options/settings.php:3421
-#: inc/admin/theme_options/settings.php:3861
+#: inc/admin/theme_options/settings.php:2551
+#: inc/admin/theme_options/settings.php:3241
+#: inc/admin/theme_options/settings.php:3460
+#: inc/admin/theme_options/settings.php:3900
 #: inc/functions/content_type/meta_values.php:35
 #: inc/functions/content_type/meta_values.php:57
 #: inc/functions/content_type/meta_values.php:81
@@ -2797,1265 +2894,1269 @@ msgstr ""
 msgid "Large"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2541
-#: inc/admin/theme_options/settings.php:3204
-#: inc/admin/theme_options/settings.php:3423
-#: inc/admin/theme_options/settings.php:3860
+#: inc/admin/theme_options/settings.php:2551
+#: inc/admin/theme_options/settings.php:3243
+#: inc/admin/theme_options/settings.php:3462
+#: inc/admin/theme_options/settings.php:3899
 #: inc/functions/content_type/meta_values.php:39
 #: inc/functions/content_type/meta_values.php:61
 #: inc/functions/content_type/meta_values.php:83
 msgid "Medium"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2541
-#: inc/admin/theme_options/settings.php:3640 inc/functions/shortcodes.php:1747
+#: inc/admin/theme_options/settings.php:2551
+#: inc/admin/theme_options/settings.php:3679 inc/functions/shortcodes.php:1747
 #: inc/functions/shortcodes.php:1793 inc/functions/shortcodes.php:1831
 #: inc/functions/shortcodes.php:1869 inc/functions/shortcodes.php:1885
 #: inc/functions/shortcodes.php:1940
 msgid "Small"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2550
+#: inc/admin/theme_options/settings.php:2560
 msgid "On"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2551
+#: inc/admin/theme_options/settings.php:2561
 msgid "Off"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2556
+#: inc/admin/theme_options/settings.php:2566
 msgid "Search Content Type"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2558
+#: inc/admin/theme_options/settings.php:2568
 #, fuzzy
 msgid "All"
 msgstr "Todos"
 
-#: inc/admin/theme_options/settings.php:2558
-#: inc/admin/theme_options/settings.php:3122
+#: inc/admin/theme_options/settings.php:2568
+#: inc/admin/theme_options/settings.php:3161
 #, fuzzy
 msgid "Post"
 msgstr "Entrada"
 
-#: inc/admin/theme_options/settings.php:2558
-#: inc/admin/theme_options/settings.php:5497
+#: inc/admin/theme_options/settings.php:2568
+#: inc/admin/theme_options/settings.php:5535
 #: woocommerce/checkout/form-pay.php:22
 #: woocommerce/checkout/review-order.php:17
-#: woocommerce/order/order-details-test.php:1
+#: woocommerce/order/order-details.php:1
 #, fuzzy
 msgid "Product"
 msgstr "Producto"
 
-#: inc/admin/theme_options/settings.php:2558
-#: inc/admin/theme_options/settings.php:3667
-#: inc/admin/theme_options/settings.php:3693
+#: inc/admin/theme_options/settings.php:2568
+#: inc/admin/theme_options/settings.php:3706
+#: inc/admin/theme_options/settings.php:3732
 #, fuzzy
 msgid "Portfolio"
 msgstr "Portafolio"
 
-#: inc/admin/theme_options/settings.php:2558
-#: inc/admin/theme_options/settings.php:4268
-#: inc/admin/theme_options/settings.php:4294
+#: inc/admin/theme_options/settings.php:2568
+#: inc/admin/theme_options/settings.php:4307
+#: inc/admin/theme_options/settings.php:4333
 msgid "Event"
 msgstr "Evento"
 
-#: inc/admin/theme_options/settings.php:2564
+#: inc/admin/theme_options/settings.php:2574
 #, fuzzy
 msgid "Show Categories"
 msgstr "Mostrar Categorías"
 
-#: inc/admin/theme_options/settings.php:2580
+#: inc/admin/theme_options/settings.php:2583
+#, fuzzy
+msgid "Show Sub Categories"
+msgstr "Mostrar Categorías"
+
+#: inc/admin/theme_options/settings.php:2599
 msgid "Enable Sticky Header"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2588
+#: inc/admin/theme_options/settings.php:2607
 msgid "Enable on Tablet (width < 992px)"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2597
+#: inc/admin/theme_options/settings.php:2616
 msgid "Enable on Mobile (width <= 480)"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2606
+#: inc/admin/theme_options/settings.php:2625
 msgid "Sticky Header Effect"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2609
+#: inc/admin/theme_options/settings.php:2628
 msgid "Reveal"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2616
-#: inc/admin/theme_options/settings.php:2821
+#: inc/admin/theme_options/settings.php:2635
+#: inc/admin/theme_options/settings.php:2849
 msgid "If header type is like 1, 4, 9, 13, 14"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2622
+#: inc/admin/theme_options/settings.php:2641
 msgid "Show Logo"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2649
+#: inc/admin/theme_options/settings.php:2668
 msgid "Show Menu Custom Content"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2660
+#: inc/admin/theme_options/settings.php:2679
 msgid "Mobile Panel"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2665 inc/functions/shortcodes.php:788
+#: inc/admin/theme_options/settings.php:2684
+#: inc/admin/theme_options/settings.php:3139 inc/functions/shortcodes.php:788
 #: inc/functions/shortcodes.php:975
 msgid "Position"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2668
-#: inc/admin/theme_options/settings.php:2760
-#: inc/admin/theme_options/settings.php:2968 inc/functions/shortcodes.php:1667
-#: inc/functions/shortcodes.php:1723 inc/functions/shortcodes.php:1801
-msgid "Left"
-msgstr ""
-
-#: inc/admin/theme_options/settings.php:2669
-#: inc/admin/theme_options/settings.php:2970 inc/functions/shortcodes.php:1668
-#: inc/functions/shortcodes.php:1724 inc/functions/shortcodes.php:1802
-msgid "Right"
-msgstr ""
-
-#: inc/admin/theme_options/settings.php:2679
+#: inc/admin/theme_options/settings.php:2698
 msgid "Menu"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2684
+#: inc/admin/theme_options/settings.php:2703
 msgid "Show Menu Arrow"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2685
+#: inc/admin/theme_options/settings.php:2704
 msgid "If menu item have sub menus, show menu arrow."
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2693
+#: inc/admin/theme_options/settings.php:2712
 msgid "Menu Type"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2695
-#: inc/admin/theme_options/settings.php:3628
-#: inc/admin/theme_options/settings.php:3639 inc/functions/shortcodes.php:1737
+#: inc/admin/theme_options/settings.php:2714
+#: inc/admin/theme_options/settings.php:3667
+#: inc/admin/theme_options/settings.php:3678 inc/functions/shortcodes.php:1737
 #: inc/functions/shortcodes.php:1746 inc/functions/shortcodes.php:1792
 #: inc/functions/shortcodes.php:1868 inc/functions/shortcodes.php:1884
 #: inc/functions/shortcodes.php:1938
 msgid "Normal"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2696
+#: inc/admin/theme_options/settings.php:2715
 msgid "Flat"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2697
+#: inc/admin/theme_options/settings.php:2716
 msgid "Flat & Border"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2704
+#: inc/admin/theme_options/settings.php:2723
 msgid "Display Login & Register / Logout Link"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2715
+#: inc/admin/theme_options/settings.php:2734
 msgid "Show Register Link"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2737
+#: inc/admin/theme_options/settings.php:2743
+msgid "Show Login/Logout Icon"
+msgstr ""
+
+#: inc/admin/theme_options/settings.php:2765
 msgid "Popup Sub Effect"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2741
+#: inc/admin/theme_options/settings.php:2769
 msgid "Fade In Left"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2742
+#: inc/admin/theme_options/settings.php:2770
 msgid "Fade In Right"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2752
+#: inc/admin/theme_options/settings.php:2780
 msgid "If header type is like 1, 4, 13, 14"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2758
+#: inc/admin/theme_options/settings.php:2786
 msgid "Main Menu Align"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2761
-#: inc/admin/theme_options/settings.php:2969 inc/functions/shortcodes.php:1669
+#: inc/admin/theme_options/settings.php:2789
+#: inc/admin/theme_options/settings.php:2997 inc/functions/shortcodes.php:1669
 #: inc/functions/shortcodes.php:1800
 msgid "Center"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2768
+#: inc/admin/theme_options/settings.php:2796
 msgid "Show Main Menu in Sidebar"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2769
+#: inc/admin/theme_options/settings.php:2797
 msgid ""
 "If the layout of a page is left sidebar or right sidebar, the main menu "
 "shows in the sidebar."
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2777
+#: inc/admin/theme_options/settings.php:2805
 msgid "Sidebar Menu Title"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2778
-#: inc/admin/theme_options/settings.php:2808
+#: inc/admin/theme_options/settings.php:2806
+#: inc/admin/theme_options/settings.php:2836
 msgid "All Department"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2783
+#: inc/admin/theme_options/settings.php:2811
 msgid "Toggle Sidebar Menu"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2792
+#: inc/admin/theme_options/settings.php:2820
 msgid "Show Main Menu in Sidebar only on Home"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2801
+#: inc/admin/theme_options/settings.php:2829
 msgid "If header type is 9"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2807
+#: inc/admin/theme_options/settings.php:2835
 msgid "Main Menu Title"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2813
+#: inc/admin/theme_options/settings.php:2841
 msgid "Toggle on home page"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2827
+#: inc/admin/theme_options/settings.php:2855
 msgid "Menu Custom Content"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2828
+#: inc/admin/theme_options/settings.php:2856
 msgid ""
 "example: &lt;span&gt;Custom Message&lt;/span&gt;&lt;a href=\"#\"&gt;Special "
 "Offer!&lt;/a&gt;&lt;a href=\"#\"&gt;Buy this Theme!&lt;em class=\"tip hot"
 "\"&gt;HOT&lt;i class=\"tip-arrow\"&gt;&lt;/i&gt;&lt;/em&gt;&lt;/a&gt;"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2842
+#: inc/admin/theme_options/settings.php:2870
 msgid "Show Page Title"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2850
+#: inc/admin/theme_options/settings.php:2878
 msgid "Show Content Type Name in Singular"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2853
+#: inc/admin/theme_options/settings.php:2881
 msgid "Show Content Type Name in single content type."
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2860
+#: inc/admin/theme_options/settings.php:2888
 msgid "Show Parent Page Title in Page"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2869
+#: inc/admin/theme_options/settings.php:2897
 msgid "Show Breadcrumbs"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2877
+#: inc/admin/theme_options/settings.php:2905
 msgid "Breadcrumbs Prefix"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2883
+#: inc/admin/theme_options/settings.php:2911
 msgid "Show Blog Link"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2892
+#: inc/admin/theme_options/settings.php:2920
 msgid "Show Custom Post Type Archives Link"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2901
+#: inc/admin/theme_options/settings.php:2929
 msgid "Show Categories Link"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2910
+#: inc/admin/theme_options/settings.php:2938
 msgid "Breadcrumbs Delimiter"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2913
+#: inc/admin/theme_options/settings.php:2941
 msgid "/"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2914
+#: inc/admin/theme_options/settings.php:2942
 msgid ">"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2923
-#: inc/admin/theme_options/settings.php:2929
+#: inc/admin/theme_options/settings.php:2951
+#: inc/admin/theme_options/settings.php:2957
 msgid "Breadcrumbs Type"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2946
+#: inc/admin/theme_options/settings.php:2974
 msgid "Footer Logo"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2954
+#: inc/admin/theme_options/settings.php:2982
 msgid "Ribbon Text"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2960
+#: inc/admin/theme_options/settings.php:2988
 msgid "Copyright"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2966
+#: inc/admin/theme_options/settings.php:2994
 msgid "Copyright Position"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2977
+#: inc/admin/theme_options/settings.php:3005
 msgid "Show Payments Logos"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2987
+#: inc/admin/theme_options/settings.php:3015
 msgid "Payments Image"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:2996
+#: inc/admin/theme_options/settings.php:3024
 msgid "Payments Image Alt"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3003
+#: inc/admin/theme_options/settings.php:3031
 msgid "Payments Link URL"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3026
-#: inc/admin/theme_options/settings.php:3032
+#: inc/admin/theme_options/settings.php:3054
+#: inc/admin/theme_options/settings.php:3060
 msgid "Footer Type"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3039
+#: inc/admin/theme_options/settings.php:3067
 msgid "Customize Footer Columns"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3047
+#: inc/admin/theme_options/settings.php:3075
 msgid "Widget 1"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3055
+#: inc/admin/theme_options/settings.php:3083
 msgid "Widget 2"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3063
+#: inc/admin/theme_options/settings.php:3091
 msgid "Widget 3"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3071
+#: inc/admin/theme_options/settings.php:3099
 msgid "Widget 4"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3087
-#: inc/admin/theme_options/settings.php:3487
-#: inc/admin/theme_options/settings.php:4152
+#: inc/admin/theme_options/settings.php:3115
+#: inc/admin/theme_options/settings.php:3526
+#: inc/admin/theme_options/settings.php:4191
 msgid "Show Comments"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3095
-#: inc/admin/theme_options/settings.php:3142
-#: inc/admin/theme_options/settings.php:3716
-#: inc/admin/theme_options/settings.php:4436
+#: inc/admin/theme_options/settings.php:3123
+#: inc/admin/theme_options/settings.php:3181
+#: inc/admin/theme_options/settings.php:3755
+#: inc/admin/theme_options/settings.php:4475
 msgid "Image Lightbox"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3097
-#: inc/admin/theme_options/settings.php:3113
-#: inc/admin/theme_options/settings.php:3144
-#: inc/admin/theme_options/settings.php:3674
-#: inc/admin/theme_options/settings.php:3718
-#: inc/admin/theme_options/settings.php:4275
-#: inc/admin/theme_options/settings.php:4400
-#: inc/admin/theme_options/settings.php:4438
-#: inc/admin/theme_options/settings.php:4785
-#: inc/admin/theme_options/settings.php:4892
+#: inc/admin/theme_options/settings.php:3125
+#: inc/admin/theme_options/settings.php:3152
+#: inc/admin/theme_options/settings.php:3183
+#: inc/admin/theme_options/settings.php:3713
+#: inc/admin/theme_options/settings.php:3757
+#: inc/admin/theme_options/settings.php:4314
+#: inc/admin/theme_options/settings.php:4439
+#: inc/admin/theme_options/settings.php:4477
+#: inc/admin/theme_options/settings.php:4824
+#: inc/admin/theme_options/settings.php:4931
 #: inc/functions/content_type/meta_values.php:623
 msgid "Enable"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3098
-#: inc/admin/theme_options/settings.php:3114
-#: inc/admin/theme_options/settings.php:3145
-#: inc/admin/theme_options/settings.php:3675
-#: inc/admin/theme_options/settings.php:3719
-#: inc/admin/theme_options/settings.php:4276
-#: inc/admin/theme_options/settings.php:4401
-#: inc/admin/theme_options/settings.php:4439
-#: inc/admin/theme_options/settings.php:4786
-#: inc/admin/theme_options/settings.php:4893
+#: inc/admin/theme_options/settings.php:3126
+#: inc/admin/theme_options/settings.php:3153
+#: inc/admin/theme_options/settings.php:3184
+#: inc/admin/theme_options/settings.php:3714
+#: inc/admin/theme_options/settings.php:3758
+#: inc/admin/theme_options/settings.php:4315
+#: inc/admin/theme_options/settings.php:4440
+#: inc/admin/theme_options/settings.php:4478
+#: inc/admin/theme_options/settings.php:4825
+#: inc/admin/theme_options/settings.php:4932
 #: inc/functions/content_type/meta_values.php:625
 #: inc/functions/shortcodes.php:1346
 msgid "Disable"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3103
-#: inc/admin/theme_options/settings.php:3256
-#: inc/admin/theme_options/settings.php:3459
-#: inc/admin/theme_options/settings.php:4136
-#: inc/admin/theme_options/settings.php:5274
+#: inc/admin/theme_options/settings.php:3131
+#: inc/admin/theme_options/settings.php:3295
+#: inc/admin/theme_options/settings.php:3498
+#: inc/admin/theme_options/settings.php:4175
+#: inc/admin/theme_options/settings.php:5312
 msgid "Show Social Share Links"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3111
-#: inc/admin/theme_options/settings.php:4890 inc/content_types/page.php:18
-msgid "Microdata Rich Snippets"
+#: inc/admin/theme_options/settings.php:3142
+msgid "Float Left"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3127
-msgid "Show Post Format"
-msgstr ""
-
-#: inc/admin/theme_options/settings.php:3135
-msgid "\"HOT\" Text"
-msgstr ""
-
-#: inc/admin/theme_options/settings.php:3136
-msgid "sticky post label"
+#: inc/admin/theme_options/settings.php:3143
+msgid "Float Right"
 msgstr ""
 
 #: inc/admin/theme_options/settings.php:3150
+#: inc/admin/theme_options/settings.php:4929 inc/content_types/page.php:18
+msgid "Microdata Rich Snippets"
+msgstr ""
+
+#: inc/admin/theme_options/settings.php:3166
+msgid "Show Post Format"
+msgstr ""
+
+#: inc/admin/theme_options/settings.php:3174
+msgid "\"HOT\" Text"
+msgstr ""
+
+#: inc/admin/theme_options/settings.php:3175
+msgid "sticky post label"
+msgstr ""
+
+#: inc/admin/theme_options/settings.php:3189
 msgid "Post Meta"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3153
-#: inc/admin/theme_options/settings.php:3727
-#: inc/admin/theme_options/settings.php:3745
-#: inc/functions/content_type/blog_like.php:26
+#: inc/admin/theme_options/settings.php:3192
+#: inc/admin/theme_options/settings.php:3766
+#: inc/admin/theme_options/settings.php:3784
+#: inc/functions/content_type/blog_like.php:1
 #: inc/functions/content_type/portfolio_like.php:30
 msgid "Like"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3155
-#: inc/admin/theme_options/settings.php:3516
-#: inc/admin/theme_options/settings.php:3728
-#: inc/admin/theme_options/settings.php:3746
-#: inc/admin/theme_options/settings.php:4181
-#: inc/admin/theme_options/settings.php:4718
+#: inc/admin/theme_options/settings.php:3194
+#: inc/admin/theme_options/settings.php:3555
+#: inc/admin/theme_options/settings.php:3767
+#: inc/admin/theme_options/settings.php:3785
+#: inc/admin/theme_options/settings.php:4220
+#: inc/admin/theme_options/settings.php:4757
 #: woocommerce/myaccount/my-orders.php:19
 msgid "Date"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3157
-#: inc/admin/theme_options/settings.php:3729
-#: inc/admin/theme_options/settings.php:3747
-#: inc/admin/theme_options/settings.php:5159
+#: inc/admin/theme_options/settings.php:3196
+#: inc/admin/theme_options/settings.php:3768
+#: inc/admin/theme_options/settings.php:3786
+#: inc/admin/theme_options/settings.php:5197
 #, fuzzy
 msgid "Categories"
 msgstr "Con Categorías"
 
-#: inc/admin/theme_options/settings.php:3158
-#: inc/admin/theme_options/settings.php:5160
-#, fuzzy
+#: inc/admin/theme_options/settings.php:3197
+#: inc/admin/theme_options/settings.php:5198
 msgid "Tags"
-msgstr "Etiquetas:"
+msgstr "Etiquetas"
 
-#: inc/admin/theme_options/settings.php:3167
+#: inc/admin/theme_options/settings.php:3206
 msgid "Meta Position"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3169
+#: inc/admin/theme_options/settings.php:3208
 msgid "After content"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3170
+#: inc/admin/theme_options/settings.php:3209
 msgid "Before content"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3179
+#: inc/admin/theme_options/settings.php:3218
 msgid "Blog & Post Archives"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3199
-#: inc/admin/theme_options/settings.php:3855
+#: inc/admin/theme_options/settings.php:3238
+#: inc/admin/theme_options/settings.php:3894
 msgid "Archive Layout"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3201
-#: inc/admin/theme_options/settings.php:3420
-#: inc/admin/theme_options/settings.php:3862
-#: inc/admin/theme_options/settings.php:4578
+#: inc/admin/theme_options/settings.php:3240
+#: inc/admin/theme_options/settings.php:3459
+#: inc/admin/theme_options/settings.php:3901
+#: inc/admin/theme_options/settings.php:4617
 #: inc/functions/content_type/meta_values.php:33
 #: inc/functions/content_type/meta_values.php:55
 #: inc/functions/content_type/meta_values.php:79
 msgid "Full"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3203
-#: inc/admin/theme_options/settings.php:3422
+#: inc/admin/theme_options/settings.php:3242
+#: inc/admin/theme_options/settings.php:3461
 #: inc/functions/content_type/meta_values.php:37
 #: inc/functions/content_type/meta_values.php:59
 msgid "Large Alt"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3205
-#: inc/admin/theme_options/settings.php:3857
-#: inc/admin/theme_options/settings.php:4330
+#: inc/admin/theme_options/settings.php:3244
+#: inc/admin/theme_options/settings.php:3896
+#: inc/admin/theme_options/settings.php:4369
 #: inc/functions/content_type/meta_values.php:41
 #: inc/functions/content_type/meta_values.php:73
 #: inc/functions/content_type/meta_values.php:525
 msgid "Grid"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3206
-#: inc/admin/theme_options/settings.php:3859
+#: inc/admin/theme_options/settings.php:3245
+#: inc/admin/theme_options/settings.php:3898
 #: inc/functions/content_type/meta_values.php:43
 #: inc/functions/content_type/meta_values.php:77
 msgid "Timeline"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3208
+#: inc/admin/theme_options/settings.php:3247
 msgid "Medium Alternate"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3215
-#: inc/admin/theme_options/settings.php:3565
+#: inc/admin/theme_options/settings.php:3254
+#: inc/admin/theme_options/settings.php:3604
 msgid "Post Style"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3219
+#: inc/admin/theme_options/settings.php:3258
 msgid "Post Carousel Style"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3226
+#: inc/admin/theme_options/settings.php:3265
 msgid "Apply Post Link to Content"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3235 inc/content_types/post.php:526
+#: inc/admin/theme_options/settings.php:3274 inc/content_types/post.php:526
 msgid "Grid Columns"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3248
-#: inc/admin/theme_options/settings.php:3818
-#: inc/admin/theme_options/settings.php:4511
-#: inc/admin/theme_options/settings.php:4876
+#: inc/admin/theme_options/settings.php:3287
+#: inc/admin/theme_options/settings.php:3857
+#: inc/admin/theme_options/settings.php:4550
+#: inc/admin/theme_options/settings.php:4915
 msgid "Enable Infinite Scroll"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3267
-#: inc/admin/theme_options/settings.php:3469
+#: inc/admin/theme_options/settings.php:3306
+#: inc/admin/theme_options/settings.php:3508
 msgid "Social Share Links Style"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3271
-#: inc/admin/theme_options/settings.php:3473
-#: inc/admin/theme_options/settings.php:4648
-#: inc/admin/theme_options/settings.php:4670
-#: inc/admin/theme_options/settings.php:4755
+#: inc/admin/theme_options/settings.php:3310
+#: inc/admin/theme_options/settings.php:3512
+#: inc/admin/theme_options/settings.php:4687
+#: inc/admin/theme_options/settings.php:4709
+#: inc/admin/theme_options/settings.php:4794
 msgid "Advance"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3277
-#: inc/admin/theme_options/settings.php:4031
-#: inc/admin/theme_options/settings.php:4348
+#: inc/admin/theme_options/settings.php:3316
+#: inc/admin/theme_options/settings.php:4070
+#: inc/admin/theme_options/settings.php:4387
 msgid "Show Excerpt"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3286
-#: inc/admin/theme_options/settings.php:3578
-#: inc/admin/theme_options/settings.php:4041
-#: inc/admin/theme_options/settings.php:4358
-#: inc/admin/theme_options/settings.php:4627
+#: inc/admin/theme_options/settings.php:3325
+#: inc/admin/theme_options/settings.php:3617
+#: inc/admin/theme_options/settings.php:4080
+#: inc/admin/theme_options/settings.php:4397
+#: inc/admin/theme_options/settings.php:4666
 msgid "Excerpt Length"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3287
-#: inc/admin/theme_options/settings.php:3579
-#: inc/admin/theme_options/settings.php:4042
-#: inc/admin/theme_options/settings.php:4359
-#: inc/admin/theme_options/settings.php:4628
+#: inc/admin/theme_options/settings.php:3326
+#: inc/admin/theme_options/settings.php:3618
+#: inc/admin/theme_options/settings.php:4081
+#: inc/admin/theme_options/settings.php:4398
+#: inc/admin/theme_options/settings.php:4667
 msgid "The number of words"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3294
+#: inc/admin/theme_options/settings.php:3333
 msgid "Excerpt Type"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3295
+#: inc/admin/theme_options/settings.php:3334
 #, fuzzy
 msgid "HTML"
 msgstr "HTML"
 
-#: inc/admin/theme_options/settings.php:3301
+#: inc/admin/theme_options/settings.php:3340
 msgid "Date Format"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3302
+#: inc/admin/theme_options/settings.php:3341
 msgid "j = 1-31, F = January-December, M = Jan-Dec, m = 01-12, n = 1-12"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3303
+#: inc/admin/theme_options/settings.php:3342
 msgid "For more, please visit "
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3311
+#: inc/admin/theme_options/settings.php:3350
 msgid "Blog"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3316
-#: inc/admin/theme_options/settings.php:3767
-#: inc/admin/theme_options/settings.php:4315
-#: inc/admin/theme_options/settings.php:4459
-#: inc/admin/theme_options/settings.php:4821
+#: inc/admin/theme_options/settings.php:3355
+#: inc/admin/theme_options/settings.php:3806
+#: inc/admin/theme_options/settings.php:4354
+#: inc/admin/theme_options/settings.php:4498
+#: inc/admin/theme_options/settings.php:4860
 #: inc/functions/content_type/meta_fields.php:42
 msgid "Page Title"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3322
+#: inc/admin/theme_options/settings.php:3361
 msgid "Blog Banner Position"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3329
+#: inc/admin/theme_options/settings.php:3368
 msgid "Blog Footer View"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3336
+#: inc/admin/theme_options/settings.php:3375
 msgid "Blog Banner Type"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3344
+#: inc/admin/theme_options/settings.php:3383
 #: inc/functions/content_type/meta_fields.php:192
 #: inc/functions/content_type/meta_values.php:205
 msgid "Master Slider"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3352
+#: inc/admin/theme_options/settings.php:3391
 #: inc/functions/content_type/meta_fields.php:180
 #: inc/functions/content_type/meta_values.php:203
 msgid "Revolution Slider"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3360
+#: inc/admin/theme_options/settings.php:3399
 #: inc/functions/content_type/meta_fields.php:204
 #: inc/functions/content_type/meta_values.php:207
 msgid "Banner Block"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3361
+#: inc/admin/theme_options/settings.php:3400
 msgid ""
 "Please input block slug name. You can create a block in <strong>Blocks/Add "
 "New</strong>."
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3366
+#: inc/admin/theme_options/settings.php:3405
 #: inc/functions/content_type/meta_fields.php:215
 msgid "Content Top"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3367
-#: inc/admin/theme_options/settings.php:3373
-#: inc/admin/theme_options/settings.php:3379
-#: inc/admin/theme_options/settings.php:3385
-#: inc/admin/theme_options/settings.php:3413
-#: inc/admin/theme_options/settings.php:4078
-#: inc/admin/theme_options/settings.php:4373
-#: inc/admin/theme_options/settings.php:4692
+#: inc/admin/theme_options/settings.php:3406
+#: inc/admin/theme_options/settings.php:3412
+#: inc/admin/theme_options/settings.php:3418
+#: inc/admin/theme_options/settings.php:3424
+#: inc/admin/theme_options/settings.php:3452
+#: inc/admin/theme_options/settings.php:4117
+#: inc/admin/theme_options/settings.php:4412
+#: inc/admin/theme_options/settings.php:4731
 msgid ""
 "Please input comma separated block slug names. You can create a block in "
 "<strong>Blocks/Add New</strong>."
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3372
+#: inc/admin/theme_options/settings.php:3411
 #: inc/functions/content_type/meta_fields.php:222
 msgid "Content Inner Top"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3378
+#: inc/admin/theme_options/settings.php:3417
 #: inc/functions/content_type/meta_fields.php:229
 msgid "Content Inner Bottom"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3384
+#: inc/admin/theme_options/settings.php:3423
 #: inc/functions/content_type/meta_fields.php:236
 msgid "Content Bottom"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3392
+#: inc/admin/theme_options/settings.php:3431
 msgid "Single Post"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3412
-#: inc/admin/theme_options/settings.php:4077
-#: inc/admin/theme_options/settings.php:4372
-#: inc/admin/theme_options/settings.php:4691
+#: inc/admin/theme_options/settings.php:3451
+#: inc/admin/theme_options/settings.php:4116
+#: inc/admin/theme_options/settings.php:4411
+#: inc/admin/theme_options/settings.php:4730
 msgid "Global Banner Block"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3418 inc/content_types/post.php:115
+#: inc/admin/theme_options/settings.php:3457 inc/content_types/post.php:115
 #: inc/content_types/post.php:490
 msgid "Post Layout"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3425
+#: inc/admin/theme_options/settings.php:3464
 msgid "Full Alt"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3432
+#: inc/admin/theme_options/settings.php:3471
 msgid "Post Section Title Style"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3433
+#: inc/admin/theme_options/settings.php:3472
 msgid "Select title style of author, comment, etc."
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3435
+#: inc/admin/theme_options/settings.php:3474
 msgid "With Icon"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3436
+#: inc/admin/theme_options/settings.php:3475
 msgid "Without Icon"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3443
+#: inc/admin/theme_options/settings.php:3482
 msgid "Show Slideshow"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3451
+#: inc/admin/theme_options/settings.php:3490
 msgid "Show Title"
-msgstr ""
-
-#: inc/admin/theme_options/settings.php:3479
-#: inc/admin/theme_options/settings.php:4144
-msgid "Show Author Info"
-msgstr ""
-
-#: inc/admin/theme_options/settings.php:3495
-msgid "Show Related Posts"
-msgstr ""
-
-#: inc/admin/theme_options/settings.php:3504
-msgid "Related Posts Count"
-msgstr ""
-
-#: inc/admin/theme_options/settings.php:3505
-msgid "If you want to show all the related posts, please input \"-1\"."
-msgstr ""
-
-#: inc/admin/theme_options/settings.php:3512
-msgid "Related Posts Order by"
-msgstr ""
-
-#: inc/admin/theme_options/settings.php:3515
-#: inc/admin/theme_options/settings.php:4180
-#: inc/admin/theme_options/settings.php:4717
-msgid "Random"
-msgstr ""
-
-#: inc/admin/theme_options/settings.php:3517
-#: inc/admin/theme_options/settings.php:4182
-#: inc/admin/theme_options/settings.php:4719
-#: inc/functions/content_type/meta_values.php:539
-msgid "ID"
 msgstr ""
 
 #: inc/admin/theme_options/settings.php:3518
 #: inc/admin/theme_options/settings.php:4183
-#: inc/admin/theme_options/settings.php:4720
-msgid "Modified Date"
+msgid "Show Author Info"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3519
-#: inc/admin/theme_options/settings.php:4184
-msgid "Comment Count"
+#: inc/admin/theme_options/settings.php:3534
+msgid "Show Related Posts"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3527
-msgid "Related Posts Columns"
+#: inc/admin/theme_options/settings.php:3543
+msgid "Related Posts Count"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3528
-#: inc/admin/theme_options/settings.php:4193
-#: inc/admin/theme_options/settings.php:4729
-msgid "reduce one column in left or right sidebar layout"
+#: inc/admin/theme_options/settings.php:3544
+msgid "If you want to show all the related posts, please input \"-1\"."
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3540
-msgid "Show Back to Blog Link"
+#: inc/admin/theme_options/settings.php:3551
+msgid "Related Posts Order by"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3550
-msgid "Post Carousel"
-msgstr ""
-
-#: inc/admin/theme_options/settings.php:3555
-msgid "Post Image Size"
+#: inc/admin/theme_options/settings.php:3554
+#: inc/admin/theme_options/settings.php:4219
+#: inc/admin/theme_options/settings.php:4756
+msgid "Random"
 msgstr ""
 
 #: inc/admin/theme_options/settings.php:3556
+#: inc/admin/theme_options/settings.php:4221
+#: inc/admin/theme_options/settings.php:4758
+#: inc/functions/content_type/meta_values.php:539
+msgid "ID"
+msgstr ""
+
+#: inc/admin/theme_options/settings.php:3557
+#: inc/admin/theme_options/settings.php:4222
+#: inc/admin/theme_options/settings.php:4759
+msgid "Modified Date"
+msgstr ""
+
+#: inc/admin/theme_options/settings.php:3558
+#: inc/admin/theme_options/settings.php:4223
+msgid "Comment Count"
+msgstr ""
+
+#: inc/admin/theme_options/settings.php:3566
+msgid "Related Posts Columns"
+msgstr ""
+
+#: inc/admin/theme_options/settings.php:3567
+#: inc/admin/theme_options/settings.php:4232
+#: inc/admin/theme_options/settings.php:4768
+msgid "reduce one column in left or right sidebar layout"
+msgstr ""
+
+#: inc/admin/theme_options/settings.php:3579
+msgid "Show Back to Blog Link"
+msgstr ""
+
+#: inc/admin/theme_options/settings.php:3589
+msgid "Post Carousel"
+msgstr ""
+
+#: inc/admin/theme_options/settings.php:3594
+msgid "Post Image Size"
+msgstr ""
+
+#: inc/admin/theme_options/settings.php:3595
 msgid ""
 "Please regenerate all the thumbnails in <strong>Tools > Regen.Thumbnails</"
 "strong> after save changes."
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3567
+#: inc/admin/theme_options/settings.php:3606
 msgid "With Read More Link"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3568
+#: inc/admin/theme_options/settings.php:3607
 msgid "With Post Meta"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3569
+#: inc/admin/theme_options/settings.php:3608
 msgid "With Read More Button Link"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3570
+#: inc/admin/theme_options/settings.php:3609
 msgid "With Side Image"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3571
+#: inc/admin/theme_options/settings.php:3610
 msgid "With Categories"
 msgstr "Con Categorías"
 
-#: inc/admin/theme_options/settings.php:3585
-#: inc/admin/theme_options/settings.php:3931
-#: inc/admin/theme_options/settings.php:4235 inc/content_types/event.php:219
+#: inc/admin/theme_options/settings.php:3624
+#: inc/admin/theme_options/settings.php:3970
+#: inc/admin/theme_options/settings.php:4274 inc/content_types/event.php:219
 #: inc/content_types/portfolio.php:634
 msgid "Image Overlay Background"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3587
-#: inc/admin/theme_options/settings.php:3933
-#: inc/admin/theme_options/settings.php:4237 inc/content_types/event.php:223
+#: inc/admin/theme_options/settings.php:3626
+#: inc/admin/theme_options/settings.php:3972
+#: inc/admin/theme_options/settings.php:4276 inc/content_types/event.php:223
 #: inc/content_types/portfolio.php:642
 msgid "Darken"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3588
-#: inc/admin/theme_options/settings.php:3934
-#: inc/admin/theme_options/settings.php:4238 inc/content_types/event.php:224
+#: inc/admin/theme_options/settings.php:3627
+#: inc/admin/theme_options/settings.php:3973
+#: inc/admin/theme_options/settings.php:4277 inc/content_types/event.php:224
 #: inc/content_types/portfolio.php:644
 msgid "Lighten"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3589
-#: inc/admin/theme_options/settings.php:3935
-#: inc/admin/theme_options/settings.php:4239
+#: inc/admin/theme_options/settings.php:3628
+#: inc/admin/theme_options/settings.php:3974
+#: inc/admin/theme_options/settings.php:4278
 #: inc/content_types/content_types.php:481
 #: inc/content_types/content_types.php:965 inc/content_types/event.php:225
 #: inc/content_types/portfolio.php:646 inc/functions/shortcodes.php:1893
 msgid "Transparent"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3596
-#: inc/admin/theme_options/settings.php:3942
-#: inc/admin/theme_options/settings.php:4246
-#: inc/admin/theme_options/settings.php:4565 inc/content_types/event.php:235
+#: inc/admin/theme_options/settings.php:3635
+#: inc/admin/theme_options/settings.php:3981
+#: inc/admin/theme_options/settings.php:4285
+#: inc/admin/theme_options/settings.php:4604 inc/content_types/event.php:235
 #: inc/content_types/portfolio.php:666
 msgid "Hover Image Effect"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3598
-#: inc/admin/theme_options/settings.php:3944
-#: inc/admin/theme_options/settings.php:4248
-#: inc/admin/theme_options/settings.php:4567 inc/content_types/event.php:239
+#: inc/admin/theme_options/settings.php:3637
+#: inc/admin/theme_options/settings.php:3983
+#: inc/admin/theme_options/settings.php:4287
+#: inc/admin/theme_options/settings.php:4606 inc/content_types/event.php:239
 #: inc/content_types/portfolio.php:674
 msgid "Zoom"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3599
-#: inc/admin/theme_options/settings.php:3946
-#: inc/admin/theme_options/settings.php:4249 inc/content_types/event.php:240
+#: inc/admin/theme_options/settings.php:3638
+#: inc/admin/theme_options/settings.php:3985
+#: inc/admin/theme_options/settings.php:4288 inc/content_types/event.php:240
 #: inc/content_types/portfolio.php:676
 msgid "No Zoom"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3606
+#: inc/admin/theme_options/settings.php:3645
 msgid "Image Borders"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3608
+#: inc/admin/theme_options/settings.php:3647
 msgid "With Borders"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3609
+#: inc/admin/theme_options/settings.php:3648
 msgid "Without Borders"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3616
-#: inc/admin/theme_options/settings.php:3752
+#: inc/admin/theme_options/settings.php:3655
+#: inc/admin/theme_options/settings.php:3791
 #: inc/content_types/portfolio.php:209
 msgid "Author Name"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3636
+#: inc/admin/theme_options/settings.php:3675
 msgid "Button Size"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3641 inc/functions/shortcodes.php:1939
+#: inc/admin/theme_options/settings.php:3680 inc/functions/shortcodes.php:1939
 msgid "Extra Small"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3648
+#: inc/admin/theme_options/settings.php:3687
 msgid "Button Color"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3652 inc/functions/shortcodes.php:1839
+#: inc/admin/theme_options/settings.php:3691 inc/functions/shortcodes.php:1839
 #: inc/functions/shortcodes.php:1894
 msgid "Primary"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3653 inc/functions/shortcodes.php:1840
+#: inc/admin/theme_options/settings.php:3692 inc/functions/shortcodes.php:1840
 #: inc/functions/shortcodes.php:1895
 msgid "Secondary"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3654 inc/functions/shortcodes.php:1841
+#: inc/admin/theme_options/settings.php:3693 inc/functions/shortcodes.php:1841
 #: inc/functions/shortcodes.php:1896
 msgid "Tertiary"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3655 inc/functions/shortcodes.php:1842
+#: inc/admin/theme_options/settings.php:3694 inc/functions/shortcodes.php:1842
 #: inc/functions/shortcodes.php:1897
 msgid "Quaternary"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3672
+#: inc/admin/theme_options/settings.php:3711
 msgid "Portfolio Content Type"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3680
-#: inc/admin/theme_options/settings.php:4281
-#: inc/admin/theme_options/settings.php:4406
-#: inc/admin/theme_options/settings.php:4791
+#: inc/admin/theme_options/settings.php:3719
+#: inc/admin/theme_options/settings.php:4320
+#: inc/admin/theme_options/settings.php:4445
+#: inc/admin/theme_options/settings.php:4830
 msgid "Slug Name"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3686
-#: inc/admin/theme_options/settings.php:4287
-#: inc/admin/theme_options/settings.php:4412
-#: inc/admin/theme_options/settings.php:4797
+#: inc/admin/theme_options/settings.php:3725
+#: inc/admin/theme_options/settings.php:4326
+#: inc/admin/theme_options/settings.php:4451
+#: inc/admin/theme_options/settings.php:4836
 #: inc/functions/content_type/meta_values.php:541
 #: woocommerce/single-product-reviews.php:1
 #, fuzzy
 msgid "Name"
 msgstr "Tu Nombre"
 
-#: inc/admin/theme_options/settings.php:3687
+#: inc/admin/theme_options/settings.php:3726
 msgid "Portfolios"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3692
-#: inc/admin/theme_options/settings.php:4293
-#: inc/admin/theme_options/settings.php:4418
-#: inc/admin/theme_options/settings.php:4803
+#: inc/admin/theme_options/settings.php:3731
+#: inc/admin/theme_options/settings.php:4332
+#: inc/admin/theme_options/settings.php:4457
+#: inc/admin/theme_options/settings.php:4842
 msgid "Singular Name"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3698
-#: inc/admin/theme_options/settings.php:4424
-#: inc/admin/theme_options/settings.php:4809
+#: inc/admin/theme_options/settings.php:3737
+#: inc/admin/theme_options/settings.php:4463
+#: inc/admin/theme_options/settings.php:4848
 msgid "Category Slug Name"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3704
+#: inc/admin/theme_options/settings.php:3743
 msgid "Skill Slug Name"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3711
+#: inc/admin/theme_options/settings.php:3750
 msgid "Portfolios Page"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3724
+#: inc/admin/theme_options/settings.php:3763
 msgid "Portfolio Meta"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3741
+#: inc/admin/theme_options/settings.php:3780
 msgid "Portfolio Sub Title"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3742
+#: inc/admin/theme_options/settings.php:3781
 msgid ""
 "Use this value in portfolio archives (grid, masonry, timeline layouts) and "
 "portfolio carousel."
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3750
+#: inc/admin/theme_options/settings.php:3789
 #: inc/content_types/portfolio.php:173
 msgid "Client Name"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3751
+#: inc/admin/theme_options/settings.php:3790
 #: inc/content_types/portfolio.php:185
 msgid "Client URL(Link)"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3753
+#: inc/admin/theme_options/settings.php:3792
 #: inc/content_types/portfolio.php:233
 msgid "Author Role"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3762
+#: inc/admin/theme_options/settings.php:3801
 msgid "Portfolio Archives"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3773
-#: inc/admin/theme_options/settings.php:4321
-#: inc/admin/theme_options/settings.php:4465
-#: inc/admin/theme_options/settings.php:4827
+#: inc/admin/theme_options/settings.php:3812
+#: inc/admin/theme_options/settings.php:4360
+#: inc/admin/theme_options/settings.php:4504
+#: inc/admin/theme_options/settings.php:4866
 #: inc/functions/content_type/meta_fields.php:49
 msgid "Page Sub Title"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3794
-#: inc/admin/theme_options/settings.php:4493
+#: inc/admin/theme_options/settings.php:3833
+#: inc/admin/theme_options/settings.php:4532
 msgid "Enable Ajax Load"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3802
-#: inc/admin/theme_options/settings.php:4502
+#: inc/admin/theme_options/settings.php:3841
+#: inc/admin/theme_options/settings.php:4541
 msgid "Ajax Load on Modal"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3826
-#: inc/admin/theme_options/settings.php:4519
-#: inc/admin/theme_options/settings.php:4833
+#: inc/admin/theme_options/settings.php:3865
+#: inc/admin/theme_options/settings.php:4558
+#: inc/admin/theme_options/settings.php:4872
 msgid "Sort Categories Order By"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3833
-#: inc/admin/theme_options/settings.php:4526
-#: inc/admin/theme_options/settings.php:4840
+#: inc/admin/theme_options/settings.php:3872
+#: inc/admin/theme_options/settings.php:4565
+#: inc/admin/theme_options/settings.php:4879
 msgid "Sort Order for Categories"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3840
-#: inc/admin/theme_options/settings.php:4533
-#: inc/admin/theme_options/settings.php:4847
+#: inc/admin/theme_options/settings.php:3879
+#: inc/admin/theme_options/settings.php:4572
+#: inc/admin/theme_options/settings.php:4886
 msgid "Filter Position"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3847
+#: inc/admin/theme_options/settings.php:3886
 msgid "Image Counter"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3858
+#: inc/admin/theme_options/settings.php:3897
 #: inc/functions/content_type/meta_values.php:75
 msgid "Masonry"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3869
+#: inc/admin/theme_options/settings.php:3908
 msgid "Masonry Image Aspect Ratio"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3871
+#: inc/admin/theme_options/settings.php:3910
 msgid ""
 "ratio = width / height. if ratio is large than this value, will take more "
 "space."
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3877
+#: inc/admin/theme_options/settings.php:3916
 msgid "Columns"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3880 inc/content_types/event.php:170
+#: inc/admin/theme_options/settings.php:3919 inc/content_types/event.php:170
 #: inc/content_types/portfolio.php:536
 msgid "1 Column"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3881
-#: inc/admin/theme_options/settings.php:4542 inc/content_types/event.php:171
+#: inc/admin/theme_options/settings.php:3920
+#: inc/admin/theme_options/settings.php:4581 inc/content_types/event.php:171
 #: inc/content_types/portfolio.php:538 inc/content_types/post.php:541
 msgid "2 Columns"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3882
-#: inc/admin/theme_options/settings.php:4543 inc/content_types/event.php:172
+#: inc/admin/theme_options/settings.php:3921
+#: inc/admin/theme_options/settings.php:4582 inc/content_types/event.php:172
 #: inc/content_types/portfolio.php:540 inc/content_types/post.php:544
 msgid "3 Columns"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3883
-#: inc/admin/theme_options/settings.php:4544 inc/content_types/event.php:173
+#: inc/admin/theme_options/settings.php:3922
+#: inc/admin/theme_options/settings.php:4583 inc/content_types/event.php:173
 #: inc/content_types/portfolio.php:542 inc/content_types/post.php:547
 msgid "4 Columns"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3884
-#: inc/admin/theme_options/settings.php:4545 inc/content_types/event.php:174
+#: inc/admin/theme_options/settings.php:3923
+#: inc/admin/theme_options/settings.php:4584 inc/content_types/event.php:174
 #: inc/content_types/portfolio.php:544
 msgid "5 Columns"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3885
-#: inc/admin/theme_options/settings.php:4546 inc/content_types/event.php:175
+#: inc/admin/theme_options/settings.php:3924
+#: inc/admin/theme_options/settings.php:4585 inc/content_types/event.php:175
 #: inc/content_types/portfolio.php:546
 msgid "6 Columns"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3892
-#: inc/admin/theme_options/settings.php:4553 inc/functions/shortcodes.php:1530
+#: inc/admin/theme_options/settings.php:3931
+#: inc/admin/theme_options/settings.php:4592 inc/functions/shortcodes.php:1530
 msgid "View Type"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3896
-#: inc/admin/theme_options/settings.php:4214 inc/content_types/event.php:190
+#: inc/admin/theme_options/settings.php:3935
+#: inc/admin/theme_options/settings.php:4253 inc/content_types/event.php:190
 #: inc/content_types/portfolio.php:576
 msgid "No Margin"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3897
-#: inc/admin/theme_options/settings.php:4215
-#: inc/admin/theme_options/settings.php:5037 inc/content_types/event.php:191
+#: inc/admin/theme_options/settings.php:3936
+#: inc/admin/theme_options/settings.php:4254
+#: inc/admin/theme_options/settings.php:5076 inc/content_types/event.php:191
 #: inc/content_types/portfolio.php:578
 #: inc/functions/content_type/meta_values.php:419
 msgid "Out of Image"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3905
-#: inc/admin/theme_options/settings.php:4222
+#: inc/admin/theme_options/settings.php:3944
+#: inc/admin/theme_options/settings.php:4261
 msgid "Info View Type"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3908
-#: inc/admin/theme_options/settings.php:4224 inc/content_types/event.php:205
+#: inc/admin/theme_options/settings.php:3947
+#: inc/admin/theme_options/settings.php:4263 inc/content_types/event.php:205
 #: inc/content_types/portfolio.php:606
 msgid "Left Info"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3909
-#: inc/admin/theme_options/settings.php:4225 inc/content_types/event.php:206
+#: inc/admin/theme_options/settings.php:3948
+#: inc/admin/theme_options/settings.php:4264 inc/content_types/event.php:206
 #: inc/content_types/portfolio.php:608
 msgid "Centered Info"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3910
-#: inc/admin/theme_options/settings.php:4226 inc/content_types/event.php:207
+#: inc/admin/theme_options/settings.php:3949
+#: inc/admin/theme_options/settings.php:4265 inc/content_types/event.php:207
 #: inc/content_types/portfolio.php:610
 msgid "Bottom Info"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3911
-#: inc/admin/theme_options/settings.php:4227 inc/content_types/event.php:208
+#: inc/admin/theme_options/settings.php:3950
+#: inc/admin/theme_options/settings.php:4266 inc/content_types/event.php:208
 #: inc/content_types/portfolio.php:612
 msgid "Bottom Info Dark"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3912
-#: inc/admin/theme_options/settings.php:4228 inc/content_types/event.php:209
+#: inc/admin/theme_options/settings.php:3951
+#: inc/admin/theme_options/settings.php:4267 inc/content_types/event.php:209
 #: inc/content_types/portfolio.php:614
 msgid "Hide Info Hover"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3913
+#: inc/admin/theme_options/settings.php:3952
 msgid "Plus Icon"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3920
+#: inc/admin/theme_options/settings.php:3959
 msgid "Info View Type Style"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3923
+#: inc/admin/theme_options/settings.php:3962
 msgid "Alternate"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3924
+#: inc/admin/theme_options/settings.php:3963
 msgid "Alternate with Plus"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3945
+#: inc/admin/theme_options/settings.php:3984
 msgid "Slow Zoom"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3953
-#: inc/admin/theme_options/settings.php:4585
+#: inc/admin/theme_options/settings.php:3992
+#: inc/admin/theme_options/settings.php:4624
 msgid "Show \"Read More\" Link"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3954
+#: inc/admin/theme_options/settings.php:3993
 msgid "Show \"Read More\" link in \"Out of Image\" view type."
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3962
-#: inc/admin/theme_options/settings.php:4594
+#: inc/admin/theme_options/settings.php:4001
+#: inc/admin/theme_options/settings.php:4633
 msgid "\"Read More\" Label"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3969
+#: inc/admin/theme_options/settings.php:4008
 msgid "Enable Image Lightbox instead of Portfolio Link"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3977
+#: inc/admin/theme_options/settings.php:4016
 msgid "Select Style"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3980
-#: inc/admin/theme_options/settings.php:4121 inc/content_types/portfolio.php:67
+#: inc/admin/theme_options/settings.php:4019
+#: inc/admin/theme_options/settings.php:4160 inc/content_types/portfolio.php:67
 msgid "Without Thumbs"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3981
-#: inc/admin/theme_options/settings.php:4122 inc/content_types/portfolio.php:69
+#: inc/admin/theme_options/settings.php:4020
+#: inc/admin/theme_options/settings.php:4161 inc/content_types/portfolio.php:69
 msgid "With Thumbs"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3988
-#: inc/admin/theme_options/settings.php:4256
+#: inc/admin/theme_options/settings.php:4027
+#: inc/admin/theme_options/settings.php:4295
 msgid "Show Link Icon"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:3997
+#: inc/admin/theme_options/settings.php:4036
 msgid "Show More Featured Images in Slideshow"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4006
+#: inc/admin/theme_options/settings.php:4045
 msgid "Featured Images Count"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4013
+#: inc/admin/theme_options/settings.php:4052
 msgid "Show Image Lightbox Icon"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4022
+#: inc/admin/theme_options/settings.php:4061
 msgid "Show External Link instead of Portfolio Link"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4032
+#: inc/admin/theme_options/settings.php:4071
 msgid ""
 "If yes, will be show the excerpt in \"Medium\", \"Large\", \"Full\" archive "
 "layout. If no, will be show the content."
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4050
+#: inc/admin/theme_options/settings.php:4089
 msgid "Single Portfolio"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4083
+#: inc/admin/theme_options/settings.php:4122
 msgid "Show Navigation"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4084
+#: inc/admin/theme_options/settings.php:4123
 msgid "Show list and title, next/prev links."
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4092
+#: inc/admin/theme_options/settings.php:4131
 msgid "Show Image Count"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4100
+#: inc/admin/theme_options/settings.php:4139
 #: inc/content_types/portfolio.php:245 inc/content_types/portfolio.php:504
 msgid "Portfolio Layout"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4102
+#: inc/admin/theme_options/settings.php:4141
 #: inc/functions/content_type/meta_values.php:95
 #: inc/functions/content_type/meta_values.php:126
 msgid "Medium Slider"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4103
+#: inc/admin/theme_options/settings.php:4142
 #: inc/functions/content_type/meta_values.php:97
 #: inc/functions/content_type/meta_values.php:128
 msgid "Large Slider"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4104
+#: inc/admin/theme_options/settings.php:4143
 #: inc/functions/content_type/meta_values.php:99
 #: inc/functions/content_type/meta_values.php:130
 msgid "Full Slider"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4105
+#: inc/admin/theme_options/settings.php:4144
 #: inc/functions/content_type/meta_values.php:101
 #: inc/functions/content_type/meta_values.php:103
 #: inc/functions/content_type/meta_values.php:132
@@ -4063,878 +4164,873 @@ msgstr ""
 msgid "Gallery"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4106
+#: inc/admin/theme_options/settings.php:4145
 #: inc/functions/content_type/meta_values.php:105
 #: inc/functions/content_type/meta_values.php:136
 msgid "Carousel"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4107
+#: inc/admin/theme_options/settings.php:4146
 #: inc/functions/content_type/meta_values.php:107
 #: inc/functions/content_type/meta_values.php:138
 msgid "Medias"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4108
+#: inc/admin/theme_options/settings.php:4147
 #: inc/functions/content_type/meta_values.php:109
 #: inc/functions/content_type/meta_values.php:140
 msgid "Full Width Video"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4109
+#: inc/admin/theme_options/settings.php:4148
 #: inc/functions/content_type/meta_values.php:111
 #: inc/functions/content_type/meta_values.php:142
 msgid "Masonry Images"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4110
+#: inc/admin/theme_options/settings.php:4149
 #: inc/functions/content_type/meta_values.php:113
 #: inc/functions/content_type/meta_values.php:144
 msgid "Full Images"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4111
+#: inc/admin/theme_options/settings.php:4150
 #: inc/functions/content_type/meta_values.php:115
 #: inc/functions/content_type/meta_values.php:146
 msgid "Extended"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4118 inc/content_types/portfolio.php:55
+#: inc/admin/theme_options/settings.php:4157 inc/content_types/portfolio.php:55
 msgid "Slider Type"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4129 inc/content_types/portfolio.php:89
+#: inc/admin/theme_options/settings.php:4168 inc/content_types/portfolio.php:89
 msgid "Slider Thumbs Count"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4160
+#: inc/admin/theme_options/settings.php:4199
 msgid "Show Related Portfolios"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4169
+#: inc/admin/theme_options/settings.php:4208
 msgid "Related Portfolios Count"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4170
+#: inc/admin/theme_options/settings.php:4209
 msgid "If you want to show all the related portfolios, please input \"-1\"."
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4177
+#: inc/admin/theme_options/settings.php:4216
 msgid "Related Portfolios Order by"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4192
+#: inc/admin/theme_options/settings.php:4231
 msgid "Related Portfolios Columns"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4206
+#: inc/admin/theme_options/settings.php:4245
 msgid "Portfolio Carousel"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4211
+#: inc/admin/theme_options/settings.php:4250
 msgid "Portfolio Style"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4273
+#: inc/admin/theme_options/settings.php:4312
 msgid "Event Content Type"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4288
+#: inc/admin/theme_options/settings.php:4327
 msgid "Events"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4301
+#: inc/admin/theme_options/settings.php:4340
 msgid "Events Page"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4310
+#: inc/admin/theme_options/settings.php:4349
 msgid "Event Archives"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4329
+#: inc/admin/theme_options/settings.php:4368
 #: inc/functions/content_type/meta_values.php:527
 msgid "List"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4338
-#: inc/admin/theme_options/settings.php:4378
+#: inc/admin/theme_options/settings.php:4377
+#: inc/admin/theme_options/settings.php:4417
 msgid "Show Event Countdown"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4349
+#: inc/admin/theme_options/settings.php:4388
 msgid ""
 "If yes, will be show the excerpt in archive layout. If no, will be show the "
 "content."
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4367
+#: inc/admin/theme_options/settings.php:4406
 msgid "Single Event"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4393
-#: inc/admin/theme_options/settings.php:4419
+#: inc/admin/theme_options/settings.php:4432
+#: inc/admin/theme_options/settings.php:4458
 msgid "Member"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4398
+#: inc/admin/theme_options/settings.php:4437
 msgid "Member Content Type"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4413
+#: inc/admin/theme_options/settings.php:4452
 msgid "Members"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4431
+#: inc/admin/theme_options/settings.php:4470
 msgid "Members Page"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4444
+#: inc/admin/theme_options/settings.php:4483
 msgid "Show Social Link in Blank Target"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4454
+#: inc/admin/theme_options/settings.php:4493
 msgid "Member Archives"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4540
+#: inc/admin/theme_options/settings.php:4579
 msgid "Member Columns"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4556
-#: inc/admin/theme_options/settings.php:4997
+#: inc/admin/theme_options/settings.php:4595
+#: inc/admin/theme_options/settings.php:5036
 msgid "Type 1"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4557
-#: inc/admin/theme_options/settings.php:4998
+#: inc/admin/theme_options/settings.php:4596
+#: inc/admin/theme_options/settings.php:5037
 msgid "Type 2"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4558
+#: inc/admin/theme_options/settings.php:4597
 msgid "Type 3"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4568
+#: inc/admin/theme_options/settings.php:4607
 msgid "No_Zoom"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4575
+#: inc/admin/theme_options/settings.php:4614
 msgid "Member Image Size"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4577
+#: inc/admin/theme_options/settings.php:4616
 msgid "Static"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4586
+#: inc/admin/theme_options/settings.php:4625
 msgid "Show \"Read More\" link in \"Type 2\" view type."
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4601
+#: inc/admin/theme_options/settings.php:4640
 msgid "Show External Link instead of Member Link"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4609
+#: inc/admin/theme_options/settings.php:4648
 msgid "Show Overview"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4617
+#: inc/admin/theme_options/settings.php:4656
 msgid "Show Overview Excerpt"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4644
-#: inc/admin/theme_options/settings.php:4751
+#: inc/admin/theme_options/settings.php:4683
+#: inc/admin/theme_options/settings.php:4790
 msgid "Social Links Style"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4656
+#: inc/admin/theme_options/settings.php:4695
 msgid "Single Member"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4668
+#: inc/admin/theme_options/settings.php:4707
 msgid "Page Style"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4697
+#: inc/admin/theme_options/settings.php:4736
 msgid "Show Related Members"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4706
+#: inc/admin/theme_options/settings.php:4745
 msgid "Related Members Count"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4707
+#: inc/admin/theme_options/settings.php:4746
 msgid "If you want to show all the related members, please input \"-1\"."
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4714
+#: inc/admin/theme_options/settings.php:4753
 msgid "Related Members Order by"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4728
+#: inc/admin/theme_options/settings.php:4767
 msgid "Related Members Columns"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4763
+#: inc/admin/theme_options/settings.php:4802
 msgid "Social Links Position"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4765
+#: inc/admin/theme_options/settings.php:4804
 msgid "Before Overview"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4766
+#: inc/admin/theme_options/settings.php:4805
 msgid "After Overview"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4768
+#: inc/admin/theme_options/settings.php:4807
 msgid "Below Member Image"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4778
-#: inc/admin/theme_options/settings.php:4804
+#: inc/admin/theme_options/settings.php:4817
+#: inc/admin/theme_options/settings.php:4843
 msgid "FAQ"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4783
+#: inc/admin/theme_options/settings.php:4822
 msgid "FAQ Content Type"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4798
+#: inc/admin/theme_options/settings.php:4837
 msgid "FAQs"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4816
+#: inc/admin/theme_options/settings.php:4855
 msgid "FAQs Page"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4885
+#: inc/admin/theme_options/settings.php:4924
 msgid "SEO"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4898
+#: inc/admin/theme_options/settings.php:4937
 msgid "Compatible with Yoast SEO Plugin"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4899
+#: inc/admin/theme_options/settings.php:4938
 msgid ""
 "Porto theme compatible with <a href=\"https://wordpress.org/plugins/"
 "wordpress-seo/\">Yoast SEO</a> plugin."
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4908
+#: inc/admin/theme_options/settings.php:4947
 #, fuzzy
 msgid "404 Error"
 msgstr "Error 404"
 
-#: inc/admin/theme_options/settings.php:4913
+#: inc/admin/theme_options/settings.php:4952
 msgid "Links Block"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4914
+#: inc/admin/theme_options/settings.php:4953
 msgid "Input a block slug name"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4923
+#: inc/admin/theme_options/settings.php:4962
 msgid "Woocommerce"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4928
+#: inc/admin/theme_options/settings.php:4967
 msgid "Show Rating in Woocommerce Products Widget"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4938
+#: inc/admin/theme_options/settings.php:4977
 msgid "Product Archives"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4958
+#: inc/admin/theme_options/settings.php:4997
 msgid "Enable Ajax Filter"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4966
+#: inc/admin/theme_options/settings.php:5005
 msgid "Products per Page"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4967
+#: inc/admin/theme_options/settings.php:5006
 msgid "Comma separated list of product counts."
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4973 inc/content_types/product.php:147
+#: inc/admin/theme_options/settings.php:5012 inc/content_types/product.php:147
 msgid "View Mode"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4980
+#: inc/admin/theme_options/settings.php:5019
 msgid "Shop Page Product Columns"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4987
+#: inc/admin/theme_options/settings.php:5026
 msgid "Category Product Columns"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:4994
+#: inc/admin/theme_options/settings.php:5033
 msgid "Category View Type"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5004
+#: inc/admin/theme_options/settings.php:5043
 msgid "Enable Image Hover Effect"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5012
+#: inc/admin/theme_options/settings.php:5051
 msgid "Show \"Out of stock\" Status"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5020
+#: inc/admin/theme_options/settings.php:5059
 msgid "Add Links Options"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5026
+#: inc/admin/theme_options/settings.php:5065
 msgid "Change \"A\" Tag to \"SPAN\" Tag"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5034 inc/content_types/product.php:163
+#: inc/admin/theme_options/settings.php:5073 inc/content_types/product.php:163
 msgid "Add Links Position"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5035 inc/content_types/product.php:164
+#: inc/admin/theme_options/settings.php:5074 inc/content_types/product.php:164
 msgid "Select position of add to cart, add to wishlist, quickview."
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5038
+#: inc/admin/theme_options/settings.php:5077
 #: inc/functions/content_type/meta_values.php:421
 msgid "On Image"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5039
+#: inc/admin/theme_options/settings.php:5078
 #: inc/functions/content_type/meta_values.php:423
 msgid "Wishlist, Quick View On Image"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5040
+#: inc/admin/theme_options/settings.php:5079
 #: inc/functions/content_type/meta_values.php:423
 msgid "Out of Image, Quick View On Image"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5041
+#: inc/admin/theme_options/settings.php:5080
 #: inc/functions/content_type/meta_values.php:423
 msgid "Out of Image, Quick View On Image Alt"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5048
+#: inc/admin/theme_options/settings.php:5087
 msgid "Add to Cart Notification Type"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5058
+#: inc/admin/theme_options/settings.php:5097
 msgid "Enable Hover Effect"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5066
+#: inc/admin/theme_options/settings.php:5105
 #, fuzzy
 msgid "Show Wishlist"
 msgstr "Mostrar Lista de Deseos"
 
-#: inc/admin/theme_options/settings.php:5074
+#: inc/admin/theme_options/settings.php:5113
 msgid "Show Quick View"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5083
+#: inc/admin/theme_options/settings.php:5122
 msgid "\"Quick View\" Text"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5091
+#: inc/admin/theme_options/settings.php:5130
 #, fuzzy
 msgid "Single Product"
 msgstr "Producto"
 
-#: inc/admin/theme_options/settings.php:5111
+#: inc/admin/theme_options/settings.php:5150
 msgid "Show Prev/Next Product"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5112
-msgid "Will be show in breadcrumbs"
-msgstr ""
-
-#: inc/admin/theme_options/settings.php:5120
+#: inc/admin/theme_options/settings.php:5158
 msgid "Show Short Description"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5128
+#: inc/admin/theme_options/settings.php:5166
 msgid "Custom Tabs Count"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5134
+#: inc/admin/theme_options/settings.php:5172
 msgid "Tabs Type"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5135
+#: inc/admin/theme_options/settings.php:5173
 msgid "Horizontal"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5135
+#: inc/admin/theme_options/settings.php:5173
 msgid "Vertical"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5135
+#: inc/admin/theme_options/settings.php:5173
 msgid "Accordion"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5141
+#: inc/admin/theme_options/settings.php:5179
 msgid "Tabs Style"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5148
+#: inc/admin/theme_options/settings.php:5186
 msgid "Tabs Position"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5149
+#: inc/admin/theme_options/settings.php:5187
 msgid "Below Price & Short Description"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5155
+#: inc/admin/theme_options/settings.php:5193
 msgid "Product Meta"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5158
-#, fuzzy
+#: inc/admin/theme_options/settings.php:5196
 msgid "SKU"
-msgstr "SKU:"
+msgstr "SKU"
 
-#: inc/admin/theme_options/settings.php:5168
+#: inc/admin/theme_options/settings.php:5206
 msgid "Global Product Custom Tab Title"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5174
+#: inc/admin/theme_options/settings.php:5212
 msgid "Global Product Custom Tab Block"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5175
+#: inc/admin/theme_options/settings.php:5213
 msgid "Input block slug name"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5181
+#: inc/admin/theme_options/settings.php:5219
 msgid "Global Product Custom Tab Priority"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5182
+#: inc/admin/theme_options/settings.php:5220
 msgid ""
 "Input the custom tab priority. (Description: 10, Additional Information: 20, "
 "Reviews: 30)"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5188
+#: inc/admin/theme_options/settings.php:5226
 #, fuzzy
 msgid "Show Related Products"
 msgstr "Mostrar Productos Relacionados"
 
-#: inc/admin/theme_options/settings.php:5197
+#: inc/admin/theme_options/settings.php:5235
 #, fuzzy
 msgid "Related Products Count"
 msgstr "Cantidad de Productos Relacionados"
 
-#: inc/admin/theme_options/settings.php:5204
+#: inc/admin/theme_options/settings.php:5242
 msgid "Related Product Columns"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5211
+#: inc/admin/theme_options/settings.php:5249
 msgid "Show Up Sells"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5220
+#: inc/admin/theme_options/settings.php:5258
 msgid "Up Sells Count"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5227
+#: inc/admin/theme_options/settings.php:5265
 msgid "Up Sells Product Columns"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5234
+#: inc/admin/theme_options/settings.php:5272
 msgid "Show \"Hot\" Label"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5235
+#: inc/admin/theme_options/settings.php:5273
 msgid "Will be show in the featured product."
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5244
+#: inc/admin/theme_options/settings.php:5282
 msgid "\"Hot\" Text"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5250
+#: inc/admin/theme_options/settings.php:5288
 msgid "Show \"Sale\" Label"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5259
+#: inc/admin/theme_options/settings.php:5297
 msgid "\"Sale\" Text"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5266
+#: inc/admin/theme_options/settings.php:5304
 msgid "Show Saved Sale Price Percentage"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5284
+#: inc/admin/theme_options/settings.php:5322
 msgid "Product Image & Zoom"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5289
+#: inc/admin/theme_options/settings.php:5327
 msgid "Show Thumbnails"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5298
+#: inc/admin/theme_options/settings.php:5336
 msgid "Thumbnails Count"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5304
+#: inc/admin/theme_options/settings.php:5342
 msgid "Enable Image Zoom"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5312
+#: inc/admin/theme_options/settings.php:5350
 msgid "Enable Image Zoom on Mobile"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5321
+#: inc/admin/theme_options/settings.php:5359
 msgid "Enable Image Popup"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5329
+#: inc/admin/theme_options/settings.php:5367
 msgid "Zoom Type"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5330
+#: inc/admin/theme_options/settings.php:5368
 msgid "Inner"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5330
+#: inc/admin/theme_options/settings.php:5368
 msgid "Lens"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5337
+#: inc/admin/theme_options/settings.php:5375
 msgid "Scroll Zoom"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5346
+#: inc/admin/theme_options/settings.php:5384
 msgid "Lens Size"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5353
+#: inc/admin/theme_options/settings.php:5391
 msgid "Lens Shape"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5354 inc/functions/shortcodes.php:1615
+#: inc/admin/theme_options/settings.php:5392 inc/functions/shortcodes.php:1615
 msgid "Round"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5354 inc/functions/shortcodes.php:1615
+#: inc/admin/theme_options/settings.php:5392 inc/functions/shortcodes.php:1615
 msgid "Square"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5361
+#: inc/admin/theme_options/settings.php:5399
 msgid "Contain Lens Zoom"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5370
+#: inc/admin/theme_options/settings.php:5408
 msgid "Lens Border"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5377 inc/functions/shortcodes.php:775
+#: inc/admin/theme_options/settings.php:5415 inc/functions/shortcodes.php:775
 msgid "Border Size"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5392
+#: inc/admin/theme_options/settings.php:5430
 msgid "Cart Page"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5397
+#: inc/admin/theme_options/settings.php:5435
 msgid "Show Cross Sells"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5406
+#: inc/admin/theme_options/settings.php:5444
 msgid "Cross Sells Count"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5412
+#: inc/admin/theme_options/settings.php:5450
 msgid "Cart Page Version"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5413
-#: inc/admin/theme_options/settings.php:5427
+#: inc/admin/theme_options/settings.php:5451
+#: inc/admin/theme_options/settings.php:5465
 msgid "Version 1"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5413
-#: inc/admin/theme_options/settings.php:5427
+#: inc/admin/theme_options/settings.php:5451
+#: inc/admin/theme_options/settings.php:5465
 msgid "Version 2"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5421
+#: inc/admin/theme_options/settings.php:5459
 msgid "Checkout Page"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5426
+#: inc/admin/theme_options/settings.php:5464
 msgid "Checkout Page Version"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5435
+#: inc/admin/theme_options/settings.php:5473
 msgid "Catalog Mode"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5440
+#: inc/admin/theme_options/settings.php:5478
 msgid "Enable Catalog Mode"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5448
+#: inc/admin/theme_options/settings.php:5486
 msgid "Show Price"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5457
+#: inc/admin/theme_options/settings.php:5495
 msgid "Show Add Cart Button"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5466
+#: inc/admin/theme_options/settings.php:5504
 msgid "Show Read More Button"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5475
+#: inc/admin/theme_options/settings.php:5513
 msgid "Read More Button Target"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5478
+#: inc/admin/theme_options/settings.php:5516
 msgid "Self"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5479
+#: inc/admin/theme_options/settings.php:5517
 msgid "Blank"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5487
+#: inc/admin/theme_options/settings.php:5525
 msgid "Read More Button Label"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5493
+#: inc/admin/theme_options/settings.php:5531
 msgid "Use Read More Link in"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5496
+#: inc/admin/theme_options/settings.php:5534
 msgid "Product and Product Archives"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5504
+#: inc/admin/theme_options/settings.php:5542
 msgid "Show Reviews"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5513
+#: inc/admin/theme_options/settings.php:5551
 msgid "Enable also for administrators"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5525
+#: inc/admin/theme_options/settings.php:5563
 msgid "Registration form"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5530
+#: inc/admin/theme_options/settings.php:5568
 msgid "Fields"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5533
+#: inc/admin/theme_options/settings.php:5571
 msgid "Full Info"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5534
+#: inc/admin/theme_options/settings.php:5572
 msgid "Short Info"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5545
+#: inc/admin/theme_options/settings.php:5583
 msgid "Wc Vendor"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5551
+#: inc/admin/theme_options/settings.php:5589
 msgid "General Wc Vendor Shop Settings"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5558
+#: inc/admin/theme_options/settings.php:5596
 msgid "Select Vendor Phone Number"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5569
+#: inc/admin/theme_options/settings.php:5607
 msgid "Show Vendor Email"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5579
+#: inc/admin/theme_options/settings.php:5617
 msgid "Show Vendor URL"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5591
+#: inc/admin/theme_options/settings.php:5629
 msgid "WC Vendors - Shop Page"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5597
+#: inc/admin/theme_options/settings.php:5635
 msgid "Vendor Description on Top of Shop Page"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5609
-#: inc/admin/theme_options/settings.php:5668
+#: inc/admin/theme_options/settings.php:5647
+#: inc/admin/theme_options/settings.php:5706
 msgid "Show Vendor Avatar in Vendor Description"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5619
-#: inc/admin/theme_options/settings.php:5678
+#: inc/admin/theme_options/settings.php:5657
+#: inc/admin/theme_options/settings.php:5716
 msgid "Show Social and Contact Info in Vendor Description"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5631
+#: inc/admin/theme_options/settings.php:5669
 msgid "Sold by\" at Product List"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5642
+#: inc/admin/theme_options/settings.php:5680
 msgid "WC Vendors - Single Product Page"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5648
+#: inc/admin/theme_options/settings.php:5686
 msgid "Vendor Single Product Page Show Header"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5658
+#: inc/admin/theme_options/settings.php:5696
 msgid "Vendor Description on Top of Single Product Page"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5688
+#: inc/admin/theme_options/settings.php:5726
 msgid "\"Seller Info\" at Product Tab"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5699
+#: inc/admin/theme_options/settings.php:5737
 msgid "\"More From This Seller\" Products"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5710
+#: inc/admin/theme_options/settings.php:5748
 msgid "Sold by\" at Product Meta"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5720
+#: inc/admin/theme_options/settings.php:5758
 msgid "WC Vendors - Cart Page"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5726
+#: inc/admin/theme_options/settings.php:5764
 msgid "\"Sold by\" at Cart page"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5740
+#: inc/admin/theme_options/settings.php:5778
 msgid "BBPress & BuddyPress"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5770
+#: inc/admin/theme_options/settings.php:5808
 msgid "Social Share"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5776
+#: inc/admin/theme_options/settings.php:5814
 msgid "Show social links in post and product, page, portfolio, etc."
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5793
+#: inc/admin/theme_options/settings.php:5831
 msgid "Enable Facebook Share"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5802
+#: inc/admin/theme_options/settings.php:5840
 msgid "Enable Twitter Share"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5811
+#: inc/admin/theme_options/settings.php:5849
 msgid "Enable LinkedIn Share"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5820
+#: inc/admin/theme_options/settings.php:5858
 msgid "Enable Google + Share"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5829
+#: inc/admin/theme_options/settings.php:5867
 msgid "Enable Pinterest Share"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5838
+#: inc/admin/theme_options/settings.php:5876
 msgid "Enable Email Share"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5847
+#: inc/admin/theme_options/settings.php:5885
 msgid "Enable VK Share"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5856
+#: inc/admin/theme_options/settings.php:5894
 msgid "Enable Xing Share"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5865
+#: inc/admin/theme_options/settings.php:5903
 msgid "Enable Tumblr Share"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5874
+#: inc/admin/theme_options/settings.php:5912
 msgid "Enable Reddit Share"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5883
+#: inc/admin/theme_options/settings.php:5921
 msgid "Enable WhatsApp Share"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5895
+#: inc/admin/theme_options/settings.php:5933
 msgid "Slider Config"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5900
+#: inc/admin/theme_options/settings.php:5938
 msgid "Loop"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5908
+#: inc/admin/theme_options/settings.php:5946
 msgid "Auto Play"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5916
+#: inc/admin/theme_options/settings.php:5954
 msgid "Play Speed"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5918
+#: inc/admin/theme_options/settings.php:5956
 msgid "unit: millisecond"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5924
+#: inc/admin/theme_options/settings.php:5962
 msgid "Auto Height"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5932
+#: inc/admin/theme_options/settings.php:5970
 msgid "Show Next/Prev Buttons"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5940
+#: inc/admin/theme_options/settings.php:5978
 msgid "Show Next/Prev Buttons on Hover"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5949
+#: inc/admin/theme_options/settings.php:5987
 msgid "Enable Margin"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5958
+#: inc/admin/theme_options/settings.php:5996
 msgid "Show Dots Navigation"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5966
+#: inc/admin/theme_options/settings.php:6004
 msgid "Animate In"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5968
+#: inc/admin/theme_options/settings.php:6006
 msgid ""
 "Please input animation. Please reference <a href=\"http://daneden.github.io/"
 "animate.css/\">animate.css</a>. ex: fadeIn"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5973
+#: inc/admin/theme_options/settings.php:6011
 msgid "Animate Out"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5975
+#: inc/admin/theme_options/settings.php:6013
 msgid ""
 "Please input animation. Please reference <a href=\"http://daneden.github.io/"
 "animate.css/\">animate.css</a>. ex: fadeOut"
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:5987
+#: inc/admin/theme_options/settings.php:6025
 msgid "Theme Version: "
 msgstr ""
 
-#: inc/admin/theme_options/settings.php:6059
+#: inc/admin/theme_options/settings.php:6097
 msgid ""
 "Please regenerate again default css files in <strong>Skin > Compile Default "
 "CSS</strong> after <strong>update theme</strong>."
@@ -4976,7 +5072,6 @@ msgstr ""
 
 #: inc/content_types/content_types.php:649 inc/functions/post.php:212
 #: woocommerce/myaccount/my-address.php:56
-#, fuzzy
 msgid "Edit"
 msgstr "Editar"
 
@@ -5243,12 +5338,16 @@ msgstr ""
 msgid "Product Columns"
 msgstr ""
 
-#: inc/functions/content_type/blog_like.php:14
+#: inc/functions/content_type/blog_like.php:1
+msgid "Liked"
+msgstr ""
+
+#: inc/functions/content_type/blog_like.php:1
 #: inc/functions/content_type/portfolio_like.php:15
 msgid "Already Liked"
 msgstr ""
 
-#: inc/functions/content_type/blog_like.php:24
+#: inc/functions/content_type/blog_like.php:1
 #: inc/functions/content_type/portfolio_like.php:28
 msgid "Already liked"
 msgstr ""
@@ -5554,9 +5653,8 @@ msgid "Desc"
 msgstr ""
 
 #: inc/functions/content_type/meta_values.php:571
-#, fuzzy
 msgid "In Content"
-msgstr "<a href=\"%url%\">El contenido</a> no se pudo cargar."
+msgstr "En el Contenido"
 
 #: inc/functions/content_type/meta_values.php:573
 msgid "In Breadcrumbs"
@@ -5576,9 +5674,8 @@ msgid "Video & Audio or Content"
 msgstr ""
 
 #: inc/functions/general.php:374 inc/functions/general.php:435
-#, fuzzy
 msgid "No Comments"
-msgstr "Comentarios:"
+msgstr "No hay Comentarios"
 
 #: inc/functions/general.php:376 inc/functions/general.php:433
 #, fuzzy
@@ -5598,45 +5695,47 @@ msgstr ""
 msgid "Comment on %s"
 msgstr ""
 
-#: inc/functions/layout.php:2745 inc/functions/layout.php:2989
-#: inc/functions/layout.php:3841 inc/functions/layout.php:3849
-#: inc/functions/layout.php:4853 inc/functions/layout.php:5889
-#: inc/functions/layout.php:6265
+#: inc/functions/layout.php:2747 inc/functions/layout.php:2997
+#: inc/functions/layout.php:3855 inc/functions/layout.php:3865
+#: inc/functions/layout.php:4879 inc/functions/layout.php:5921
+#: inc/functions/layout.php:6303
 msgid "Log out"
 msgstr "Salir"
 
-#: inc/functions/layout.php:2805 inc/functions/layout.php:3049
-#: inc/functions/layout.php:3929 inc/functions/layout.php:3937
-#: inc/functions/layout.php:4913 inc/functions/layout.php:5949
-#: inc/functions/layout.php:6325
-msgid "Log in"
+#: inc/functions/layout.php:2809 inc/functions/layout.php:3059
+#: inc/functions/layout.php:3949 inc/functions/layout.php:3959
+#: inc/functions/layout.php:4941 inc/functions/layout.php:5983
+#: inc/functions/layout.php:6365
+#, fuzzy
+#| msgid "Log in"
+msgid "Log In"
 msgstr "Entrar"
 
-#: inc/functions/layout.php:6697
+#: inc/functions/layout.php:6739
 #: woocommerce/yith-woocommerce-ajax-search.php:19
 msgid "Search&hellip;"
 msgstr "Buscar&hellip;"
 
-#: inc/functions/layout.php:6721
+#: inc/functions/layout.php:6763
 #: woocommerce/yith-woocommerce-ajax-search.php:23
 msgid "All Categories"
 msgstr ""
 
-#: inc/functions/layout.php:6793
-#: woocommerce/yith-woocommerce-ajax-search.php:35
+#: inc/functions/layout.php:6837
+#: woocommerce/yith-woocommerce-ajax-search.php:34
 msgid "Search"
 msgstr ""
 
-#: inc/functions/layout.php:7293 inc/functions/woocommerce.php:180
+#: inc/functions/layout.php:7333 inc/functions/woocommerce.php:180
 #, php-format
 msgid "%d item"
 msgid_plural "%d items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d elemento"
+msgstr[1] "%d elementos"
 
-#: inc/functions/layout.php:8349 inc/functions/layout.php:8601
-#: inc/functions/layout.php:8833 inc/functions/layout.php:9061
-#: inc/functions/layout.php:9313
+#: inc/functions/layout.php:8386 inc/functions/layout.php:8638
+#: inc/functions/layout.php:8870 inc/functions/layout.php:9098
+#: inc/functions/layout.php:9350
 msgid "<strong>Filter</strong> By"
 msgstr ""
 
@@ -6890,13 +6989,6 @@ msgstr ""
 msgid "Download and import file attachments"
 msgstr ""
 
-#: inc/plugins/importer/porto-wordpress-importer.php:460
-#: woocommerce/myaccount/form-register-2.php:71
-#: woocommerce/single-product-reviews.php:1
-#, fuzzy
-msgid "Submit"
-msgstr "enviar"
-
 #: inc/plugins/importer/porto-wordpress-importer.php:473
 msgid "Import author:"
 msgstr ""
@@ -7607,8 +7699,7 @@ msgstr "estimadas para %s"
 #: woocommerce/cart/cart-totals-v1.php:1 woocommerce/cart/mini-cart.php:1
 #: woocommerce/checkout/review-order.php:18
 #: woocommerce/checkout/review-order.php:101
-#: woocommerce/myaccount/my-orders.php:21
-#: woocommerce/order/order-details-test.php:1
+#: woocommerce/myaccount/my-orders.php:21 woocommerce/order/order-details.php:1
 msgid "Total"
 msgstr "Total"
 
@@ -7635,6 +7726,7 @@ msgid "Grand Total"
 msgstr "Total"
 
 #: woocommerce/cart/cart-totals-v2.php:1
+#: woocommerce/cart/proceed-to-checkout-button.php:27
 msgid "Proceed to checkout"
 msgstr "Ir a la Caja"
 
@@ -7685,7 +7777,7 @@ msgstr "Carrito de Compras"
 
 #: woocommerce/cart/cart-v2.php:13
 msgid "Proceed to Checkout"
-msgstr "Proceder a la Caja"
+msgstr "Ir a la Caja"
 
 #: woocommerce/cart/cart-v2.php:116 woocommerce/checkout/form-coupon.php:32
 msgid "DISCOUNT CODE"
@@ -7759,6 +7851,18 @@ msgstr "Código Postal / ZIP"
 #: woocommerce/cart/shipping-calculator.php:92
 msgid "Update Totals"
 msgstr "Actualizar Totales"
+
+#: woocommerce/checkout/form-billing.php:29
+msgid "Billing &amp; Shipping"
+msgstr "Pago y Envío"
+
+#: woocommerce/checkout/form-billing.php:33
+msgid "Billing details"
+msgstr "Detalles del Envío"
+
+#: woocommerce/checkout/form-billing.php:54
+msgid "Create an account?"
+msgstr "¿Crear una Cuenta?"
 
 #: woocommerce/checkout/form-checkout-v1.php:48
 msgid "Your order"
@@ -7943,8 +8047,7 @@ msgstr "Descargar"
 msgid "No downloads available yet."
 msgstr "No hay descargas disponibles aun."
 
-#: woocommerce/myaccount/downloads.php:1 woocommerce/myaccount/orders.php:111
-#, fuzzy
+#: woocommerce/myaccount/downloads.php:1 woocommerce/myaccount/orders.php:109
 msgid "Go Shop"
 msgstr "Ir a la Tienda"
 
@@ -8009,7 +8112,7 @@ msgstr "Dirección de Pago"
 msgid "Shipping Address"
 msgstr "Dirección de Envío"
 
-#: woocommerce/myaccount/form-edit-address.php:50
+#: woocommerce/myaccount/form-edit-address.php:48
 msgid "Save Address"
 msgstr "Guardar Dirección"
 
@@ -8111,6 +8214,10 @@ msgid ""
 "account, but may take several minutes to show up in your inbox. Please wait "
 "at least 10 minutes before attempting another reset."
 msgstr ""
+"Hemos enviado un correo electrónico al email asociado con tu cuenta para "
+"restablecer tu contraseña aunque puede tomarle algunos minutos para llegar a "
+"tu bandeja de entrada. Por favor espera por lo menos 10 minutos antes de "
+"intentarlo de nuevo."
 
 #: woocommerce/myaccount/my-account.php:48
 #, php-format
@@ -8144,7 +8251,7 @@ msgstr ""
 
 #: woocommerce/myaccount/my-address.php:75
 msgid "You have not set up this type of address yet."
-msgstr ""
+msgstr "No has configurado este tipo de dirección aún."
 
 #: woocommerce/myaccount/my-downloads.php:22
 msgid "Available Downloads"
@@ -8170,7 +8277,7 @@ msgctxt "hash before order number"
 msgid "#"
 msgstr "#"
 
-#: woocommerce/myaccount/my-orders.php:72 woocommerce/myaccount/orders.php:52
+#: woocommerce/myaccount/my-orders.php:72
 #, php-format
 msgid "%s for %s item"
 msgid_plural "%s for %s items"
@@ -8190,7 +8297,16 @@ msgstr "Ver"
 msgid "Cancel"
 msgstr "Cancelar"
 
-#: woocommerce/myaccount/orders.php:109
+#: woocommerce/myaccount/orders.php:52
+#, fuzzy, php-format
+#| msgid "%s for %s item"
+#| msgid_plural "%s for %s items"
+msgid "%1$s for %2$s item"
+msgid_plural "%1$s for %2$s items"
+msgstr[0] "%s para %s elemento"
+msgstr[1] "%s para %s elementos"
+
+#: woocommerce/myaccount/orders.php:107
 msgid "No order has been made yet."
 msgstr "No se ha realizado ninguna orden aun."
 
@@ -8203,12 +8319,12 @@ msgstr "%s finaliza en %s"
 msgid "No saved methods found."
 msgstr "No se encontraron métodos salvados."
 
-#: woocommerce/myaccount/view-order.php:22
+#: woocommerce/myaccount/view-order.php:21
 #, php-format
 msgid "Order #%1$s was placed on %2$s and is currently %3$s."
-msgstr ""
+msgstr "Order #%1$s fue realizada el %2$s y actualmente está %3$s."
 
-#: woocommerce/myaccount/view-order.php:29
+#: woocommerce/myaccount/view-order.php:24
 #, php-format
 msgid ""
 "Order #<mark class=\"order-number\">%s</mark> was placed on <mark class="
@@ -8219,11 +8335,11 @@ msgstr ""
 "\"order-date\">%s</mark> y actualmente está <mark class=\"order-status\">%s</"
 "mark>."
 
-#: woocommerce/myaccount/view-order.php:38 woocommerce/order/tracking.php:25
+#: woocommerce/myaccount/view-order.php:33 woocommerce/order/tracking.php:25
 msgid "Order Updates"
 msgstr "Actualizaciones de la Orden"
 
-#: woocommerce/myaccount/view-order.php:44 woocommerce/order/tracking.php:31
+#: woocommerce/myaccount/view-order.php:39 woocommerce/order/tracking.php:31
 msgid "l jS \\o\\f F Y, h:ia"
 msgstr ""
 
@@ -8242,7 +8358,7 @@ msgstr "Orden ID"
 
 #: woocommerce/order/form-tracking.php:22
 msgid "Found in your order confirmation email."
-msgstr ""
+msgstr "Encontré en tu orden correo de confirmación."
 
 #: woocommerce/order/form-tracking.php:23
 msgid "Billing Email"
@@ -8256,7 +8372,7 @@ msgstr "Correo que usarás para el pago."
 msgid "Track"
 msgstr "Seguir"
 
-#: woocommerce/order/order-details-test.php:1
+#: woocommerce/order/order-details.php:1
 msgid "Order Details"
 msgstr "Detalles de la Orden"
 
@@ -8305,7 +8421,7 @@ msgstr ""
 #: woocommerce/single-product-reviews.php:1
 #, php-format
 msgid "Be the first to review &ldquo;%s&rdquo;"
-msgstr ""
+msgstr "Sé el primero en dejar una revisión  &ldquo;%s&rdquo;"
 
 #: woocommerce/single-product-reviews.php:1
 #, php-format
@@ -8315,7 +8431,7 @@ msgstr "Responder a %s"
 #: woocommerce/single-product-reviews.php:1
 #, php-format
 msgid "You must be <a href=\"%s\">logged in</a> to post a review."
-msgstr ""
+msgstr "Debes <a href=\"%s\">autenticarte</a> para dejar una revisión."
 
 #: woocommerce/single-product-reviews.php:1
 msgid "Your Rating"
@@ -8323,23 +8439,23 @@ msgstr "Tu Valoración"
 
 #: woocommerce/single-product-reviews.php:1
 msgid "Rate&hellip;"
-msgstr ""
+msgstr "Valorar&hellip;"
 
 #: woocommerce/single-product-reviews.php:1
 msgid "Perfect"
-msgstr ""
+msgstr "Perfecto"
 
 #: woocommerce/single-product-reviews.php:1
 msgid "Good"
-msgstr ""
+msgstr "Bueno"
 
 #: woocommerce/single-product-reviews.php:1
 msgid "Average"
-msgstr ""
+msgstr "Promedio"
 
 #: woocommerce/single-product-reviews.php:1
 msgid "Not that bad"
-msgstr ""
+msgstr "No tan malo"
 
 #: woocommerce/single-product-reviews.php:1
 #, fuzzy
@@ -8355,10 +8471,12 @@ msgstr "Tu revisión"
 msgid ""
 "Only logged in customers who have purchased this product may leave a review."
 msgstr ""
+"Solo consumidores autenticados que hayan comprado este producto pueden dejar "
+"una revisión."
 
 #: woocommerce/single-product/add-to-cart/variable.php:1
 msgid "This product is currently out of stock and unavailable."
-msgstr ""
+msgstr "Este producto está actualmente terminado y no está disponible."
 
 #: woocommerce/single-product/add-to-cart/variable.php:1
 msgid "Choose an option"
@@ -8409,8 +8527,8 @@ msgstr "sin %s5%s"
 #, php-format
 msgid "%s customer review"
 msgid_plural "%s customer reviews"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s revisión de consumidor"
+msgstr[1] "%s revisiones de consumidor"
 
 #: woocommerce/single-product/related.php:1
 msgid "Related Products"
@@ -8418,7 +8536,7 @@ msgstr "Productos Relacionados"
 
 #: woocommerce/single-product/review-meta.php:1
 msgid "Your review is awaiting approval"
-msgstr ""
+msgstr "Tu revisión está pendiente de aprobación"
 
 #: woocommerce/single-product/review-meta.php:1
 #: woocommerce/single-product/review.php:99
@@ -8428,7 +8546,7 @@ msgstr "propietario verificado"
 #: woocommerce/single-product/review-rating.php:1
 #, php-format
 msgid "%s out of 5"
-msgstr ""
+msgstr "%s fuera de 5"
 
 #: woocommerce/single-product/review.php:90
 msgid "Your comment is awaiting approval"
@@ -8463,7 +8581,6 @@ msgid "In Stock"
 msgstr "En Reserva"
 
 #: woocommerce/wishlist-view.php:194
-#, fuzzy
 msgid "No products were added to the wishlist"
 msgstr "Ningún producto fue añadido a la lista de deseos"
 

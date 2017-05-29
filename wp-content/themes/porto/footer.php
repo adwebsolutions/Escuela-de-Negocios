@@ -136,6 +136,6 @@ if (isset($porto_settings['js-code']) && $porto_settings['js-code']) { ?>
         <?php echo $porto_settings['js-code']; ?>
     </script>
 <?php } ?>
-
+<?php if( isset($porto_settings['page-share-pos']) && $porto_settings['page-share-pos'] ): ?>	<div class="page-share position-<?php echo $porto_settings['page-share-pos']; ?>">		<?php get_template_part('share'); ?>	</div><?php endif; ?>
 </body>
 </html>

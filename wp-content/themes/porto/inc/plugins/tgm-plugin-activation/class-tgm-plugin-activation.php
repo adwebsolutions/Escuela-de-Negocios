@@ -1142,7 +1142,7 @@ if ( ! class_exists( 'TGM_Plugin_Activation' ) ) {
 		 */
 		public function notices() {
             // edit for porto theme
-            if ( $this->is_tgmpa_page() || get_user_meta( get_current_user_id(), 'tgmpa_dismissed_notice_' . $this->id, true ) || ! current_user_can( 'edit_theme_options' ) ) {
+            if ( ! Porto()->is_registered() || $this->is_tgmpa_page() || get_user_meta( get_current_user_id(), 'tgmpa_dismissed_notice_' . $this->id, true ) || ! current_user_can( 'edit_theme_options' ) ) {
                 return;
             }
 			// Remove nag on the install page / Return early if the nag message has been dismissed or user < author.

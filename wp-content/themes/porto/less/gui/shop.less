@@ -6,6 +6,9 @@
     .plus:hover {
         color: @skinColor
     }
+	.qty{
+		font-family: @add_to_cart_font_family;
+	}
 }
 
 .quantity {
@@ -14,6 +17,15 @@
 	}
 }
 
+.single_add_to_cart_button{
+	font-family: @add_to_cart_font_family;
+}
+.shop_table.wishlist_table,
+.woocommerce table.wishlist_table {
+	.add_to_cart.button {
+		font-family: @add_to_cart_font_family;
+	}
+}
 
 .yith-wcwl-add-to-wishlist {
     a, span {
@@ -160,6 +172,11 @@ ul.products {
 				}
 			}
 		}
+		&.show-outimage-q-onimage-alt{
+			.price{
+				font-family: @add_to_cart_font_family;
+			}
+		}
     }
 }
 
@@ -224,7 +241,7 @@ ul.products.list{
     color: @skinColor;
 }
 
-.product-image .labels {
+.product-image {
     .viewcart {
         color: @skinColor;
         &:hover {

@@ -385,7 +385,7 @@
 }
 .timeline-circle {
 	position: relative;
-	margin-left: 25px;
+	margin-#{$left}: 25px;
 	width: 118px;
 	height: 118px;
 	border-radius: 50%;
@@ -427,7 +427,7 @@
 		content: '';
 		position: absolute;
 		top: -35px;
-		left: 83px;
+		#{$left}: 83px;
 		width: 1px;
 		height: 120%;
 		background-color: #e6ebeb;
@@ -489,9 +489,9 @@
 	}
 	.balloon-content {
 		position: relative;
-		margin-left: 34px;
+		margin-#{$left}: 34px;
 		padding: 25px;
-		padding-right: 15px;
+		padding-#{$right}: 15px;
 		border-width: 1px;
 		border-style: solid;
 		border-radius: 3px;
@@ -504,22 +504,36 @@
 			width: 20px;
 			height: 20px;
 			top: 35px;
-			left: -15px;
+			#{$left}: -15px;
 			border-width: 1px;
 			border-style: solid;
-			border-right: none;
+			border-#{$right}: none;
 			border-bottom: none;
 			border-color: #e6ebeb;
-			-webkit-transform: rotate(-45deg);
-			-moz-transform: rotate(-45deg);
-			-ms-transform: rotate(-45deg);
-			-o-transform: rotate(-45deg);
-			transform: rotate(-45deg);
-			-webkit-transform-origin: left top;
-			-moz-transform-origin: left top;
-			-ms-transform-origin: left top;
-			-o-transform-origin: left top;
-			transform-origin: left top;
+			@if $rtl == 1{
+				-webkit-transform: rotate(45deg);
+				-moz-transform: rotate(45deg);
+				-ms-transform: rotate(45deg);
+				-o-transform: rotate(45deg);
+				transform: rotate(45deg);
+				-webkit-transform-origin: right top;
+				-moz-transform-origin: right top;
+				-ms-transform-origin: right top;
+				-o-transform-origin: right top;
+				transform-origin: right top;
+			} @else {
+				-webkit-transform: rotate(-45deg);
+				-moz-transform: rotate(-45deg);
+				-ms-transform: rotate(-45deg);
+				-o-transform: rotate(-45deg);
+				transform: rotate(-45deg);
+				-webkit-transform-origin: left top;
+				-moz-transform-origin: left top;
+				-ms-transform-origin: left top;
+				-o-transform-origin: left top;
+				transform-origin: left top;	
+				
+			}
 		}
 		.balloon-photo {
 			display: table-cell;
@@ -529,7 +543,7 @@
 		}
 		.balloon-description {
 			display: table-cell;
-			padding-left: 25px;
+			padding-#{$left}: 25px;
 			p {
 				line-height: 1.6;
 			}
@@ -543,7 +557,7 @@
 	}
 	.timeline-balloon {
 		&:before {
-			left: 50%;
+			#{$left}: 50%;
 		}
 		.balloon-time {
 			.time-dot {
@@ -569,7 +583,7 @@
 			}
 		}
 		.balloon-content {
-			margin-left: 5px;
+			margin-#{$left}: 5px;
 		}
 	}
 }
@@ -577,7 +591,11 @@
 // Porto Experience Timeline
 section.exp-timeline {
 	width: calc(100% - 30px);
-	margin: 0 0 0 30px;
+	@if $rtl == 1{
+		margin: 0 30px 0 0;
+	} @else {
+		margin: 0 0 0 30px;
+	}
 	padding: 0;
 	&:after {
 		content: none;
@@ -585,7 +603,7 @@ section.exp-timeline {
 	.timeline-bar {
 		position: absolute;
 		width: 3px;
-		left: -2.9%;
+		#{$left}: -2.9%;
 		z-index: 0;
 	}
 	.timeline-box {
@@ -599,7 +617,7 @@ section.exp-timeline {
 			max-width: 100%;
 			&:before {
 				top: 50%;
-				left: -2.5%;
+				#{$left}: -2.5%;
 				-webkit-transform: translateY(-50%);
 				-moz-transform: translateY(-50%);
 				-ms-transform: translateY(-50%);
@@ -627,7 +645,7 @@ section.exp-timeline {
 			}
 			.from, .to {
 				display: inline-block;
-				width: 49%;
+				width: 50%;
                 float: left;
 				text-transform: uppercase;
 				font-size: 12px;
@@ -712,7 +730,7 @@ section.exp-timeline {
 		.floating-menu-row {
 			position: absolute;
 			top: 45px;
-			left: -47.5px;
+			#{$left}: -47.5px;
 		}
 		.floating-menu-body {
 			position: fixed;
@@ -742,13 +760,15 @@ section.exp-timeline {
 				> a {
 					font-size: 25px;
 					padding: 16.65px 17px;
-					perspective: 770px;
+					@if $rtl != 1 {
+						perspective: 770px;
+					}
 					&:after {
 						content: '';
 						display: block;
 						position: absolute;
 						top: 0;
-						right: 0;
+						#{$right}: 0;
 						width: 100%;
 						height: 100%;
 						z-index: -1;
@@ -756,7 +776,7 @@ section.exp-timeline {
 					> span {
 						position: absolute;
 						top: 0;
-						left: 127%;
+						#{$left}: 127%;
 						background: #FFF;
 						padding: 0 25px;
 						height: 100%;
@@ -767,22 +787,35 @@ section.exp-timeline {
 						-webkit-transition: ease transform 300ms;
 						-moz-transition: ease transform 300ms;
 						transition: ease transform 300ms;
-						-webkit-transform-origin: -19% 0%;
-						-moz-transform-origin: -19% 0%;
-						-ms-transform-origin: -19% 0%;
-						-o-transform-origin: -19% 0%;
-						transform-origin: -19% 0%;
-						-webkit-transform: rotateY(88deg);
-						-moz-transform: rotateY(88deg);
-						-ms-transform: rotateY(88deg);
-						-o-transform: rotateY(88deg);
-						transform: rotateY(88deg);
+						@if $rtl == 1 {
+							-webkit-transform-origin: 119% 0%;
+							-moz-transform-origin: 119% 0%;
+							-ms-transform-origin: 119% 0%;
+							-o-transform-origin: 119% 0%;
+							transform-origin: 119% 0%;
+							-webkit-transform: rotateY(92deg);
+							-moz-transform: rotateY(92deg);
+							-ms-transform: rotateY(92deg);
+							-o-transform: rotateY(92deg);
+							transform: rotateY(92deg);
+						} @else {
+							-webkit-transform-origin: -19% 0%;
+							-moz-transform-origin: -19% 0%;
+							-ms-transform-origin: -19% 0%;
+							-o-transform-origin: -19% 0%;
+							transform-origin: -19% 0%;
+							-webkit-transform: rotateY(88deg);
+							-moz-transform: rotateY(88deg);
+							-ms-transform: rotateY(88deg);
+							-o-transform: rotateY(88deg);
+							transform: rotateY(88deg);
+						}
 						&:before {
 						  content: '';
 						  display: block;
 						  position: absolute;
 						  top: 50%;
-						  left: -4px;
+						  #{$left}: -4px;
 						  padding: 10px;
 						  background: #FFF;
 						  z-index: -1;
@@ -802,11 +835,13 @@ section.exp-timeline {
 @media (min-width: 992px) and (max-width: 1281px) {
 	.floating-menu {
 		.floating-menu-row {
-			left: -26.5px;
+			#{$left}: -26.5px;
 		}
 		.floating-menu-nav-main nav > ul > li > a {
 			padding: 9.8px;
-			perspective: 450px;
+			@if $rtl != 1 {
+				perspective: 450px;
+			}
 			> span {
 				line-height: 3;
 			}
@@ -818,7 +853,7 @@ section.exp-timeline {
 	.floating-menu {
 		position: absolute;
 		top: 73px;
-		right: 0px;
+		#{$right}: 0px;
 		z-index: 999;
 		.floating-menu-body {
 			background: transparent;

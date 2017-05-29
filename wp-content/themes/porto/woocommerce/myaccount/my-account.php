@@ -45,12 +45,12 @@ if (version_compare($porto_woo_version, '2.6', '>=')) {
     <p class="myaccount_user alert alert-success m-b-lg">
         <?php
         printf(
-            __( 'Hello <strong>%1$s</strong> (not %1$s? <a href="%2$s">Sign out</a>).', 'woocommerce' ) . ' ',
+            __( 'Hello <strong>%1$s</strong> (not %1$s? <a href="%2$s">Sign out</a>).', 'porto' ) . ' ',
             $current_user->display_name,
             wc_get_endpoint_url( 'customer-logout', '', wc_get_page_permalink( 'myaccount' ) )
         );
 
-        printf( __( 'From your account dashboard you can view your recent orders, manage your shipping and billing addresses and <a href="%s">edit your password and account details</a>.', 'woocommerce' ),
+        printf( __( 'From your account dashboard you can view your recent orders, manage your shipping and billing addresses and <a href="%s">edit your password and account details</a>.', 'porto' ),
             wc_customer_edit_account_url()
         );
         ?>

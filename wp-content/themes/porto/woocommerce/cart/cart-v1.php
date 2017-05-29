@@ -16,10 +16,10 @@ $porto_woo_version = porto_get_woo_version_number();
                 <tr>
                     <th class="product-remove">&nbsp;</th>
                     <th class="product-thumbnail">&nbsp;</th>
-                    <th class="product-name"><?php _e( 'Product Name', 'woocommerce' ); ?></th>
-                    <th class="product-price"><?php _e( 'Unit Price', 'woocommerce' ); ?></th>
-                    <th class="product-quantity"><?php _e( 'Qty', 'woocommerce' ); ?></th>
-                    <th class="product-subtotal"><?php _e( 'Subtotal', 'woocommerce' ); ?></th>
+                    <th class="product-name"><?php _e( 'Product Name', 'porto' ); ?></th>
+                    <th class="product-price"><?php _e( 'Unit Price', 'porto' ); ?></th>
+                    <th class="product-quantity"><?php _e( 'Qty', 'porto' ); ?></th>
+                    <th class="product-subtotal"><?php _e( 'Subtotal', 'porto' ); ?></th>
                 </tr>
             </thead>
             <tbody>
@@ -36,7 +36,7 @@ $porto_woo_version = porto_get_woo_version_number();
                                     echo apply_filters( 'woocommerce_cart_item_remove_link', sprintf(
                                         '<a href="%s" class="remove remove-product" aria-label="%s" data-product_id="%s" data-product_sku="%s" data-cart_id="%s">&times;</a>',
                                         esc_url( WC()->cart->get_remove_url( $cart_item_key ) ),
-                                        __( 'Remove this item', 'woocommerce' ),
+                                        __( 'Remove this item', 'porto' ),
                                         esc_attr( $product_id ),
                                         esc_attr( $_product->get_sku() ),
                                         esc_attr( $cart_item_key )
@@ -64,7 +64,7 @@ $porto_woo_version = porto_get_woo_version_number();
                                     echo WC()->cart->get_item_data( $cart_item );
                                     // Backorder notification
                                     if ( $_product->backorders_require_notification() && $_product->is_on_backorder( $cart_item['quantity'] ) ) {
-                                        echo '<p class="backorder_notification">' . __( 'Available on backorder', 'woocommerce' ) . '</p>';
+                                        echo '<p class="backorder_notification">' . __( 'Available on backorder', 'porto' ) . '</p>';
                                     }
                                 ?>
                             </td>
@@ -103,12 +103,12 @@ $porto_woo_version = porto_get_woo_version_number();
                     <td colspan="6" class="actions">
                         <?php if ( version_compare($porto_woo_version, '2.5', '<') ? WC()->cart->coupons_enabled() : wc_coupons_enabled() ) { ?>
                             <div class="coupon pt-left">
-                                <label for="coupon_code"><?php _e( 'Coupon:', 'woocommerce' ); ?></label> <input type="text" name="coupon_code" class="input-text" id="coupon_code" value="" placeholder="<?php esc_attr_e( 'Coupon code', 'woocommerce' ); ?>" /> <input type="submit" class="btn btn-default" name="apply_coupon" value="<?php esc_attr_e( 'Apply Coupon', 'woocommerce' ); ?>" />
+                                <label for="coupon_code"><?php _e( 'Coupon:', 'porto' ); ?></label> <input type="text" name="coupon_code" class="input-text" id="coupon_code" value="" placeholder="<?php esc_attr_e( 'Coupon code', 'porto' ); ?>" /> <input type="submit" class="btn btn-default" name="apply_coupon" value="<?php esc_attr_e( 'Apply Coupon', 'porto' ); ?>" />
                                 <?php do_action('woocommerce_cart_coupon'); ?>
                             </div>
                         <?php } ?>
                         <div class="cart-actions pt-right">
-                            <input type="submit" class="btn btn-default btn-lg" name="update_cart" value="<?php esc_attr_e( 'Update Cart', 'woocommerce' ); ?>" />
+                            <input type="submit" class="btn btn-default btn-lg" name="update_cart" value="<?php esc_attr_e( 'Update Cart', 'porto' ); ?>" />
                             <?php do_action( 'woocommerce_cart_actions' ); ?>
                         </div>
                         <?php wp_nonce_field( 'woocommerce-cart' ); ?>

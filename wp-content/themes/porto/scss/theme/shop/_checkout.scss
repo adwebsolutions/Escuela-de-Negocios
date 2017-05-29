@@ -72,3 +72,16 @@ form.checkout_coupon {
     }
 }
 
+.checkout-v2 .panel-title {
+	line-height: 40px;
+}
+
+.place-order{
+	img{
+		margin-#{$left}: 5px;
+		display: none;
+		.woocommerce-checkout.processing &{
+			display: inline-block;
+		}
+	}
+}

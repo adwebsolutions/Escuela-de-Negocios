@@ -21,14 +21,13 @@ $container_class = 'yith-ajaxsearchform-container'.rand();
         if (isset($porto_settings['search-cats']) && $porto_settings['search-cats']) {
             $args = array(
                 'show_option_all' => __( 'All Categories', 'porto' ),
-                'hierarchical' => 1,
-                'class' => 'cat',
+                'class' => 'cat',				'hierarchical' => 1,				
                 'echo' => 1,
                 'value_field' => 'slug',
                 'selected' => 1
             );
             $args['taxonomy'] = 'product_cat';
-            $args['name'] = 'product_cat';
+            $args['name'] = 'product_cat';						if( isset( $porto_settings['search-sub-cats'] ) && ! $porto_settings['search-sub-cats'] ) {										$args['depth'] = 1;							}
             wp_dropdown_categories($args);
         }
         ?>

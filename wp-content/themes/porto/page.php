@@ -64,7 +64,7 @@ $featured_images = porto_get_featured_images();
             <div class="<?php if ($porto_layout === 'wide-left-sidebar' || $porto_layout === 'wide-right-sidebar') echo 'm-t-lg m-b-xl m-r-md m-l-md' ?>">
             <?php
             $share = porto_get_meta_value('page_share');
-            if ($porto_settings['share-enable'] && 'no' !== $share && ('yes' === $share || ('yes' !== $share && $porto_settings['page-share']))) : ?>
+            if ($porto_settings['share-enable'] && 'no' !== $share && ('yes' === $share || ('yes' !== $share && $porto_settings['page-share'])) && ( isset($porto_settings['page-share-pos']) && ! $porto_settings['page-share-pos']) ) : ?>
                 <div class="page-share<?php echo ($porto_layout == 'widewidth') ? ' container' : '' ?>">
                     <?php if ($porto_settings['post-title-style'] == 'without-icon') : ?>
 

@@ -829,8 +829,6 @@ $image = str_replace(array('http://', 'https://'), array('//', '//'), $b['conten
 
 // Header
 
-
-
 @header_border_top_width: <?php echo $b['header-top-border']['border-top'] ?>;
 
 
@@ -1120,6 +1118,12 @@ $image = str_replace(array('http://', 'https://'), array('//', '//'), $b['sticky
 
 
 
+<?php if( $porto_settings['show-sticky-logo'] ): ?>
+@sticky_header_logo: 1;
+<?php else: ?>
+@sticky_header_logo: 0;
+<?php endif; ?>
+
 
 
 
@@ -1239,7 +1243,11 @@ $image = str_replace(array('http://', 'https://'), array('//', '//'), $b['sticky
 
 
 
-
+<?php if( $porto_settings['show-sticky-searchform'] ): ?>
+@sticky_header_searchform: 1;
+<?php else: ?>
+@sticky_header_searchform: 0;
+<?php endif; ?>
 
 
 
@@ -1287,7 +1295,11 @@ $image = str_replace(array('http://', 'https://'), array('//', '//'), $b['sticky
 
 
 
-
+<?php if( $porto_settings['show-sticky-minicart'] ): ?>
+@sticky_header_minicart: 1;
+<?php else: ?>
+@sticky_header_minicart: 0;
+<?php endif; ?>
 
 
 
@@ -1496,7 +1508,11 @@ $image = str_replace(array('http://', 'https://'), array('//', '//'), $b['sticky
 
 
 */ ?>
-
+<?php if( $porto_settings['show-sticky-menu-custom-content'] ): ?>
+@sticky_header_menu_custom_content: 1;
+<?php else: ?>
+@sticky_header_menu_custom_content: 0;
+<?php endif; ?>
 
 
 // Footer

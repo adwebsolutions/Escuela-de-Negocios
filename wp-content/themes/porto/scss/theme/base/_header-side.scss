@@ -208,7 +208,8 @@
                 #{$left}: 0;
                 #{$right}: auto;
 
-                &:before {
+                &:before,
+                &:after {
                     #{$right}: auto;
                     #{$left}: 10px;
                 }

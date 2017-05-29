@@ -2,7 +2,7 @@
 /**
  * Loop Add to Cart
  *
- * @version     2.5.0
+ * @version     3.0.0
  */
 
 if ( ! defined( 'ABSPATH' ) ) {

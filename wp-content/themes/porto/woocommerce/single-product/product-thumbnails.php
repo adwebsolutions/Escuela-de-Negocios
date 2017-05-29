@@ -2,7 +2,7 @@
 /**
  * Single Product Thumbnails
  *
- * @version     3.0.0
+ * @version     3.0.2
  */
 
 if ( ! defined( 'ABSPATH' ) ) {

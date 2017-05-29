@@ -2,7 +2,7 @@
 /**
  * Add payment method form form
  *
- * @version     2.6.0
+ * @version     3.0.0
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -52,7 +52,7 @@ $porto_woo_version = porto_get_woo_version_number();
         </div>
     </form>
 <?php else : ?>
-    <p><?php esc_html_e( 'Sorry, it seems that there are no payment methods which support adding a new payment method. Please contact us if you require assistance or wish to make alternate arrangements.', 'woocommerce' ); ?></p>
+    <p><?php esc_html_e( 'Sorry, it seems that there are no payment methods which support adding a new payment method. Please contact us if you require assistance or wish to make alternate arrangements.', 'porto' ); ?></p>
 <?php endif; ?>
 
 <?php if (version_compare($porto_woo_version, '2.6', '<')) : ?>

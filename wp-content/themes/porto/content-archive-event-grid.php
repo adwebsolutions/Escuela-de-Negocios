@@ -48,7 +48,7 @@ global $porto_settings, $porto_layout, $event_countdown_vc;
 ?>
 
   <!--<h2 class="text-color-dark font-weight-bold">Next Event</h2>-->
-  <article class="thumb-info custom-thumb-info custom-box-shadow"> 
+  <article class="thumb-info custom-thumb-info custom-box-shadow m-b-md"> 
   	<?php 
 	$thumbnail = get_the_post_thumbnail_url();
 	if ( $thumbnail ):

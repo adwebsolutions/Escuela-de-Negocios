@@ -37,11 +37,11 @@ $container-large-desktop: (<?php echo $b['container-width'] ?>px) !default;
 $screen-large: "(max-width: <?php echo $b['container-width'] + $b['grid-gutter-width'] - 1 ?>px)";
 
 
-<?php if( $b['container-width'] == '1170' ): ?>
+<?php if( $b['container-width'] == '1170' ): /* ?>
 @media (min-width: 768px){ .container { width: 750px !important; } }
 @media (min-width: 992px){ .container { width: 970px !important; } }
 @media (min-width: 1190px){ .container { width: 1170px !important; } }
-<?php endif; ?>
+<?php */ endif; ?>
 
 
 // Border radius

@@ -28,9 +28,6 @@ $sub_title = porto_page_sub_title();
             <?php if ($breadcrumbs) : ?>
                 <div class="breadcrumbs-wrap pt-left<?php if ($sub_title) : ?> breadcrumbs-with-subtitle<?php endif; ?>">
                     <?php echo porto_breadcrumbs(); ?>
-                    <?php
-                    porto_woocommerce_product_nav();
-                    ?>
                 </div>
             <?php endif; ?>
             <?php

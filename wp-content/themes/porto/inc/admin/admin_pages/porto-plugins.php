@@ -67,31 +67,16 @@ $installed_plugins = get_plugins();
     <div class="porto-logo"><span class="porto-version"><?php _e( 'Version', 'porto' ); ?> <?php echo porto_version; ?></span></div>
     <h2 class="nav-tab-wrapper">
         <?php
-        printf( '<a href="%s" class="nav-tab">%s</a>', admin_url( 'admin.php?page=porto' ), __( "Welcome", 'porto' ) );
+        printf( '<a href="%s" class="nav-tab">%s</a>', admin_url( 'admin.php?page=porto' ), __( "Welcome", 'porto' ) );				printf( '<a href="%s" class="nav-tab">%s</a>', admin_url( 'admin.php?page=porto-registration' ), __( "Registration", 'porto' ) );
         printf( '<a href="%s" class="nav-tab">%s</a>', admin_url( 'admin.php?page=porto-system' ), __( "System Status", 'porto' ) );
         printf( '<a href="#" class="nav-tab nav-tab-active">%s</a>', __( "Plugins", 'porto' ) );
         printf( '<a href="%s" class="nav-tab">%s</a>', admin_url( 'admin.php?page=porto-demos' ), __( "Install Demos", 'porto' ) );
         printf( '<a href="%s" class="nav-tab">%s</a>', admin_url( 'admin.php?page=porto_settings' ), __( "Theme Options", 'porto' ) );
         ?>
     </h2>
-    <div class="porto-section">
-        <p class="about-description"><?php _e( 'These are plugins we included inside or recommend for all design features of Porto. You can install, activate, deactivate or update the plugins from this tab.', 'porto' ); ?></p>
-
-        <?php if ($install_index > 1 || $update_index > 1 || $activate_index > 1) : ?>
-        <p class="about-description">
-            <?php
-            if ($install_index > 1)
-                printf( '<a href="%s" class="button-primary">%s</a>', admin_url( 'themes.php?page=install-required-plugins&plugin_status=install' ), __( "Click here to install plugins all together.", 'porto' ) );
-            ?>
-            <?php
-            if ($activate_index > 1)
-                printf( '<a href="%s" class="button-primary">%s</a>', admin_url( 'themes.php?page=install-required-plugins&plugin_status=activate' ), __( "Click here to activate plugins all together.", 'porto' ) );
-            ?>
-            <?php
-            if ($update_index > 1)
-                printf( '<a href="%s" class="button-primary">%s</a>', admin_url( 'themes.php?page=install-required-plugins&plugin_status=update' ), __( "Click here to update plugins all together.", 'porto' ) );
-            ?><br><br>
-        </p>
+    <div class="porto-section">				<p class="about-description"><?php _e( 'These are plugins we included inside or recommend for all design features of Porto. You can install, activate, deactivate or update the plugins from this tab.', 'porto' ); ?></p>
+		<?php if ( ! Porto()->is_registered() ) : ?>					<div class="porto-important-notice" style="border-left: 4px solid #dc3232;">				<h3 style="color: #dc3232; margin-top: 0;"><?php esc_attr_e( 'Premium Plugins Can Only Be Installed and Updated After Product Registration', 'Porto' ); ?></h3>				<p><?php printf( esc_attr__( 'Please visit the %s page and enter a valid purchase code to install or update the premium plugins; WPBakery Visual Composer, Ultimate Addons for Visual Composer and Slider Revolution.', 'Porto' ), '<a href="' . admin_url( 'admin.php?page=product-registration' ) . '">' . esc_attr__( 'Product Registration', 'Porto' ) . '</a>' ); ?></p>			</div>					<?php else: ?>			
+			<?php if ($install_index > 1 || $update_index > 1 || $activate_index > 1) : ?>			<p class="about-description">								<?php				if ($install_index > 1)					printf( '<a href="%s" class="button-primary">%s</a>', admin_url( 'themes.php?page=install-required-plugins&plugin_status=install' ), __( "Click here to install plugins all together.", 'porto' ) );				?>				<?php				if ($activate_index > 1)					printf( '<a href="%s" class="button-primary">%s</a>', admin_url( 'themes.php?page=install-required-plugins&plugin_status=activate' ), __( "Click here to activate plugins all together.", 'porto' ) );				?>				<?php				if ($update_index > 1)					printf( '<a href="%s" class="button-primary">%s</a>', admin_url( 'themes.php?page=install-required-plugins&plugin_status=update' ), __( "Click here to update plugins all together.", 'porto' ) );				?><br><br>			</p>					<?php endif; ?>		
         <?php endif; ?>
 
         <div class="porto-install-plugins">

@@ -19,7 +19,7 @@ if ( $downloads = WC()->customer->get_downloadable_products() ) : ?>
 
             <?php do_action( 'woocommerce_before_available_downloads' ); ?>
 
-            <h2><?php echo apply_filters( 'woocommerce_my_account_my_downloads_title', __( 'Available Downloads', 'woocommerce' ) ); ?></h2>
+            <h2><?php echo apply_filters( 'woocommerce_my_account_my_downloads_title', __( 'Available Downloads', 'porto' ) ); ?></h2>
 
             <ul class="digital-downloads">
                 <?php foreach ( $downloads as $download ) : ?>

@@ -111,6 +111,7 @@
                 @media #{$screen-medium} {
                     padding-top: 15px;
                     padding-bottom: 15px;
+					text-align: left;
                 }
             }
 
@@ -506,14 +507,6 @@
                 top: -1px;
                 margin: side-values(0 10px 0 5px);
             }
-            &:last-child {
-				i{
-					display: none;
-				}
-                &:after {
-                    display: none;
-                }
-            }
             > a,
             > h5 {
                 font-size: 1em;
@@ -768,14 +761,14 @@
         input {
             @include searchform-input-padding;
             border-radius: corner-values($searchform-border 0 0 $searchform-border);
-            width: 420px + $searchform-extra-width;
+            width: 398px + $searchform-extra-width;
 			font-family: arial; 
 			font-size: 13px; 
 			height: 38px;  
 			line-height: 37px; 
 
             @media #{$screen-large} {
-                width: 320px + $searchform-extra-width;
+                width: 318px + $searchform-extra-width;
             }
         }
         &.searchform-cats {
@@ -920,7 +913,7 @@
             width: 398px;
 
             input {
-                width: 350px + $searchform-extra-width;
+                width: 348px + $searchform-extra-width;
             }
             &.searchform-cats {
                 input {
@@ -931,7 +924,7 @@
             @media #{$screen-large} {
                 width: 338px;
                 input {
-                    width: 290px + $searchform-extra-width;
+                    width: 288px + $searchform-extra-width;
                 }
                 &.searchform-cats {
                     input {
@@ -942,7 +935,7 @@
             @media #{$screen-normal} {
                 width: 348px;
                 input {
-                    width: 292px + $searchform-extra-width;
+                    width: 290px + $searchform-extra-width;
                 }
                 &.searchform-cats {
                     input {
@@ -957,7 +950,7 @@
             width: 348px;
 
             input {
-                width: 300px + $searchform-extra-width;
+                width: 298px + $searchform-extra-width;
             }
             &.searchform-cats {
                 input {
@@ -968,7 +961,7 @@
             @media #{$screen-large} {
                 width: 288px;
                 input {
-                    width: 240px + $searchform-extra-width;
+                    width: 238px + $searchform-extra-width;
                 }
                 &.searchform-cats {
                     input {
@@ -979,7 +972,7 @@
             @media #{$screen-normal} {
                 width: 298px;
                 input {
-                    width: 242px + $searchform-extra-width;
+                    width: 240px + $searchform-extra-width;
                 }
                 &.searchform-cats {
                     input {
@@ -1162,7 +1155,7 @@
                     width: 338px;
 
                     input {
-                        width: 282px + $searchform-extra-width;
+                        width: 280px + $searchform-extra-width;
                     }
 
                     &.searchform-cats {
@@ -1181,11 +1174,11 @@
                     width: 288px;
 
                     input {
-                        width: 236px + $searchform-extra-width;
+                        width: 234px + $searchform-extra-width;
                     }
                     &.searchform-cats {
                         input {
-                            width: 120px + $searchform-extra-width;
+                            width: 118px + $searchform-extra-width;
                             padding-#{$right}: 10px;
                         }
                         select {
@@ -1325,6 +1318,7 @@
     #{$right}: 0;
     height: 45px;
     margin: -22px auto;
+	white-space: normal;
 
     .cart-head {
         position: relative;
@@ -1391,8 +1385,8 @@
     }
 
     &.minicart-box {
-        width: 68px;
-        height: 60px;
+        /*width: 68px;
+        height: 60px;*/
         text-align: center;
         border: 1px solid #e6e6e6;
         margin: -30px auto;
@@ -1657,9 +1651,12 @@
 		}
 		.minicart-icon{
 			font-size: 25px;
+			#header:not(.sticky-header) &{
+				color: #fff;
+			}
 		}
 		.cart-items {
-			left: 31px;
+			#{$left}: 31px;
 			top: 5px !important;
 			background-color: #f17734;
 		}
@@ -1734,8 +1731,8 @@
 			}
 		}
 		.product-image {
-			float: right !important;
-			margin-right: 0;
+			float: #{$right} !important;
+			margin-#{$right}: 0;
 			width: 80px !important;
 			img {
 				width: 80px !important;
@@ -1747,7 +1744,7 @@
 			text-align: center !important;
 			font-size: 11px;
 			top: -18px !important;
-			right: -3px !important;
+			#{$right}: -3px !important;
 			width: 20px !important;
 			height: 20px !important;
 			background-color: #fff;
@@ -1764,11 +1761,11 @@
 	.widget_shopping_cart {
 		.total {
 			padding: 15px 10px 25px;
-			text-align: left;
+			text-align: #{$left};
 			text-transform: uppercase;
 			color: #474747;
 			.amount {
-				float: right;
+				float: #{$right};
 				font-size: 15px;
 				font-weight: 700;
 				color: inherit;
@@ -1785,7 +1782,6 @@
 		a {
 			border: none;
 			color: #fff;
-			background-color: #010204;
 			font-size: 12px;
 			letter-spacing: 0.025em;
 			text-transform: uppercase;
@@ -1830,11 +1826,6 @@
 			border-radius: 0;
 			img {
 				border-radius: 0;
-			}
-		}
-		.buttons {
-			a {
-				font-family: 'Oswald';
 			}
 		}
 	}
@@ -1910,7 +1901,7 @@
 
         #mini-cart {
             position: relative;
-            display: none;
+            /*display: none;*/
             margin-top: -16px;
             &.minicart-inline {
                 margin-top: 3px;
@@ -2067,9 +2058,9 @@
 
         .menu-right {
             min-width: 95px;
-            #mini-cart {
+            /*#mini-cart {
                 display: inline-block;
-            }
+            }*/
         }
     }
 
@@ -2106,10 +2097,10 @@
                 padding: 0;
                 margin: 0;
 
-                a,
+                /*a,
                 span {
                     padding: 10px 13px 9px;
-                }
+                }*/
 
                 .tip {
                     top: -5px;
@@ -2440,4 +2431,14 @@
         }
     }
 
+}
+
+#menu-main-menu #mini-cart{
+	#{$right}: auto;
+	&.minicart-arrow,
+	&.minicart-arrow-alt,
+	#header.sticky-header &.minicart-arrow,
+	#header.sticky-header &.minicart-arrow-alt{
+		margin: 0 !important;
+	}
 }

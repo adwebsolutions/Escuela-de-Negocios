@@ -8,9 +8,9 @@
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
-
+global $porto_settings;
 ?>
-<h2 itemprop="name" class="product_title entry-title">
+<h2 itemprop="name" class="product_title entry-title<?php echo ($porto_settings['product-nav']) ? ' show-product-nav' : ''; ?>" >
     <?php if (porto_is_ajax()) : ?>
     <a href="<?php the_permalink(); ?>">
     <?php endif; ?>
@@ -18,4 +18,4 @@ if ( ! defined( 'ABSPATH' ) ) {
     <?php if (porto_is_ajax()) : ?>
     </a>
     <?php endif; ?>
-</h2><?php	echo '<div class="page-top"><div class="product-nav">';		porto_woocommerce_next_product(true);		porto_woocommerce_prev_product(true);	echo '</div></div>';?>
+</h2><?php porto_woocommerce_product_nav(); ?>
