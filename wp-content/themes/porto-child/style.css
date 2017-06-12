@@ -445,3 +445,7 @@ body.single-product .entry-summary .page-top {
 	padding: 0 10px;
 	text-decoration: none;
 }
+/*checkout page v2*/
+#customer_details.col-md-4 #billing_email_field {
+	width: 100%;
+}

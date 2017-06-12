@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Porto\n"
 "POT-Creation-Date: 2017-05-27 17:13-0400\n"
-"PO-Revision-Date: 2017-05-28 10:51-0400\n"
+"PO-Revision-Date: 2017-06-12 02:49-0400\n"
 "Last-Translator: \n"
 "Language-Team: porto <porto@example.com>\n"
 "Language: es_ES\n"
@@ -19,12 +19,10 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 
 #: 404.php:13 inc/functions/layout/breadcrumbs.php:241
-#, fuzzy
 msgid "404"
 msgstr "Error 404"
 
 #: 404.php:14
-#, fuzzy
 msgid "We're sorry, but the page you were looking for doesn't exist."
 msgstr "Lo sentimos, pero la página que busca no está disponible."
 
@@ -32,7 +30,6 @@ msgstr "Lo sentimos, pero la página que busca no está disponible."
 #: archive-portfolio.php:349 index.php:170 taxonomy-faq_cat.php:112
 #: taxonomy-member_cat.php:76 taxonomy-portfolio_cat.php:183
 #: taxonomy-portfolio_skills.php:108
-#, fuzzy
 msgid "Apologies, but no results were found for the requested archive."
 msgstr "Lo sentimos, pero no se encontraron resultados."
 
@@ -43,29 +40,26 @@ msgstr "Lo sentimos, pero no se encontraron resultados."
 #: inc/functions/layout.php:9106 inc/functions/layout.php:9134
 #: inc/functions/layout.php:9358 inc/functions/layout.php:9386
 #: taxonomy-faq_cat.php:83 taxonomy-portfolio_cat.php:109
-#, fuzzy
 msgid "Show All"
-msgstr "Ver Todo"
+msgstr "Mostrar Todo"
 
 #: archive-member.php:56 taxonomy-member_cat.php:53
-#, fuzzy, php-format
+#, php-format
 msgid "More %s:"
 msgstr "Más %s:"
 
 #: archive.php:101 search.php:91
-#, fuzzy
 msgid "Nothing Found"
 msgstr "No se ha encontrado nada"
 
 #: archive.php:105 search.php:95
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr ""
 "¿Listo para publicar tu primer post? <a href=\"%1$s\">Comienza aquí</ a>."
 
 #: archive.php:109 search.php:99
-#, fuzzy
 msgid ""
 "Sorry, but nothing matched your search terms. Please try again with "
 "different keywords."
@@ -74,7 +68,6 @@ msgstr ""
 "que ingresaste. Por favor trata de nuevo con diferentes palabras."
 
 #: archive.php:114 search.php:104
-#, fuzzy
 msgid ""
 "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
 "searching can help."
@@ -83,12 +76,10 @@ msgstr ""
 "haciendo una búsqueda."
 
 #: comments.php:7
-#, fuzzy
 msgid "Please do not load this page directly. Thanks!"
 msgstr "Por favor, no cargue esta página directamente. Gracias!"
 
 #: comments.php:10
-#, fuzzy
 msgid "This post is password protected. Enter the password to view comments."
 msgstr ""
 "Esta entrada está protegida por contraseña. Entre la contraseña para ver los "
@@ -234,7 +225,6 @@ msgstr "WhatsApp"
 
 #: content-archive-member.php:203 content-member-item.php:166
 #: inc/admin/theme_options/settings.php:4635
-#, fuzzy
 msgid "View More..."
 msgstr "Ver Más..."
 
@@ -245,7 +235,6 @@ msgstr "..."
 #: content-archive-portfolio-full.php:212
 #: content-archive-portfolio-large.php:220
 #: content-archive-portfolio-medium.php:221
-#, fuzzy
 msgid "Learn More"
 msgstr "Aprender Más"
 
@@ -258,7 +247,6 @@ msgstr "Aprender Más"
 #: content-portfolio-masonry.php:413 content-portfolio-medias.php:397
 #: content-portfolio-medium.php:527 inc/admin/theme_options/settings.php:3769
 #: inc/admin/theme_options/settings.php:3787
-#, fuzzy
 msgid "Skills"
 msgstr "Habilidades"
 
@@ -272,7 +260,6 @@ msgstr "Habilidades"
 #: content-portfolio-medium.php:549 inc/admin/theme_options/settings.php:3770
 #: inc/admin/theme_options/settings.php:3788
 #: inc/content_types/portfolio.php:161
-#, fuzzy
 msgid "Location"
 msgstr "Ubicación"
 
@@ -284,14 +271,12 @@ msgstr "Ubicación"
 #: content-portfolio-gallery.php:451 content-portfolio-large.php:583
 #: content-portfolio-masonry.php:449 content-portfolio-medias.php:433
 #: content-portfolio-medium.php:563 inc/admin/theme_options/settings.php:3771
-#, fuzzy
 msgid "Client"
 msgstr "Cliente"
 
 #: content-archive-portfolio-grid.php:240
 #: content-archive-portfolio-masonry.php:222 content-portfolio-item.php:88
 #: inc/admin/theme_options/settings.php:4003
-#, fuzzy
 msgid "View Project..."
 msgstr "Ver Proyecto..."
 
@@ -310,7 +295,6 @@ msgstr "Por "
 #: content-post-item.php:83 content-post-item.php:163 content-post-item.php:218
 #: content-post-large-alt.php:120 content-post-large.php:121
 #: content-post-medium.php:110
-#, fuzzy
 msgid "0 Comments"
 msgstr "0 Comentarios"
 
@@ -323,7 +307,6 @@ msgstr "0 Comentarios"
 #: content-post-large-alt.php:120 content-post-large.php:121
 #: content-post-medium.php:110 inc/functions/general.php:375
 #: inc/functions/general.php:437
-#, fuzzy
 msgid "1 Comment"
 msgstr "1 Comentario"
 
@@ -335,16 +318,14 @@ msgstr "1 Comentario"
 #: content-post-item.php:83 content-post-item.php:163 content-post-item.php:218
 #: content-post-large-alt.php:120 content-post-large.php:121
 #: content-post-medium.php:110 inc/admin/theme_options/settings.php:3198
-#, fuzzy
 msgid "Comments"
 msgstr "Comentarios"
 
 #: content-blog-full.php:1 content-blog-grid.php:409
 #: content-blog-large-alt.php:1 content-blog-large.php:94
 #: content-blog-medium.php:105 content-blog-timeline.php:373
-#, fuzzy
 msgid "Read more..."
-msgstr "Leer Más..."
+msgstr "Leer más..."
 
 #: content-blog-medium-alt.php:11
 msgid "Posted By "
@@ -364,12 +345,10 @@ msgstr "Comentarios: "
 
 #: content-blog-medium-alt.php:11 inc/content_types/portfolio.php:291
 #: inc/content_types/post.php:178
-#, fuzzy
 msgid "0"
 msgstr "0"
 
 #: content-blog-medium-alt.php:11
-#, fuzzy
 msgid "1"
 msgstr "1"
 
@@ -378,27 +357,22 @@ msgid "Post Date: "
 msgstr "Fecha de la Entrada: "
 
 #: content-blog-medium-alt.php:120
-#, fuzzy
 msgid "Read more"
-msgstr "Leer Más"
+msgstr "Leer más"
 
 #: content-member-portfolios.php:26
-#, fuzzy
 msgid "My <strong>Work</strong>"
 msgstr "Mi <strong>Trabajo</strong>"
 
 #: content-member-posts.php:26
-#, fuzzy
 msgid "My <strong>Posts</strong>"
 msgstr "Mis <strong>Entradas</strong>"
 
 #: content-member-products.php:11
-#, fuzzy
 msgid "My <strong>Products</strong>"
 msgstr "Mis <strong>Productos</strong>"
 
 #: content-member.php:176
-#, fuzzy
 msgid "More Info"
 msgstr "Más Información"
 
@@ -407,7 +381,6 @@ msgstr "Más Información"
 #: content-portfolio-full.php:61 content-portfolio-gallery.php:59
 #: content-portfolio-large.php:59 content-portfolio-masonry.php:59
 #: content-portfolio-medias.php:59 content-portfolio-medium.php:59
-#, fuzzy
 msgid "Back to list"
 msgstr "Volver al listado"
 
@@ -417,7 +390,6 @@ msgstr "Volver al listado"
 #: content-portfolio-large.php:73 content-portfolio-masonry.php:73
 #: content-portfolio-medias.php:71 content-portfolio-medium.php:73
 #: functions.php:377 woocommerce/myaccount/orders.php:98
-#, fuzzy
 msgid "Previous"
 msgstr "Anterior"
 
@@ -427,7 +399,6 @@ msgstr "Anterior"
 #: content-portfolio-large.php:75 content-portfolio-masonry.php:75
 #: content-portfolio-medias.php:73 content-portfolio-medium.php:75
 #: functions.php:378 woocommerce/myaccount/orders.php:101
-#, fuzzy
 msgid "Next"
 msgstr "Siguiente"
 
@@ -436,7 +407,6 @@ msgstr "Siguiente"
 #: content-portfolio-gallery.php:311 content-portfolio-large.php:457
 #: content-portfolio-masonry.php:323 content-portfolio-medias.php:307
 #: content-portfolio-medium.php:375
-#, fuzzy
 msgid "Project Description"
 msgstr "Descripción del Proyecto"
 
@@ -446,7 +416,6 @@ msgstr "Descripción del Proyecto"
 #: content-portfolio-large.php:499 content-portfolio-masonry.php:365
 #: content-portfolio-medias.php:349 content-portfolio-medium.php:479
 #: inc/content_types/portfolio.php:135
-#, fuzzy
 msgid "More Information"
 msgstr "Más Información"
 
@@ -455,7 +424,6 @@ msgstr "Más Información"
 #: content-portfolio-full.php:548 content-portfolio-gallery.php:377
 #: content-portfolio-large.php:523 content-portfolio-masonry.php:389
 #: content-portfolio-medias.php:373 content-portfolio-medium.php:503
-#, fuzzy
 msgid "Live Preview"
 msgstr "Vista Previa"
 
@@ -466,13 +434,11 @@ msgstr "Vista Previa"
 #: content-portfolio-medias.php:487 content-portfolio-medium.php:617
 #: inc/content_types/page.php:10 inc/content_types/portfolio.php:271
 #: inc/content_types/post.php:154 inc/content_types/product.php:43
-#, fuzzy
 msgid "Share"
 msgstr "Compartir"
 
 #: content-portfolio-carousel.php:649 content-portfolio-medias.php:521
 #: single-portfolio.php:97
-#, fuzzy
 msgid "Related <strong>Work</strong>"
 msgstr "<strong>Trabajos </strong> Relacionados"
 
@@ -493,12 +459,10 @@ msgstr "<strong>Trabajos </strong> Relacionados"
 #: content-post-medium.php:138 content-post-medium.php:140
 #: inc/admin/theme_options/settings.php:3195
 #: inc/admin/theme_options/settings.php:3772
-#, fuzzy
 msgid "Author"
 msgstr "Autor"
 
 #: content-portfolio-full-video.php:515
-#, fuzzy
 msgid "Project Gallery"
 msgstr "Galería de Proyecto"
 
@@ -525,7 +489,6 @@ msgstr[1] "%1$s"
 #: content-post-large-alt.php:72 content-post-large-alt.php:164
 #: content-post-large.php:64 content-post-large.php:160
 #: content-post-medium.php:129 page.php:72
-#, fuzzy
 msgid "Share this post"
 msgstr "Compartir esta entrada"
 
@@ -540,13 +503,11 @@ msgstr "Por"
 
 #: content-post-item-no-image.php:30 content-post-item.php:57
 #: inc/functions/post.php:158
-#, fuzzy
 msgid "Read More"
 msgstr "Leer Más"
 
 #: functions.php:109 inc/admin/theme_options/settings.php:1212
 #: inc/functions/content_type/meta_fields.php:109
-#, fuzzy
 msgid "Main Menu"
 msgstr "Menú Principal"
 
@@ -584,19 +545,16 @@ msgid "<a href=\"%url%\">The content</a> could not be loaded."
 msgstr "<a href=\"%url%\">El contenido</a> no se pudo cargar."
 
 #: functions.php:376
-#, fuzzy
 msgid "Close"
 msgstr "Cerrar"
 
 #: functions.php:379
-#, fuzzy
 msgid "The requested content cannot be loaded.<br/>Please try again later."
 msgstr ""
 "El contenido solicitado no pudo ser cargado.<br/>Por favor, intente más "
 "tarde."
 
 #: functions.php:417
-#, fuzzy
 msgid ""
 "If you want to import demo, please backup current theme options in "
 "\"Import / Export\" section before import. Do you want to import demo?"
@@ -605,7 +563,6 @@ msgstr ""
 "sección \"Importar/Exportar\" antes de importar. ¿Quieres importar el demo?"
 
 #: header/header_9.php:130
-#, fuzzy
 msgid "Logout"
 msgstr "Salir"
 
@@ -615,7 +572,6 @@ msgstr "Salir"
 #: inc/functions/layout.php:5993 inc/functions/layout.php:6375
 #: woocommerce/myaccount/form-register.php:17
 #: woocommerce/myaccount/form-register.php:60
-#, fuzzy
 msgid "Register"
 msgstr "Registrarse"
 
@@ -623,11 +579,10 @@ msgstr "Registrarse"
 #: woocommerce/global/form-login.php:39 woocommerce/myaccount/form-login.php:38
 #: woocommerce/myaccount/form-login.php:59
 msgid "Login"
-msgstr "Iniciar Sesión"
+msgstr "Autenticarse"
 
 #: inc/admin/ReduxCore/inc/extensions/custom_fonts/custom_fonts/field_custom_fonts.php:110
 #: inc/admin/ReduxCore/inc/extensions/custom_fonts/custom_fonts/field_custom_fonts.php:117
-#, fuzzy
 msgid "Add Font"
 msgstr "Agregar Tipografía"
 
@@ -2925,13 +2880,11 @@ msgid "Search Content Type"
 msgstr ""
 
 #: inc/admin/theme_options/settings.php:2568
-#, fuzzy
 msgid "All"
 msgstr "Todos"
 
 #: inc/admin/theme_options/settings.php:2568
 #: inc/admin/theme_options/settings.php:3161
-#, fuzzy
 msgid "Post"
 msgstr "Entrada"
 
@@ -2940,7 +2893,6 @@ msgstr "Entrada"
 #: woocommerce/checkout/form-pay.php:22
 #: woocommerce/checkout/review-order.php:17
 #: woocommerce/order/order-details.php:1
-#, fuzzy
 msgid "Product"
 msgstr "Producto"
 
@@ -4529,7 +4481,6 @@ msgid "Enable Hover Effect"
 msgstr ""
 
 #: inc/admin/theme_options/settings.php:5105
-#, fuzzy
 msgid "Show Wishlist"
 msgstr "Mostrar Lista de Deseos"
 
@@ -4542,7 +4493,6 @@ msgid "\"Quick View\" Text"
 msgstr ""
 
 #: inc/admin/theme_options/settings.php:5130
-#, fuzzy
 msgid "Single Product"
 msgstr "Producto"
 
@@ -4617,12 +4567,10 @@ msgid ""
 msgstr ""
 
 #: inc/admin/theme_options/settings.php:5226
-#, fuzzy
 msgid "Show Related Products"
 msgstr "Mostrar Productos Relacionados"
 
 #: inc/admin/theme_options/settings.php:5235
-#, fuzzy
 msgid "Related Products Count"
 msgstr "Cantidad de Productos Relacionados"
 
@@ -5175,12 +5123,10 @@ msgid "Info View Type in Grid, Masonry, Timeline Layout"
 msgstr ""
 
 #: inc/content_types/member.php:13 inc/functions/woocommerce.php:665
-#, fuzzy
 msgid "First Name"
 msgstr "Nombre"
 
 #: inc/content_types/member.php:19 inc/functions/woocommerce.php:669
-#, fuzzy
 msgid "Last Name"
 msgstr "Apellido"
 
@@ -7728,7 +7674,7 @@ msgstr "Total"
 #: woocommerce/cart/cart-totals-v2.php:1
 #: woocommerce/cart/proceed-to-checkout-button.php:27
 msgid "Proceed to checkout"
-msgstr "Ir a la Caja"
+msgstr "Realizar compras"
 
 #: woocommerce/cart/cart-v1.php:19 woocommerce/cart/cart-v2.php:27
 #: woocommerce/wishlist-view.php:58
@@ -7777,7 +7723,7 @@ msgstr "Carrito de Compras"
 
 #: woocommerce/cart/cart-v2.php:13
 msgid "Proceed to Checkout"
-msgstr "Ir a la Caja"
+msgstr "Realizar Compras"
 
 #: woocommerce/cart/cart-v2.php:116 woocommerce/checkout/form-coupon.php:32
 msgid "DISCOUNT CODE"
@@ -7858,7 +7804,7 @@ msgstr "Pago y Envío"
 
 #: woocommerce/checkout/form-billing.php:33
 msgid "Billing details"
-msgstr "Detalles del Envío"
+msgstr "Información de Compras"
 
 #: woocommerce/checkout/form-billing.php:54
 msgid "Create an account?"
@@ -8458,12 +8404,10 @@ msgid "Not that bad"
 msgstr "No tan malo"
 
 #: woocommerce/single-product-reviews.php:1
-#, fuzzy
 msgid "Very Poor"
 msgstr "Muy Pobre"
 
 #: woocommerce/single-product-reviews.php:1
-#, fuzzy
 msgid "Your Review"
 msgstr "Tu revisión"
 
